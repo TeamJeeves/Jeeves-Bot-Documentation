@@ -1,0 +1,76 @@
+site_name: Jeeves Documentation
+pages:
+- Home: 'index.md'
+- Commands:
+    - Admin:
+        - 'Audio Permissions': 'commands/admin/audioPerms.md'
+        - 'Reset Server': 'commands/admin/reset-server.md'
+        - 'Role Reaction': 'commands/admin/rolereaction.md'
+        - 'Setup': 'commands/admin/setup.md'
+    - Audio:
+        - 'Play': 'commands/audio/play.md'
+        - 'Radio': 'commands/audio/radio.md'
+        - 'Playlist': 'commands/audio/playlist.md'
+        - 'Stop': 'commands/audio/stop.md'
+        - 'Skip': 'commands/audio/skip.md'
+    - Feeds:
+        - 'Jeeves News': 'commands/feeds/jeeves-news.md'
+        - 'Mythic Plus Race': 'commands/feeds/mythic-plus-race.md'
+        - 'Mythic Race': 'commands/feeds/mythic-race.md'
+        - 'Wowhead Webhook': 'commands/feeds/wowhead-webhook.md'
+        - 'Twitter': 'commands/feeds/twitter.md'
+    - Games:
+        - 'Gambling': 'commands/games/gambling.md'
+        - 'Trivia': 'commands/games/trivia.md'
+        - 'Roll': 'commands/games/roll.md'
+        - 'ChuckNorris': 'commands/games/chuck-norris.md'
+        - 'Thunderfury': 'commands/games/thunderfury.md'
+    - Guild Tools:
+        - 'Sync Ranks': 'commands/guild/syncranks.md'
+        - 'Last Log': 'commands/guild/lastlog.md'
+    - Info:
+        - 'About': 'commands/info/about.md'
+        - 'Server': 'commands/info/server.md'
+        - 'User': 'commands/info/user.md'
+    - Tools:
+        - 'Invite': 'commands/tools/invite.md'
+        - 'Mute': 'commands/tools/mute.md'
+        - 'Prune': 'commands/tools/prune.md'
+        - 'Roles': 'commands/tools/roles.md'
+        - 'Servers': 'commands/tools/servers.md'
+        - 'Summon': 'commands/tools/summon.md'
+    - Utilities:
+        - 'Help': 'commands/util/help.md'
+        - 'Ping': 'commands/util/ping.md'
+        - 'Prefix': 'commands/util/prefix.md'
+        - 'Enable Commands': 'commands/util/enable.md'
+        - 'Disable Commands': 'commands/util/disable.md'
+    - Warcraft:
+        - 'Authorize': 'commands/warcraft/authorize.md'
+        - 'Character': 'commands/warcraft/character.md'
+        - 'Guides': 'commands/warcraft/guides.md'
+        - 'Keystone': 'commands/warcraft/keystone.md'
+        - 'Lookup': 'commands/warcraft/lookup.md'
+        - 'Pricecheck': 'commands/warcraft/pricecheck.md'
+        - 'Weakauras': 'commands/warcraft/weakauras.md'
+        - 'Wowhead': 'commands/warcraft/wowhead.md'
+    - World Info:
+        - 'Affix': 'commands/world info/affix.md'
+        - 'Archaeology': 'commands/world info/archaeology.md'
+        - 'Fishing': 'commands/world info/fishing.md'
+        - 'Greater Invasion': 'commands/world info/greater-invasion.md'
+        - 'Karazhan': 'commands/world info/karazhan.md'
+        - 'Realm Status': 'commands/world info/realmstatus.md'
+        - 'WorldBoss': 'commands/world info/worldboss.md'
+        - 'WoW Token': 'commands/world info/wowtoken.md'
+        
+- Guides:
+    - 'Getting Started': 'guides/Getting-Started.md'
+    - 'Using Jeeves WebUi': 'guides/Using-Jeeves-Website.md'
+    - 'Automatic Role Management': 'guides/Role-Manager.md'
+    - 'Channel MetaData': 'guides/Channel-Data.md'
+    - 'Setting up your Guild': 'guides/Setting-Up-Your-Guild.md'
+    - 'Setting up a Channel Board': 'guides/Setting-Up-A-Board.md'
+
+- Change Log: 'change-log.md'
+- FAQ: 'faq.md'
