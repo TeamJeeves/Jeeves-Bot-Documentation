@@ -33,15 +33,15 @@ By adding your characters to Jeeves, it is easier to keep track of which charact
 * `!keys` - Get a list of available keystones in your server
 
 **Dungeon  Aliases**
-| Dungeon | Aliases |
-|--|--|
-| Kings' Rest | kings, kings-rest, king, rest, kr |
-| Atal'Dazar | atal, atal-dazar, ad |
-| Temple of Sethraliss | temple, tos, seth, ts |
-| The Underrot | underot, under, underr |
-| Freehold | free, freehold |
-| Waycrest Manor | waycrest, way, manor, waycrest-manor |
-| Siege of Boralus | siege, sob, boralus, siege-of-boralus |
-| The MOTHERLODE!! | mother, motherlode, motherload, the-mother |
-| Shrine of the Storm | shrine, sos, sots, storm, storms, shrine-of-the-storms, shrine-of-the-storm |
-| Tol Dagor | tol-dagor, tol, dagor |
+ Dungeon | Aliases 
+--|--
+ Kings' Rest | kings, kings-rest, king, rest, kr 
+ Atal'Dazar | atal, atal-dazar, ad 
+ Temple of Sethraliss | temple, tos, seth, ts 
+ The Underrot | underot, under, underr 
+ Freehold | free, freehold 
+ Waycrest Manor | waycrest, way, manor, waycrest-manor 
+ Siege of Boralus | siege, sob, boralus, siege-of-boralus 
+ The MOTHERLODE!! | mother, motherlode, motherload, the-mother 
+ Shrine of the Storm | shrine, sos, sots, storm, storms, shrine-of-the-storms, shrine-of-the-storm 
+ Tol Dagor | tol-dagor, tol, dagor 
