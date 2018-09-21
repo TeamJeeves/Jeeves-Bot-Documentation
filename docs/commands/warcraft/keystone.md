@@ -34,7 +34,7 @@ By adding your characters to Jeeves, it is easier to keep track of which charact
 
 **Dungeon  Aliases**
  Dungeon | Aliases 
----|---
+-- | --
  Kings' Rest | kings, kings-rest, king, rest, kr 
  Atal'Dazar | atal, atal-dazar, ad 
  Temple of Sethraliss | temple, tos, seth, ts 
