@@ -33,6 +33,7 @@ By adding your characters to Jeeves, it is easier to keep track of which charact
 * `!keys` - Get a list of available keystones in your server
 
 **Dungeon  Aliases**
+
  Dungeon | Aliases 
 --- | ---
  Kings' Rest | kings, kings-rest, king, rest, kr 
