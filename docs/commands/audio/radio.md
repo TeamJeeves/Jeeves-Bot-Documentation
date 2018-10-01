@@ -4,22 +4,20 @@ LIVE radio player.
 
 To see a list of supported stations, visit http://shoutcast.com/
 
-**Aliases:** `radio`
+#### About
 
-**Available in DM:** No
-
-**Can Restrict to a channel:** Yes
-
-**Global Support:** Yes
+**Aliases:** `radio`  
+**Available in DM:** No  
+**Can Restrict to a channel:** Yes  
+**Global Support:** Yes  
 
 **Examples**
 
-* `!radio Classic Rock 109` - Tune into Classic Rock Radio 109
-
-* `!radio 80s hits` - Seeks and Tunes into the best matching station for 80s hits
+* `!radio Classic Rock 109` - Tune into Classic Rock Radio 109  
+* `!radio 80s hits` - Seeks and Tunes into the best matching station for 80s hits  
 
 **Developer Thoughts**
->It is impossible to get access to every station and while many stations would work with a bit of individual tinkering, it would require ALOT of upkeep and work. Thanks to our partnership with SHOUTcast we are able to provide a large range of stations for everyone to use.
+It is impossible to get access to every station and while many stations would work with a bit of individual tinkering, it would require ALOT of upkeep and work. Thanks to our partnership with SHOUTcast we are able to provide a large range of stations for everyone to use.
 
 ***
 ### FAQ

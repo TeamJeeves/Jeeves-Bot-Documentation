@@ -2,13 +2,12 @@
 
 Skips to the next track.
 
-**Aliases:** `skip`
+#### About
 
-**Available in DM:** No
-
-**Can Restrict to a channel:** Yes
-
-**Global Support:** Yes
+**Aliases:** `skip`  
+**Available in DM:** No  
+**Can Restrict to a channel:** Yes  
+**Global Support:** Yes  
 
 **Examples**
 

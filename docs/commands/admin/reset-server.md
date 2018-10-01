@@ -1,19 +1,19 @@
-# Reset-server Command
+# Reset Server Command
 
 Wipes all configuration and settings for this discord server. 
 
-This action is non-reversible. If you run this command. Every setting / saved data linked to this server will be wiped. 
+<span style="font-size:2em">**This action is irreversible!!!**</span>  
+If you run this command. Every setting and all saved data linked to this server will be deleted. 
 
-**__Do not use this command as a troubleshooting tool__** this command is intended for users who for whatever reason want to reset all settings/keystones/everything configured for their server.
+<b><u>Do not use this command as a troubleshooting tool!</u></b>  
+This command is intended for users who want to reset **EVERYTHING** configured for their server.
 
-**Aliases:** `reset-server` | `resetserver`
+#### About
 
-**Available in DM:** No
+**Aliases:** `reset-server` | `resetserver`  
+**Available in DM:** No  
+**Can Restrict to a channel:** Yes  
+**Global Support:** Yes  
 
-**Can Restrict to a channel:** Yes
-
-**Global Support:** Yes
-
-**Examples**
-
-* `!reset-server` - This command will wipe all settings, data and configuration for this server
+**Examples:**  
+- `!reset-server` - This command will wipe all settings, data and configuration for this server
