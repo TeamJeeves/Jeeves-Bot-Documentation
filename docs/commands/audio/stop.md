@@ -2,13 +2,12 @@
 
 Stops audio playback.
 
-**Aliases:** `stop`
+#### About
 
-**Available in DM:** No
-
-**Can Restrict to a channel:** Yes
-
-**Global Support:** Yes
+**Aliases:** `stop`  
+**Available in DM:** No  
+**Can Restrict to a channel:** Yes  
+**Global Support:** Yes  
 
 **Examples**
 

@@ -1,5 +1,7 @@
 site_name: Jeeves Documentation
-pages:
+extra_css:
+    - css/main.css
+nav:
 - Home: 'index.md'
 - Commands:
     - Admin:
