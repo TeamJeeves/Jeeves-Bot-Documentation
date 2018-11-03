@@ -14,7 +14,7 @@ This command works on a toggle system - run once and you'll be subscribed, run a
 
 **Examples**
 
-* `!twitter follow WarcraftDevs` - Follow WarcraftDevs on Twitter and recieve notifications in Discord whenever they tweet!
+* `!twitter follow WarcraftDevs` - Follow WarcraftDevs on Twitter and receive notifications in Discord whenever they tweet!
 * `!twitter unfollow WarcraftDevs` - Stops following WarcraftDevs on Twitter.
 * `!twitter list` - Shows all the twitter accounts you are currently following.
 

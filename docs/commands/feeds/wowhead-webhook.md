@@ -2,7 +2,7 @@
 
 Subscribe to the Wowhead WebHook.
 
-**Aliases:** `wowhead-webhook`
+**Aliases:** `Wowhead-webhook`
 
 **Available in DM:** No
 
@@ -12,4 +12,4 @@ Subscribe to the Wowhead WebHook.
 
 **Examples**
 
-* `!wowhead-webhook` - Toggle the feed on / off to get WowHead's latest news
+* `!Wowhead-webhook` - Toggle the feed on / off to get WowHead's latest news

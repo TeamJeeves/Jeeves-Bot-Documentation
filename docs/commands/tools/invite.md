@@ -1,6 +1,6 @@
 # Invite Command
 
-Get a invite to bring the bot to the server and to the bots support server.
+Get an invite to bring the bot to the server and to the bots support server.
 
 **Aliases:** `invite`
 

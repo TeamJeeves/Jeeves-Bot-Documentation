@@ -6,9 +6,9 @@ This is Jeeves internal character management tool. It serves 4 main functions
 * Mark certain characters as your *Main* or *Hidden*
 * Request an update for your characters
 
-**Hidden Characters:** You can have as many of these as you want. Jeeves will essentialy ignore they exist for all commands
+**Hidden Characters:** You can have as many of these as you want. Jeeves will essentially ignore they exist for all commands
 
-**Main Character:** Only 1 character can be your main. When running a command involving a character like the keystone command Jeeves will asume your main character if none are mentioned
+**Main Character:** Only 1 character can be your main. When running a command involving a character like the keystone command Jeeves will assume your main character if none are mentioned
 
 ***
 
