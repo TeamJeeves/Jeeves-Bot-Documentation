@@ -1,6 +1,6 @@
 # Lookup Command
 
-You can lookup different information about a World of Warcraft player or a guild.
+You can look up different information about a World of Warcraft player or a guild.
 
 **Aliases:** `lookup`
 
@@ -22,13 +22,13 @@ You can lookup different information about a World of Warcraft player or a guild
 
 
 **Developer Thoughts**
->The Jeeves lookup is arguably our most core fundamental feature. When designing each lookup view the ideology used was as followed. For raiding we imagined we are in the middle of Antorus starting Argus in the face needing 1 more DPS. We have 2 960 warlocks in the queue but we only want to bring one. The information we put in the view should be enough to quickly compare between the two and pick the best one. Of course we also included links to external sites for a more in depth dive into their profiles.
+>The Jeeves lookup is arguably our most core fundamental feature. When designing each lookup view the ideology used was as followed. For raiding, we imagined we are in the middle of Antorus starting Argus in the face needing 1 more DPS. We have 2 960 warlocks in the queue but we only want to bring one. The information we put in the view should be enough to quickly compare between the two and pick the best one. Of course, we also included links to external sites for a more in-depth dive into their profiles.
 ***
 
 
 ### FAQ
-##### (Q) Help my character is on the US but says it cannot be found on a EU server?
-Check that the Discord server your running the command on is located in one of the EU regions. You can also simply add the region tag behind the character 
+##### (Q) Help my character is in the US but says it cannot be found on an EU server?
+Check that the Discord server you're running the command on is located in one of the EU regions. You can also simply add the region tag behind the character 
 name and realm.
 
 **Example:** !lookup add Deadlystriké Mal'ganis [REGION] - either US or EU

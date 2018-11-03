@@ -1,8 +1,8 @@
 # Wowhead Command
 
-Looking for an item, spell, talent or anything else? You can use !wowhead <name>. This will search on WowHead and gives you the closest search to your request back.
+Looking for an item, spell, talent or anything else? You can use !Wowhead <name>. This will search on Wowhead and gives you the closest search to your request back.
 
-**Aliases:** `wowhead`
+**Aliases:** `Wowhead`
 
 **Available in DM:** No
 

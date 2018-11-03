@@ -1,6 +1,6 @@
 # Mute Command
 
-Quickly mute all the chatter boxes in the channel with you.
+Quickly mute all the chatterboxes in the channel with you.
 
 **Aliases:** `mute`
 

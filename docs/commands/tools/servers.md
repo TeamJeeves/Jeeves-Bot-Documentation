@@ -12,4 +12,4 @@ Get invites to popular Warcraft Discord servers.
 
 **Examples**
 
-* `!servers druid` -  Generates a invite to the Druid class Discord server
+* `!servers druid` -  Generates an invite to the Druid class Discord server

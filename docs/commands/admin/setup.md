@@ -7,9 +7,9 @@ This command has two modes: **Guided** and **Targeted**.
 Guided setup is triggered by simply running `!setup`, which provides a prompt-based introduction and explanation of the most basic settings.  
 `!setup` is recommended for all first-time fresh installs of Jeeves.
 
-Targeted setup allows you to quickly change a given setting. For example, if you wished to change the prefix that Jeeves responds to you could target that setting with `!setup prefix`.
+The targeted setup allows you to quickly change a given setting. For example, if you wished to change the prefix that Jeeves responds to you could target that setting with `!setup prefix`.
 
-You can further choose to either run `!setup prefix` in which you will be shown a brief into and explanation of that setting and then prompted to change / clear it, OR you can run `!setup prefix ?` to directly change the prefix without the prompts.
+You can further choose to either run `!setup prefix` in which you will be shown a brief intro and explanation of that setting and then prompted to change/clear it, OR you can run `!setup prefix ?` to directly change the prefix without the prompts.
 
 Below are a list of available setup settings:
 
@@ -42,7 +42,7 @@ Below are a list of available setup settings:
 
 # Prefix Setup
 
-This command allows you to setup your servers prefix, the thing that comes before all commands.
+This command allows you to set up your servers prefix, the thing that comes before all commands.
 
 **Examples**
 
@@ -51,9 +51,7 @@ This command allows you to setup your servers prefix, the thing that comes befor
 
 ***
 
-# Realm Setup
-
-This command allows you to setup your servers realm, the server warcraft server you want your server to default to.
+This command allows you to set up your servers realm, the server warcraft server you want your server to default to.
 
 **Examples**
 
@@ -64,7 +62,7 @@ This command allows you to setup your servers realm, the server warcraft server 
 
 # Audio Mode Setup
 
-This command allows you to setup your servers audio mode.  
+This command allows you to set up your servers audio mode.  
 There are 5 different modes that can be set.  
 
 * **Off** Audio is off. No one can use it.
@@ -82,7 +80,7 @@ There are 5 different modes that can be set.
 
 # Bot Channel Setup
 
-This command allows you to setup your servers bot channel.
+This command allows you to set up your servers bot channel.
 
 **Examples**
 
@@ -113,7 +111,7 @@ There are 3 different modes that can be set.
 * **DM** This setting will direct message a user when they join your server.
 * **#Channel** This will post a welcome message in a channel when they join your server
 
-Once you have setup your welcome setting in discord you want to head over to your server settings on the Jeeves site. For more info head over to the [server management](/guides/Using-Jeeves-Website/#server-management) page for more information.
+Once you have set up your welcome setting in discord you want to head over to your server settings on the Jeeves site. For more info head over to the [server management](/guides/Using-Jeeves-Website/#server-management) page for more information.
 
 
 **Aliases:** `none`
@@ -146,7 +144,7 @@ This will setup Jeeves to manage roles on your server. See [Jeeves Role Manager]
 
 # Role Channel Setup
 
-This tells Jeeves what channel he should monitor for incoming reaction events. Normal users are limited to 1 channel, this should be more then fine for 99% of cases. If you require more then 1 channel consider becoming a Patreon to unlock the ability to have multiple role channels. See [Role Reaction](/commands/admin/rolereaction.md) page for more information.
+This tells Jeeves what channel he should monitor for incoming reaction events. Normal users are limited to 1 channel, this should be more than fine for 99% of cases. If you require more then 1 channel consider becoming a Patreon to unlock the ability to have multiple role channels. See [Role Reaction](/commands/admin/rolereaction.md) page for more information.
 
 **Examples**
 
@@ -161,9 +159,9 @@ Jeeves has different lookup modes, this will set what one is the default for you
 
 There are 3 different modes that can be set.
 
-* **Default** This is Jeeves default setting. It displays Raid progression, M+ score, achievement points, character stats, boss kills, best M+ dungeon, current PvP ranking and sim string.
-* **Raider** Shows current raid progression, equipped and bag item levels, artifact traits, gems socketed, enchants, M+ score, best M+ dungeon, and what legendries they have equipped.
-* **MythicPlus** Shows M+ score, raid progression, best M+ dungeon weekly and season, tertiary stats, artifact traits, and what legendries they have equipped.
+* **Default** This is Jeeves default setting. It displays Raid progression, M+ score, achievement points, character stats, boss kills, best M+ dungeon, current PvP ranking, and simulation string.
+* **Raider** Shows current raid progression, equipped and bag item levels, artifact traits, gems socketed, enchants, M+ score, best M+ dungeon, and what legendaries they have equipped.
+* **MythicPlus** Shows M+ score, raid progression, best M+ dungeon weekly and season, tertiary stats, artifact traits, and what legendaries they have equipped.
 
 
 **Examples**

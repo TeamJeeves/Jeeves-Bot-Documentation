@@ -15,12 +15,12 @@ The WebHook will make posts whenever TOP regional/world groups achieve world rec
 **Examples**
 
 * `!mythic-plus-race` 
-	- Subscribe to the feed, get notifications when dungeon records are shattered world-wide
+    - Subscribe to the feed, get notifications when dungeon records are shattered worldwide
 * `!mythicplus world` 
-	- Subscribe to the feed, get notifications when dungeon records are shattered world-wide
+    - Subscribe to the feed, get notifications when dungeon records are shattered worldwide
 * `!mythicplus US` 
-	- Subscribe to the feed, get notifications when dungeon records are shattered in the US
+    - Subscribe to the feed, get notifications when dungeon records are shattered in the US
 * `!mythicplus EU` 
-	- Subscribe to the feed, get notifications when dungeon records are shattered in the EU
+    - Subscribe to the feed, get notifications when dungeon records are shattered in the EU
 * `!mythicplus KR` 
-	- Subscribe to the feed, get notifications when dungeon records are shattered in the KR
+    - Subscribe to the feed, get notifications when dungeon records are shattered in the KR

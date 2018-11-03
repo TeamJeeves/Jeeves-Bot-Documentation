@@ -26,7 +26,3 @@ The WebHook will make posts whenever TOP regional/world guilds achieve the first
 * `!mythic-race EU 5` - Subscribe to the feed, Get notifications for the First 5 kills in the EU region for each mythic boss killed
 
 * `!mythic-race KR 15` - Subscribe to the feed, Get notifications for the First 15 kills on the KR region for each mythic boss killed
-
-**Developer Thoughts**
->Hi Deadlystrike.
-***

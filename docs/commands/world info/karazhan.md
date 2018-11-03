@@ -18,4 +18,4 @@ Shows you the current mythic Karazhan Opera boss.
 
 * `!karazhan EU` - Displays the Opera event rotation for EU servers
 
-* `!karazhan Wikket` - Shows how long until the mentioned boss will be active again (can replace with desired boss)
+* `!karazhan Wikket` - Shows how long until the mentioned boss will be active again (can replace with the desired boss)

@@ -16,4 +16,4 @@ This command is intended for users who want to reset **EVERYTHING** configured f
 **Global Support:** Yes  
 
 **Examples:**  
-- `!reset-server` - This command will wipe all settings, data and configuration for this server
+- `!reset-server` - This command will wipe all settings, data, and configuration for this server

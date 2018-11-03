@@ -12,6 +12,6 @@ On your phone and need to know market value for an item? Run a price check via. 
 
 **Examples**
 
-* `!pricecheck Primal Fire` - Get a PriceCheck for [Primal Fire] on your realm (the realm that was setup on the discord server)
+* `!pricecheck Primal Fire` - Get a PriceCheck for [Primal Fire] on your realm (the realm that was set up on the discord server)
 
 * `!pc us-proudmoore Primal Fire`    - Get a PriceCheck for [Primal Fire] on Proudmoore-US
