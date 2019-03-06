@@ -2,6 +2,8 @@
 
 Quickly summon a group of people based on their role to your voice channel.
 
+### About
+
 **Aliases:** `summon`
 
 **Available in DM:** No
@@ -10,6 +12,7 @@ Quickly summon a group of people based on their role to your voice channel.
 
 **Global Support:** Yes
 
-**Examples**
+### Examples:
 
-* `!summon @Raiders` -  Moves all online people who hold the Raider role to your current voice channel
+* `!summon @Raiders`
+  -  Moves all online people who hold the Raider role to your current voice channel

@@ -15,7 +15,7 @@ For the guided process, you can simply use:
 Or for quick setup, you can specify the guild name right into the `!setup` command:
 
 `!setup guild <Guild Name> Realm Region`
-    
+
 At this point, your guild name is set. `!lastlog` should now pull your latest log from warcraftlogs.com
 
 
@@ -37,8 +37,8 @@ This should now show Guild in the list of active integrations. Now you can set y
 
 From there, it's completely interactive. Just type the rank, and the name of the rank to link the 2. For example:
 
-* `1 Guild Master` Link Rank #1 (The Guild Master), to the `@Guild Master` role on discord.
-* `2 Officer` Link Rank #2, to the `@Officer` role on discord.
+* `0 Guild Master` Link Rank #0 (The Guild Master), to the `@Guild Master` role on discord.
+* `1 Officer` Link Rank #1, to the `@Officer` role on discord.
 
 To enable the role manager to auto assign a nickname on !auth or !role update, use `enable-nicknames` during the guild-roles setup process.
 

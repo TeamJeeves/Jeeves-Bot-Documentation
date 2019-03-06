@@ -2,6 +2,8 @@
 
 Disables a command or command group.
 
+### About
+
 **Aliases:** `disable`
 
 **Available in DM:** No
@@ -10,8 +12,10 @@ Disables a command or command group.
 
 **Global Support:** Yes
 
-**Examples**
+### Examples:
 
-* `!disable admin` - This will disable ALL admin commands in the admin group
+* `!disable admin`
+  - This will disable ALL admin commands in the admin group
 
-* `!disable prune` - This will disable the prune command
+* `!disable prune`
+  - This will disable the prune command

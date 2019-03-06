@@ -2,6 +2,8 @@
 
 The guide command can be used to find helpful and updated information about almost any topic on WowHead.
 
+### About
+
 **Aliases:** `guide`
 
 **Available in DM:** No
@@ -10,10 +12,15 @@ The guide command can be used to find helpful and updated information about almo
 
 **Global Support:** Yes
 
-**Examples**
+### Examples:
 
-* `!guide Legion Cooking` - Find one of the Legion cooking guides
+* `!guide Legion Cooking`
+  - Find one of the Legion cooking guides
 
-* `!guide Paladin Holy`    - Finds a guide on how to play a Holy Paladin
 
-* `!guide Arcway` - Finds a guide on how to properly clear Arcway
+* `!guide Paladin Holy`    
+  - Finds a guide on how to play a Holy Paladin
+
+
+* `!guide Arcway`
+  - Finds a guide on how to properly clear Arcway

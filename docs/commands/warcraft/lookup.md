@@ -2,6 +2,8 @@
 
 You can look up different information about a World of Warcraft player or a guild.
 
+### About
+
 **Aliases:** `lookup`
 
 **Available in DM:** No
@@ -10,15 +12,22 @@ You can look up different information about a World of Warcraft player or a guil
 
 **Global Support:** Yes
 
-**Examples**
+### Examples:
 
-* `!lookup Deadlystriké Mal'ganis US` - Lookup basic information about this character
+* `!lookup Deadlystriké Mal'ganis US`
+  - Lookup basic information about this character
 
-* `!lookup Deadlystriké Mal'ganis US --mythic+`    - Get mythic+ information for this character
 
-* `!lookup Deadlystriké Mal'ganis US --raider` - Get raiding information for this character
+* `!lookup Deadlystriké Mal'ganis US --mythic+`    
+  - Get mythic+ information for this character
 
-* `!lookup <Limit> Illidan US - Lookup basic information about this guild
+
+* `!lookup Deadlystriké Mal'ganis US --raider`
+  - Get raiding information for this character
+
+
+* `!lookup <Limit> Illidan US`
+  - Lookup basic information about this guild
 
 
 **Developer Thoughts**
@@ -28,7 +37,7 @@ You can look up different information about a World of Warcraft player or a guil
 
 ### FAQ
 ##### (Q) Help my character is in the US but says it cannot be found on an EU server?
-Check that the Discord server you're running the command on is located in one of the EU regions. You can also simply add the region tag behind the character 
+Check that the Discord server you're running the command on is located in one of the EU regions. You can also simply add the region tag behind the character
 name and realm.
 
 **Example:** !lookup add Deadlystriké Mal'ganis [REGION] - either US or EU

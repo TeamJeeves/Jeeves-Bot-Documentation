@@ -2,6 +2,8 @@
 
 Easily manage and get custom roles.
 
+### About
+
 **Aliases:** `role`
 
 **Available in DM:** No
@@ -10,7 +12,7 @@ Easily manage and get custom roles.
 
 **Global Support:** Yes
 
-**Examples**
+### Examples:
 
-* `!role update` -  Updates your roles using Jeeves' automatic role manager
-
+* `!role update`
+  -  Updates your roles using Jeeves' automatic role manager

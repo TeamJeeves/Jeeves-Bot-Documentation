@@ -8,6 +8,7 @@ Like most Jeeves games, gambling can be very spammy in chat. In an effort to red
 
 Once you run `!gambling` a new gambling session will be created. Follow the on-screen prompts to play!
 
+### About
 
 **Aliases:** `gambling`
 
@@ -17,9 +18,10 @@ Once you run `!gambling` a new gambling session will be created. Follow the on-s
 
 **Global Support:** Yes
 
-**Examples**
+### Examples:
 
-* `!gambling` - Creates a #gambling channel for you to gamble in.
+* `!gambling`
+  - Creates a #gambling channel for you to gamble in.
 
 ***
 ### FAQ

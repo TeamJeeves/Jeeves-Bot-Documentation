@@ -11,8 +11,7 @@ The "Jeeves Role Manager" is broken into two segments. The user `!role` command,
 
 # Role Manager
 
-The Role Manager interface can be brought up with `!setup RoleManager`
-    The interface is broken up into 6 sections
+The Role Manager interface can be brought up with `!setup RoleManager` The interface is broken up into 6 sections
 
 * **Available Integrations** - These are non-active available integrations for use.
 * **Active Integrations**- These are the active integrations running on your server.

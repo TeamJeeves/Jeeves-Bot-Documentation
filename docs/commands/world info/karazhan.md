@@ -2,6 +2,8 @@
 
 Shows you the current mythic Karazhan Opera boss.
 
+### About
+
 **Aliases:** `karazhan` `kara` `opera`
 
 **Available in DM:** No
@@ -10,12 +12,19 @@ Shows you the current mythic Karazhan Opera boss.
 
 **Global Support:** Yes
 
-**Examples**
+### Examples:
 
-* `!karazhan` - Displays the Opera event rotation
+* `!karazhan`
+  - Displays the Opera event rotation
 
-* `!karazhan US` - Displays the Opera event rotation for US servers
 
-* `!karazhan EU` - Displays the Opera event rotation for EU servers
+* `!karazhan US`
+  - Displays the Opera event rotation for US servers
 
-* `!karazhan Wikket` - Shows how long until the mentioned boss will be active again (can replace with the desired boss)
+
+* `!karazhan EU`
+  - Displays the Opera event rotation for EU servers
+  
+
+* `!karazhan Wikket`
+  - Shows how long until the mentioned boss will be active again (can replace with the desired boss)

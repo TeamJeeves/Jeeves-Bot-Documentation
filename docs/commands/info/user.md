@@ -2,6 +2,8 @@
 
 Get info on a user in the Discord server.
 
+### About
+
 **Aliases:** `user-info`
 
 **Available in DM:** No
@@ -10,6 +12,7 @@ Get info on a user in the Discord server.
 
 **Global Support:** Yes
 
-**Examples**
+### Examples:
 
-* `!user-info @Deadlystrike` - Fetches the information for the username Deadlystrike
+* `!user-info @Deadlystrike`
+  - Fetches the information for the username Deadlystrike

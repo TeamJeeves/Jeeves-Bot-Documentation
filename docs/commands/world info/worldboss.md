@@ -2,6 +2,8 @@
 
 This command is a Broken Isles world boss rotation helper!
 
+### About
+
 **Aliases:** `wb` `worldboss`
 
 **Available in DM:** No
@@ -10,8 +12,11 @@ This command is a Broken Isles world boss rotation helper!
 
 **Global Support:** Yes
 
-**Examples**
+### Examples:
 
-* `!worldboss` - Shows the world boss that is up for this week
+* `!worldboss`
+  - Shows the world boss that is up for this week
+  
 
-* `!worldboss Calamir` - Shows how long until Calamir will be active again (can replace with desired world boss)
+* `!worldboss Calamir`
+  - Shows how long until Calamir will be active again (can replace with desired world boss)

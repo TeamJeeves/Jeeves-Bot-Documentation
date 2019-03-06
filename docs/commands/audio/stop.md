@@ -2,13 +2,14 @@
 
 Stops audio playback.
 
-#### About
+### About
 
 **Aliases:** `stop`  
 **Available in DM:** No  
 **Can Restrict to a channel:** Yes  
 **Global Support:** Yes  
 
-**Examples**
+### Examples:
 
-* `!stop` - Stops the current audio playback
+* `!stop`
+  - Stops the current audio playback

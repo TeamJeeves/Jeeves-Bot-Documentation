@@ -2,6 +2,8 @@
 
 Displays information about Jeeves.
 
+### About
+
 **Aliases:** `about`
 
 **Available in DM:** No
@@ -10,6 +12,7 @@ Displays information about Jeeves.
 
 **Global Support:** Yes
 
-**Examples**
+### Examples:
 
-* `!about` - Get basic information about Jeeves
+* `!about`
+  - Get basic information about Jeeves

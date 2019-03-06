@@ -2,6 +2,8 @@
 
 Displays a list of available commands, or detailed information for a specified command.
 
+###About
+
 **Aliases:** `help`
 
 **Available in DM:** No
@@ -10,8 +12,11 @@ Displays a list of available commands, or detailed information for a specified c
 
 **Global Support:** Yes
 
-**Examples**
+### Examples:
 
-* `!help` - This will show you a list of commands available
+* `!help`
+  - This will show you a list of commands available
 
-* `!help character` - This will show you more information about the command character
+
+* `!help character`
+  - This will show you more information about the command character

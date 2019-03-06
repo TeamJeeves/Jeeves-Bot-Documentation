@@ -11,7 +11,7 @@ The targeted setup allows you to quickly change a given setting. For example, if
 
 You can further choose to either run `!setup prefix` in which you will be shown a brief intro and explanation of that setting and then prompted to change/clear it, OR you can run `!setup prefix ?` to directly change the prefix without the prompts.
 
-Below are a list of available setup settings:
+**Below are a list of available setup settings:**
 
 `!setup` - Enter Guided Setup  
 `!setup prefix` - Prefix Configuration  
@@ -25,18 +25,21 @@ Below are a list of available setup settings:
 `!setup lookup-mode` - Sets the default view/info displayed when running a character lookup  
 
 
-#### About
+### About
 
 **Aliases:** `setup`  
 **Available in DM:** No  
 **Can Restrict to a channel:** Yes  
 **Global Support:** Yes  
 
-**Examples:**  
+### Examples:  
 
-- `!setup` - Enter guided setup  
-- `!setup bot-channel` - Configure the bot-channel setting  
-- `!setup bot-channel #use-bot-here` - Configure the bot-channel setting to use #use-bot-here without prompts  
+- `!setup`
+  - Enter guided setup  
+- `!setup bot-channel`
+  - Configure the bot-channel setting  
+- `!setup bot-channel #use-bot-here`
+  - Configure the bot-channel setting to use #use-bot-here without prompts  
 
 ***
 
@@ -44,19 +47,23 @@ Below are a list of available setup settings:
 
 This command allows you to set up your servers prefix, the thing that comes before all commands.
 
-**Examples**
+### Examples:
 
-* `!setup prefix` - Start the setup wizard for setting up your servers prefix, this is also done in the normal `!setup` steps.
-* `!setup prefix $` - Will set your server to use $ for all commands.
+* `!setup prefix`
+  - Start the setup wizard for setting up your servers prefix, this is also done in the normal `!setup` steps.
+* `!setup prefix $`
+  - Will set your server to use $ for all commands.
 
 ***
 
 This command allows you to set up your servers realm, the server warcraft server you want your server to default to.
 
-**Examples**
+### Examples:
 
-* `!setup realm` - Start the setup wizard for setting up your servers realm, this is also done in the normal `!setup` steps.
-* `!setup realm anvilmar` - Will set your server to use Anvilmar as your default realm.
+* `!setup realm`
+  - Start the setup wizard for setting up your servers realm, this is also done in the normal `!setup` steps.
+* `!setup realm anvilmar`
+  - Will set your server to use Anvilmar as your default realm.
 
 ***
 
@@ -71,10 +78,12 @@ There are 5 different modes that can be set.
 * **Restrictive** Everyone except the people you restrict can use audio.
 * **DJMode** Only people with the role AudioDJ can use audio.
 
-**Examples**
+### Examples:
 
-* `!setup audio-mode` - Start the setup wizard for setting up your servers audio mode, this is also done in the normal `!setup` steps.
-* `!setup audio-mode Off ` - Turns off audio for your server
+* `!setup audio-mode`
+  - Start the setup wizard for setting up your servers audio mode, this is also done in the normal `!setup` steps.
+* `!setup audio-mode Off `
+  - Turns off audio for your server
 
 ***
 
@@ -82,10 +91,12 @@ There are 5 different modes that can be set.
 
 This command allows you to set up your servers bot channel.
 
-**Examples**
+### Examples:
 
-* `!setup bot-channel` - Start the setup wizard for setting up your servers bot channel, this is also done in the normal `!setup` steps.
-* `!setup bot-channel #use-bot-here` - Limits bot commands to the channel `#use-bot-here`. **Note:** Administrator can run commands in any channel where Jeeves has able to read and send messages.
+* `!setup bot-channel`
+  - Start the setup wizard for setting up your servers bot channel, this is also done in the normal `!setup` steps.
+* `!setup bot-channel #use-bot-here`
+  - Limits bot commands to the channel `#use-bot-here`. **Note:** Administrator can run commands in any channel where Jeeves has able to read and send messages.
 
 ***
 
@@ -93,10 +104,12 @@ This command allows you to set up your servers bot channel.
 
 This command allows you to set what audio channel that you want Jeeves to play music in.
 
-**Examples**
+### Examples:
 
-* `!setup audio-channel` - Start the setup wizard for setting up what audio channel that you want Jeeves to play music in.
-* `!setup audio-channel music ` - Sets Jeeves to play music in the channel `music`.
+* `!setup audio-channel`
+  - Start the setup wizard for setting up what audio channel that you want Jeeves to play music in.
+* `!setup audio-channel music `
+  - Sets Jeeves to play music in the channel `music`.
 
 ***
 
@@ -113,18 +126,24 @@ There are 3 different modes that can be set.
 
 Once you have set up your welcome setting in discord you want to head over to your server settings on the Jeeves site. For more info head over to the [server management](/guides/Using-Jeeves-Website/#server-management) page for more information.
 
+### About
 
-**Aliases:** `none`
-**Available in DM:** No
-**Can Restrict to a channel:** Yes
-**Global Support:** Yes
+**Aliases:** `none`   
+**Available in DM:** No   
+**Can Restrict to a channel:** Yes    
+**Global Support:** Yes   
 
-**Examples**
 
-* `!setup greeting` - Start the setup wizard for setting up a greeting message.
-* `!setup greeting DM` - Will set welcome messages to go to DM's.
-* `!setup greeting #welcome-spam` - Will set welcome messages to go to #welcome-spam.
-* `!setup greeting Disable` - Will disable the welcome messages
+### Examples:
+
+* `!setup greeting`
+  - Start the setup wizard for setting up a greeting message.
+* `!setup greeting DM`
+  - Will set welcome messages to go to DM's.
+* `!setup greeting #welcome-spam`
+  - Will set welcome messages to go to #welcome-spam.
+* `!setup greeting Disable`
+  - Will disable the welcome messages
 
 ### FAQ
 ##### (Q) Why is Jeeves not sending a welcome message?
@@ -136,9 +155,10 @@ Make sure you have set up the welcome message on the Jeeves site.
 
 This will setup Jeeves to manage roles on your server. See [Jeeves Role Manager](/guides/Role-Manager.md) page for more information.
 
-**Examples**
+### Examples:
 
-* `!setup RoleManager` - Start the setup wizard for setting what roles Jeeves will manage.
+* `!setup RoleManager`
+  - Start the setup wizard for setting what roles Jeeves will manage.
 
 ***
 
@@ -146,10 +166,12 @@ This will setup Jeeves to manage roles on your server. See [Jeeves Role Manager]
 
 This tells Jeeves what channel he should monitor for incoming reaction events. Normal users are limited to 1 channel, this should be more than fine for 99% of cases. If you require more then 1 channel consider becoming a Patreon to unlock the ability to have multiple role channels. See [Role Reaction](/commands/admin/rolereaction.md) page for more information.
 
-**Examples**
+### Examples:
 
-* `!setup role-channel` - Start the setup wizard for setting up what channel that you want Jeeves to watch for reactions.
-* `!setup role-channel #get-ranks-here` - Tells Jeeves to monitor `#get-ranks-here` for reactions.
+* `!setup role-channel`
+  - Start the setup wizard for setting up what channel that you want Jeeves to watch for reactions.
+* `!setup role-channel #get-ranks-here`
+  - Tells Jeeves to monitor `#get-ranks-here` for reactions.
 
 ***
 
@@ -164,7 +186,9 @@ There are 3 different modes that can be set.
 * **MythicPlus** Shows M+ score, raid progression, best M+ dungeon weekly and season, tertiary stats, artifact traits, and what legendaries they have equipped.
 
 
-**Examples**
+### Examples:
 
-* `!setup lookup-mode` - Start the setup wizard for what setup mode you would like Jeeves to use.
-* `!setup lookup-mode Raider` - Sets Jeeves to default to the raider view for character lookups.
+* `!setup lookup-mode`
+  - Start the setup wizard for what setup mode you would like Jeeves to use.
+* `!setup lookup-mode Raider`
+  - Sets Jeeves to default to the raider view for character lookups.

@@ -2,6 +2,8 @@
 
 The affix command is a rotational helper for Argus boss invasions. Quickly check the active boss from anywhere!
 
+### About
+
 **Aliases:** `ginvasion` | `greater-invasions`
 
 **Available in DM:** No
@@ -10,12 +12,19 @@ The affix command is a rotational helper for Argus boss invasions. Quickly check
 
 **Global Support:** Yes
 
-**Examples**
+### Examples:
 
-* `!ginvasion` - Displays the current greater invasion for this week
+* `!ginvasion`
+  - Displays the current greater invasion for this week
 
-* `!ginvasion US` - Displays the current greater invasion for this week on the US servers
 
-* `!ginvasion EU` - Displays the current greater invasion for this week on the EU servers
+* `!ginvasion US`
+  - Displays the current greater invasion for this week on the US servers
 
-* `!ginvasion pit lord` - Displays how long until Pit Lord Vilemus will be active again (can replace with the desired boss)
+
+* `!ginvasion EU`
+  - Displays the current greater invasion for this week on the EU servers
+
+
+* `!ginvasion pit lord`
+  - Displays how long until Pit Lord Vilemus will be active again (can replace with the desired boss)

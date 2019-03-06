@@ -2,13 +2,14 @@
 
 Skips to the next track.
 
-#### About
+### About
 
 **Aliases:** `skip`  
 **Available in DM:** No  
 **Can Restrict to a channel:** Yes  
 **Global Support:** Yes  
 
-**Examples**
+### Examples:
 
-* `!skip` - Skips the currently played song
+* `!skip`
+  - Skips the currently played song

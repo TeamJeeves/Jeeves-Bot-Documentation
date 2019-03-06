@@ -2,6 +2,8 @@
 
 The archaeology command is a rotation helper allowing you to see the archaeology rotation status from anywhere.
 
+### About
+
 **Aliases:** `archaeology` | `arch`
 
 **Available in DM:** No
@@ -10,8 +12,11 @@ The archaeology command is a rotation helper allowing you to see the archaeology
 
 **Global Support:** Yes
 
-**Examples**
+### Examples:
 
-* `!archaeology` - Display the current archaeology quest, but also the upcoming ones
+* `!archaeology`
+  - Display the current archaeology quest, but also the upcoming ones
+  
 
-* `!archaeology Spirit of Eche'ro` - Tells you how long till the next time this solve is up
+* `!archaeology Spirit of Eche'ro`
+  - Tells you how long till the next time this solve is up

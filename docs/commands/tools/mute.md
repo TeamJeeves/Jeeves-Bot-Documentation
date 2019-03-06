@@ -2,6 +2,8 @@
 
 Quickly mute all the chatterboxes in the channel with you.
 
+### About
+
 **Aliases:** `mute`
 
 **Available in DM:** No
@@ -10,8 +12,12 @@ Quickly mute all the chatterboxes in the channel with you.
 
 **Global Support:** Yes
 
-**Examples**
+### Examples:
 
-* `!mute` -  Mutes all non-admins in the voice channel
+* `!mute`
+  -  Mutes all non-admins in the voice channel
 
-* `!unmute` -  Unmutes everyone in the voice channel
+
+* `!unmute`
+  -  Unmutes everyone in the voice channel
+  

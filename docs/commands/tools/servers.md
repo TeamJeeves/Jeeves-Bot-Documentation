@@ -2,6 +2,8 @@
 
 Get invites to popular Warcraft Discord servers.
 
+### About
+
 **Aliases:** `servers`
 
 **Available in DM:** No
@@ -10,6 +12,7 @@ Get invites to popular Warcraft Discord servers.
 
 **Global Support:** Yes
 
-**Examples**
+### Examples:
 
-* `!servers druid` -  Generates an invite to the Druid class Discord server
+* `!servers druid`
+  -  Generates an invite to the Druid class Discord server

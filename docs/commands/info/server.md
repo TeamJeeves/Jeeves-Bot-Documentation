@@ -2,6 +2,8 @@
 
 Get info on the server.
 
+### About
+
 **Aliases:** `server`
 
 **Available in DM:** No
@@ -10,7 +12,7 @@ Get info on the server.
 
 **Global Support:** Yes
 
-**Examples**
+### Examples:
 
-* `!server` - Fetches the information of the discord server
-
+* `!server`
+  - Fetches the information of the discord server

@@ -12,6 +12,7 @@ This is Jeeves internal character management tool. It serves 4 main functions
 
 ***
 
+### About
 
 **Aliases:** `character` | `toon`
 
@@ -21,7 +22,7 @@ This is Jeeves internal character management tool. It serves 4 main functions
 
 **Global Support:** Yes
 
-**Examples**
+### Examples:
 
 * `!toon view` - Shows you a list of your 12 best characters
 

@@ -2,6 +2,8 @@
 
 Looking for an item, spell, talent or anything else? You can use !Wowhead <name>. This will search on Wowhead and gives you the closest search to your request back.
 
+### About
+
 **Aliases:** `Wowhead`
 
 **Available in DM:** No
@@ -10,8 +12,11 @@ Looking for an item, spell, talent or anything else? You can use !Wowhead <name>
 
 **Global Support:** Yes
 
-**Examples**
+### Examples:
 
-* `!wowhead Thunderfury` - Lookup information about Thunderfury
+* `!wowhead Thunderfury`
+  - Lookup information about Thunderfury
 
-* `!wowhead Fireball`    - Lookup information about the Fireball spell
+
+* `!wowhead Fireball`    
+  - Lookup information about the Fireball spell

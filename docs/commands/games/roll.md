@@ -2,6 +2,8 @@
 
 The roll command provides a direct imitation of the in-game roll feature.
 
+### About
+
 **Aliases:** `roll`
 
 **Available in DM:** No
@@ -10,8 +12,10 @@ The roll command provides a direct imitation of the in-game roll feature.
 
 **Global Support:** Yes
 
-**Examples**
+### Examples:
 
-* `!roll` - Rolls between the number 1 and 100
+* `!roll`
+  - Rolls between the number 1 and 100
 
-* `!roll 53-3023` - Rolls between the number 53 and 3023
+* `!roll 53-3023`
+  - Rolls between the number 53 and 3023

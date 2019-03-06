@@ -5,22 +5,22 @@
 This command is a toggle based command that installs a WebHook in the channel where the command is run.  
 The WebHook will make posts whenever TOP regional/world groups achieve world records in mythic+ dungeons.
 
-#### About
+### About
 
 **Aliases:** `mythic-plus-race` `mythicplus`  
 **Available in DM:** No  
 **Can Restrict to a channel:** Yes  
 **Global Support:** Yes  
 
-**Examples**
+### Examples
 
-* `!mythic-plus-race` 
+* `!mythic-plus-race`
     - Subscribe to the feed, get notifications when dungeon records are shattered worldwide
-* `!mythicplus world` 
+* `!mythicplus world`
     - Subscribe to the feed, get notifications when dungeon records are shattered worldwide
-* `!mythicplus US` 
+* `!mythicplus US`
     - Subscribe to the feed, get notifications when dungeon records are shattered in the US
-* `!mythicplus EU` 
+* `!mythicplus EU`
     - Subscribe to the feed, get notifications when dungeon records are shattered in the EU
-* `!mythicplus KR` 
+* `!mythicplus KR`
     - Subscribe to the feed, get notifications when dungeon records are shattered in the KR

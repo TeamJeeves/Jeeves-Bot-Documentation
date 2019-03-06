@@ -2,6 +2,8 @@
 
 All hail the blessed blade of the windseeker
 
+### About
+
 **Aliases:** `thunderfury`
 
 **Available in DM:** Yes
@@ -10,6 +12,7 @@ All hail the blessed blade of the windseeker
 
 **Global Support:** Yes
 
-**Examples**
+### Examples:
 
-* `!thunderfury` - Behold, the blessed blade!
+* `!thunderfury`
+  - Behold, the blessed blade!

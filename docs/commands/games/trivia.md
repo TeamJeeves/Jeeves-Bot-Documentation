@@ -6,6 +6,7 @@ The trivia command is a modern rendition of the old school in-game trivia bot.
 
 Like most Jeeves games, trivia can be very spammy in chat. In an effort to reduce chat clutter in your server, Jeeves will only operate trivia sessions within a channel called `Trivia`. If none is present he will attempt to make one.
 
+### About
 
 **Aliases:** `trivia`
 
@@ -15,6 +16,7 @@ Like most Jeeves games, trivia can be very spammy in chat. In an effort to reduc
 
 **Global Support:** Yes
 
-**Examples**
+### Examples:
 
-* `!trivia` - Creates a new trivia session
+* `!trivia`
+  - Creates a new trivia session

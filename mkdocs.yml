@@ -21,6 +21,7 @@ nav:
         - 'Mythic Race': 'commands/feeds/mythic-race.md'
         - 'Wowhead Webhook': 'commands/feeds/wowhead-webhook.md'
         - 'Twitter': 'commands/feeds/twitter.md'
+        - 'Recruitment': 'commands/feeds/recruitment.md'
     - Games:
         - 'Gambling': 'commands/games/gambling.md'
         - 'Trivia': 'commands/games/trivia.md'
@@ -65,7 +66,8 @@ nav:
         - 'Realm Status': 'commands/world info/realmstatus.md'
         - 'WorldBoss': 'commands/world info/worldboss.md'
         - 'WoW Token': 'commands/world info/wowtoken.md'
-        
+        - 'Faction-Assaults': `commands/world info/faction-assaults.md`
+
 - Guides:
     - 'Getting Started': 'guides/Getting-Started.md'
     - 'Using Jeeves WebUi': 'guides/Using-Jeeves-Website.md'

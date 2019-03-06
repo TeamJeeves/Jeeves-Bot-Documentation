@@ -10,29 +10,34 @@ The **first thing you should do** is run `!setup RoleChannel`. This tells Jeeves
 
 There are 4 different actions this command can perform.
 
-* `set` or linking an emoji to a role - When setting a role, the role must have the "Allow anyone to @mention this role" setting enabled. You can disable this after the set action has been performed.  
-* `clear` or unlinking an emoji  
-* `view` or getting a list of all linked emojis  
+* `set`  linking an emoji to a role - When setting a role, the role must have the "Allow anyone to @mention this role" setting enabled. You can disable this after the set action has been performed.  
+* `clear`  unlinking an emoji  
+* `view`  getting a list of all linked emojis  
 * `reset` this clears all linked emojis - **This action is not reversible**  
 
 **NOTE** Jeeves must be listed in the server roles higher than the roles that you want him to manage.
 
 **Patreon Users:** With multiple role channels set up, Jeeves needs to know what channel you are talking about when running the commands below. Include a channel reference like #Get-Roles in all commands OR run the commands from the role channel you wish to edit.
 
-#### About
+### About
 
 **Aliases:** `RoleReaction`  
 **Available in DM:** No  
 **Can Restrict to a channel:** Yes  
 **Global Support:** Yes  
 
-**Examples**
+### Examples
 
-* `!roleReaction set 💰 @GreedyGoblin` - Links the money bag emoji to the GreedyGoblin Role  
-* `!roleReaction clear 💰` - Unlinks the money bag emoji from all roles  
-* `!roleReaction view` - Get a list of linked emojis and their role  
-* `!roleReaction reset` - Wipe all rolereaction data  
-* `!roleReaction set 💰 @GreedyGoblin #Get-Roles` - Patreon Multi-Channel example where #Get-Roles is a second channel  
+* `!roleReaction set 💰 @GreedyGoblin`
+  - Links the money bag emoji to the GreedyGoblin Role  
+* `!roleReaction clear 💰`
+  - Unlinks the money bag emoji from all roles  
+* `!roleReaction view`
+  - Get a list of linked emojis and their role  
+* `!roleReaction reset`
+  - Wipe all rolereaction data  
+* `!roleReaction set 💰 @GreedyGoblin #Get-Roles`
+  - Patreon Multi-Channel example where #Get-Roles is a second channel  
 
 ***
 

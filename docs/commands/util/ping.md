@@ -2,6 +2,8 @@
 
 Checks the Jeeves' ping to the Discord server.
 
+### About
+
 **Aliases:** `ping`
 
 **Available in DM:** No
@@ -10,6 +12,7 @@ Checks the Jeeves' ping to the Discord server.
 
 **Global Support:** Yes
 
-**Examples**
+### Examples:
 
-* `!ping` - This will show Jeeves' ping with the Discord server
+* `!ping`
+  - This will show Jeeves' ping with the Discord server

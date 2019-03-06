@@ -1,6 +1,8 @@
 # Invite Command
 
-Get an invite to bring the bot to the server and to the bots support server.
+Get an invite to bring the bot to the server an invite to the bots support server.
+
+### About
 
 **Aliases:** `invite`
 
@@ -10,6 +12,7 @@ Get an invite to bring the bot to the server and to the bots support server.
 
 **Global Support:** Yes
 
-**Examples**
+### Examples:
 
-* `!invite` -  Creates a link to invite Jeeves into another Discord server
+* `!invite`
+  -  Creates a link to invite Jeeves into another Discord server

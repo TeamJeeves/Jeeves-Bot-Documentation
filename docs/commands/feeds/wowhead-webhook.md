@@ -2,6 +2,8 @@
 
 Subscribe to the Wowhead WebHook.
 
+### About
+
 **Aliases:** `Wowhead-webhook`
 
 **Available in DM:** No
@@ -10,6 +12,7 @@ Subscribe to the Wowhead WebHook.
 
 **Global Support:** Yes
 
-**Examples**
+### Example
 
-* `!Wowhead-webhook` - Toggle the feed on / off to get WowHead's latest news
+* `!Wowhead-webhook`
+  - Toggle the feed on / off to get WowHead's latest news
