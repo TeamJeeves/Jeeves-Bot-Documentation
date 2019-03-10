@@ -1,18 +1,15 @@
 # Server Command
 
 Get info on the server.
+***
+### Details
 
-### About
-
-**Aliases:** `server`
-
-**Available in DM:** No
-
+**Aliases:** `server`   
+**Available in DM:** No   
 **Can Restrict to a channel:** Yes
-
-**Global Support:** Yes
-
-### Examples:
+***
+### Examples
 
 * `!server`
-  - Fetches the information of the discord server
+> Fetches the information of the discord server
+***

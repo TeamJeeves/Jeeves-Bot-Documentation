@@ -1,23 +1,17 @@
 # Mute Command
 
 Quickly mute all the chatterboxes in the channel with you.
-
-### About
-
-**Aliases:** `mute`
-
-**Available in DM:** No
-
+***
+### Details
+**Aliases:** `mute`   
+**Available in DM:** No   
 **Can Restrict to a channel:** Yes
-
-**Global Support:** Yes
-
-### Examples:
+***
+### Examples
 
 * `!mute`
-  -  Mutes all non-admins in the voice channel
-
+>  Mutes all non-admins in the voice channel
 
 * `!unmute`
-  -  Unmutes everyone in the voice channel
-  
+>  Unmutes everyone in the voice channel
+***

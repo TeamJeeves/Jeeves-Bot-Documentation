@@ -1,21 +1,19 @@
 # Roll Command
+Rolle the dice!
 
-The roll command provides a direct imitation of the in-game roll feature.
+### Details
 
-### About
+**Aliases:** `roll`   
+**Available in DM:** No   
+**Can Restrict to a channel:** Yes    
 
-**Aliases:** `roll`
+* The roll command provides a direct imitation of the in-game roll feature.
+***
+### Examples
 
-**Available in DM:** No
+* `!roll`  
+> Rolls between the number 1 and 100\
 
-**Can Restrict to a channel:** Yes
-
-**Global Support:** Yes
-
-### Examples:
-
-* `!roll`
-  - Rolls between the number 1 and 100
-
-* `!roll 53-3023`
-  - Rolls between the number 53 and 3023
+* `!roll 53-3023`  
+> Rolls between the number 53 and 3023
+***

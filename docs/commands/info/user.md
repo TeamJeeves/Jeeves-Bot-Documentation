@@ -1,18 +1,15 @@
 # User-info Command
 
 Get info on a user in the Discord server.
+***
+### Details
 
-### About
-
-**Aliases:** `user-info`
-
-**Available in DM:** No
-
+**Aliases:** `user-info`    
+**Available in DM:** No   
 **Can Restrict to a channel:** Yes
-
-**Global Support:** Yes
-
-### Examples:
+***
+### Examples
 
 * `!user-info @Deadlystrike`
-  - Fetches the information for the username Deadlystrike
+> Fetches the information for the username Deadlystrike
+***

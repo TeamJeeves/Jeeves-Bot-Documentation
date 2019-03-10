@@ -1,21 +1,17 @@
 # Disable Command
 
 Disables a command or command group.
+***
+### Details
 
-### About
-
-**Aliases:** `disable`
-
-**Available in DM:** No
-
+**Aliases:** `disable`    
+**Available in DM:** No   
 **Can Restrict to a channel:** Yes
-
-**Global Support:** Yes
-
-### Examples:
+***
+### Examples
 
 * `!disable admin`
-  - This will disable ALL admin commands in the admin group
-
-* `!disable prune`
-  - This will disable the prune command
+> This will disable ALL admin commands in the admin group
+* `!disable prune`  
+> This will disable the prune command
+***

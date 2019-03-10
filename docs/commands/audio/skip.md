@@ -1,15 +1,14 @@
 # Skip Command
 
 Skips to the next track.
-
-### About
+***
+### Details
 
 **Aliases:** `skip`  
 **Available in DM:** No  
 **Can Restrict to a channel:** Yes  
-**Global Support:** Yes  
-
-### Examples:
-
+***
+### Examples
 * `!skip`
-  - Skips the currently played song
+> Skips the currently played song
+***

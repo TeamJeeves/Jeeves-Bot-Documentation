@@ -1,18 +1,17 @@
 # Ping Command
 
 Checks the Jeeves' ping to the Discord server.
+***
+### Details
 
-### About
-
-**Aliases:** `ping`
-
-**Available in DM:** No
-
+**Aliases:** `ping`   
+**Available in DM:** No   
 **Can Restrict to a channel:** Yes
 
-**Global Support:** Yes
+***
 
-### Examples:
+### Examples
 
 * `!ping`
-  - This will show Jeeves' ping with the Discord server
+  > This will show Jeeves' ping with the Discord server
+***
