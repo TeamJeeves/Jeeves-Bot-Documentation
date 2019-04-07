@@ -39,7 +39,7 @@ nav:
         - 'ChuckNorris': 'commands/games/chuck-norris.md'
         - 'Thunderfury': 'commands/games/thunderfury.md'
     - Guild Tools:
-        - 'Sync Ranks': 'commands/guild/syncranks.md'
+        - 'Guild rank sync': 'commands/guild/guildsync.md'
         - 'Last Log': 'commands/guild/lastlog.md'
     - Info:
         - 'About': 'commands/info/about.md'

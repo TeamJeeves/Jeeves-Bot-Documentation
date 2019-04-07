@@ -30,7 +30,7 @@ The primary source is YouTube, however support is available for other popular st
 
 
 ### FAQ
-#### (Q) Is it possible to get Spotify to work with Jeeves?
+#### Q) Is it possible to get Spotify to work with Jeeves?
 >No, at the moment the following sources are supported:
 * YouTube playlists
 * YouTube videos

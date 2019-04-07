@@ -5,7 +5,7 @@ Quickly sync your Warcraft ranks to discord via the Guild Sync integration. See 
 
 ### Details
 
-**Aliases:** `sycnranks`    
+**Aliases:** `guildsync`    
 **Available in DM:** No   
 **Can Restrict to a channel:** Yes
 
@@ -13,7 +13,7 @@ Quickly sync your Warcraft ranks to discord via the Guild Sync integration. See 
 ***
 ### Examples
 
-* `!syncranks`
+* `!guildsync`
 > Trigger an instant re-syncing
 ***
 **Developer Thoughts**
