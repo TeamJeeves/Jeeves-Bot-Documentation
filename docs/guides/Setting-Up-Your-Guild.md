@@ -46,4 +46,4 @@ To enable the role manager to auto assign a nickname on !auth or !role update, u
 * The guild rank sync happens automatically every 3 hours (This is not something we can change, as it has been decided by blizzard.)
 * The guild rank will only look at your highest character in the guild, that is linked to a role on discord. For instance, if you are the guild master, and have no rank linked as a guild master, an alt of yours may be chosen as the "main", and assign you the officers rank as well as attempt to change your nickname to your officer name.
 * The nickname setting will happen only on `!role update`, `!auth` or when a new user (Already !auth'd to Jeeves) enters your server. This will not happen on the guild sync that happens every 3 hours.
-* To do a manual sync, use `!syncranks`.
+* To do a manual sync, use `!guildsync`.

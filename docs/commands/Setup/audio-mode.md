@@ -17,7 +17,7 @@ Choose the audio mode for your server
 * `Selective`-Only those that you select    
 * `DJMode`-Only people with the role named "AudioDJ" can use it
 
-make sure to set [audio permissions](/commands/admin/audioperms) if you plan to use either restrictive or selective mode.
+make sure to set [audio permissions](/docs/commands/admin/audioperms) if you plan to use either restrictive or selective mode.
 ***
 
 ### Examples
