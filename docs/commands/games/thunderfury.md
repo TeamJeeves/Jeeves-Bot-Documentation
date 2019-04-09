@@ -1,15 +1,15 @@
 # Thunderfury Command
 
 All hail the blessed blade of the windseeker
+***
+### Details
 
-**Aliases:** `thunderfury`
-
-**Available in DM:** Yes
-
+**Aliases:** `thunderfury`    
+**Available in DM:** Yes    
 **Can Restrict to a channel:** Yes
+***
+### Examples
 
-**Global Support:** Yes
-
-**Examples**
-
-* `!thunderfury` - Behold, the blessed blade!
+* `!thunderfury`
+> Behold, the blessed blade!
+***

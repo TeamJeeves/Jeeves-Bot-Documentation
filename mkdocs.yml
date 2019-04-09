@@ -4,11 +4,23 @@ extra_css:
 nav:
 - Home: 'index.md'
 - Commands:
+    - Setup:
+        - 'Setup': 'commands/Setup/setup.md'
+        - 'Audio Channel': 'commands/Setup/audio-channel.md'
+        - 'Audio Mode': 'commands/Setup/audio-mode.md'
+        - 'Bot Channel': 'commands/Setup/bot-channel.md'
+        - 'Greeting': 'commands/Setup/greeting.md'
+        - 'Guild': 'commands/Setup/guild.md'
+        - 'Guild Roles': 'commands/Setup/guild-roles.md'
+        - 'Prefix': 'commands/Setup/Prefix.md'
+        - 'Realm': 'commands/Setup/Realm.md'
+        - 'Role Channel': 'commands/Setup/role-channel.md'
+        - 'Role Manager': 'commands/Setup/role-manager.md'
+        - 'Time zone': 'commands/Setup/timezone.md'
     - Admin:
         - 'Audio Permissions': 'commands/admin/audioPerms.md'
         - 'Reset Server': 'commands/admin/reset-server.md'
         - 'Role Reaction': 'commands/admin/rolereaction.md'
-        - 'Setup': 'commands/admin/setup.md'
     - Audio:
         - 'Play': 'commands/audio/play.md'
         - 'Radio': 'commands/audio/radio.md'
@@ -17,10 +29,9 @@ nav:
         - 'Skip': 'commands/audio/skip.md'
     - Feeds:
         - 'Jeeves News': 'commands/feeds/jeeves-news.md'
-        - 'Mythic Plus Race': 'commands/feeds/mythic-plus-race.md'
-        - 'Mythic Race': 'commands/feeds/mythic-race.md'
         - 'Wowhead Webhook': 'commands/feeds/wowhead-webhook.md'
         - 'Twitter': 'commands/feeds/twitter.md'
+        - 'Recruitment': 'commands/feeds/recruitment.md'
     - Games:
         - 'Gambling': 'commands/games/gambling.md'
         - 'Trivia': 'commands/games/trivia.md'
@@ -28,7 +39,7 @@ nav:
         - 'ChuckNorris': 'commands/games/chuck-norris.md'
         - 'Thunderfury': 'commands/games/thunderfury.md'
     - Guild Tools:
-        - 'Sync Ranks': 'commands/guild/syncranks.md'
+        - 'Guild rank sync': 'commands/guild/guildsync.md'
         - 'Last Log': 'commands/guild/lastlog.md'
     - Info:
         - 'About': 'commands/info/about.md'
@@ -65,7 +76,8 @@ nav:
         - 'Realm Status': 'commands/world info/realmstatus.md'
         - 'WorldBoss': 'commands/world info/worldboss.md'
         - 'WoW Token': 'commands/world info/wowtoken.md'
-        
+        - 'Faction-Assaults': 'commands/world info/faction-assaults.md'
+
 - Guides:
     - 'Getting Started': 'guides/Getting-Started.md'
     - 'Using Jeeves WebUi': 'guides/Using-Jeeves-Website.md'
