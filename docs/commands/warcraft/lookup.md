@@ -8,7 +8,7 @@ Looks up a specific toon or guild for all their juicy info!
 
 * You can lookup different information about a World of Warcraft player or a guild.
 * General information: `!lookup Character Realm Region`
-* If you are looking up data about a character or guild on your same realm & region, you will only need to specify the name of the character or guild if your [channel data](/guides/channel-data) and [realm](/commands/Setup/realm) were set up correctly.
+* If you are looking up data about a character or guild on your same realm & region, you will only need to specify the name of the character or guild if your [channel data](../../guides/Channel-Data.md) and [realm](../Setup/Realm.md) were set up correctly.
 * The lookup command also supports special parameters
 >-- raider (Shows a raiding info)   
 -- mythic+ (Shows mythic+ info)   

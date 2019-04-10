@@ -10,7 +10,7 @@ Easily manage and get custom roles.
 * This command is used in conjunction by the Jeeves Role Manager
 Depending on the servers setup, Jeeves will automatically insert you into roles on !role update or !iama CustomeRole`
 
-* See [Role Manager](/guides/role-manager) for a more in depth look at custom roles.
+* See [Role Manager](../../guides/Role-Manager.md) for a more in depth look at custom roles.
 ***
 ### Examples
 
