@@ -22,7 +22,7 @@
 • Streamer Rank - Give and Take a role when users start/stop streaming
 
 
-• **(Patreon Feature)** Keystone Boards - Static Read Only constantly updating Keystone lists 
+• **(Patreon Feature)** Keystone Boards - Static Read Only constantly updating Keystone lists
 
 
 • Temporary On-Join Roles - Jeeves can now revoke the on-join role once the user gets a rolereaction / `!auth` based role
@@ -58,7 +58,7 @@
 • Fixed some issues with `!Setup RoleManager`
 
 
-• Cleaned up atleast 7 instances of incorrect documentation
+• Cleaned up at least 7 instances of incorrect documentation
 
 
 • Fixed some character commands for users who have multiple characters with the same name.

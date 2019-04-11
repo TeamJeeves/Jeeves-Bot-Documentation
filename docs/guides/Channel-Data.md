@@ -11,7 +11,7 @@ At this time only certain settings are supported.
 ```
 --JeevesData Faction: Horde, Region: US
 ```
-> The line should start with `--JeevesData` and contain settings formated like `Setting: Value` separated by commas `,`
+> The line should start with `--JeevesData` and contain settings formatted like `Setting: Value` separated by commas `,`
 
 ## Supported Settings & Commands
 * **Faction** `Keystone`

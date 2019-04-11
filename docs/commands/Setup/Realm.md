@@ -9,7 +9,7 @@ Tell Jeeves what realm you play on!
 
 * This allows Jeeves to make assumptions for things so you don't have to specify realm in certain commands
 * Jeeves will also start using your realms timezone when talking about times and dates.
-You can change this with [timezone](/commands/setup/timezone)
+You can change this with [timezone](timezone.md)
 * You can only setup a single realm as your default realm.
 If you play on a cross-realm server its highly advised you set your main realm as the realm your guild was created on.
 ***

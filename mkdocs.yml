@@ -5,7 +5,6 @@ nav:
 - Home: 'index.md'
 - Commands:
     - Setup:
-        - 'Setup': 'commands/Setup/setup.md'
         - 'Audio Channel': 'commands/Setup/audio-channel.md'
         - 'Audio Mode': 'commands/Setup/audio-mode.md'
         - 'Bot Channel': 'commands/Setup/bot-channel.md'
