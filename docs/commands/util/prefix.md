@@ -1,22 +1,25 @@
-# Prefix Command
-
-Shows or sets the command prefix.
+# Prefix
+Change the prefix for the Jeeves bot
 ***
 ### Details
-
-**Aliases:** `prefix`   
+**Aliases:** `prefix`    
 **Available in DM:** No   
 **Can Restrict to a channel:** Yes
 
-***
+* If no prefix is provided, the current prefix will be shown. If the prefix is "default", the prefix will be reset to the bot's default prefix. If the prefix is "none", the prefix will be removed entirely, only allowing mentions to run commands. Only administrators may change the prefix.
 
+>If you run into an issue where you cant remember Jeeves' prefix, run `@Jeeves#2457 prefix` and it will return the servers prefix for Jeeves, assuming there is one.
+
+***
 ### Examples
-
-* `!prefix @`
-  > This will change the prefix to @
-* `!prefix #`
-  > This will change the prefix to #
-***
-**Developer Note**
-  >In the case of a prefix error or a setup error, run the command `@Jeeves#2457 Prefix` to get the correct prefix for your server.
+* `prefix`
+>returns the servers current prefix
+* `prefix -`
+>changes the servers prefix to "-"
+* `prefix omg!`
+>changes the servers prefix to "omg!"
+* `prefix default`
+>changes the prefix for Jeeves to the server default
+* `prefix none`
+>removes the prefix for Jeeves, he will only respond to 2 mentions.
 ***
