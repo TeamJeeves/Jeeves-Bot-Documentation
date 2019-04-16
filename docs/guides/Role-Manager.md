@@ -141,7 +141,7 @@ Pet Score 1500+
 Below 500 pet score
 ```
 
-To toggle this integration on/off Type `Mythic+ Score` with the Role Manager open.
+To toggle this integration on/off Type `petscore` with the Role Manager open.
 
 ## *Pets*
 The pets integration assigns a role based the number of pets you have.
