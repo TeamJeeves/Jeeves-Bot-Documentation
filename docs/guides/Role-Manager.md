@@ -48,7 +48,7 @@ Below 200
 **Note:** You may also use the world "Rank" instead of score. Supported Scores are 100-9999. Below 200 is literal and if used must be exactly that.
 
 
-To toggle this integration on/off Type `Mythic+ Score` with the Role Manager open.
+To toggle this integration on/off Type `mythicplus` with the Role Manager open.
 
 ## *Combo(Region-Faction)*
 The Combo Region-Faction Role is useful for community servers who cater to a global audience.
