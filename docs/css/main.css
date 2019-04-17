@@ -2662,7 +2662,12 @@ input, select, textarea {
 		}
 
 /* Table */
-
+	.table-striped>tbody>tr:nth-child(odd)>td, .table-striped>tbody>tr:nth-child(odd)>th {
+    	background-color: #000000;
+	}
+	.table-hover>tbody>tr:hover>td, .table-hover>tbody>tr:hover>th {
+		background-color: #000000;
+	}
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
 		overflow-x: auto;
@@ -3997,7 +4002,7 @@ code {
     color: #282a36!important;
     text-decoration: none;
     background-color: #8be9fd;
-    boder: 1px solid rgba(0, 0, 0, .5);
+    border: 1px solid rgba(0, 0, 0, .5);
 }
 
 .bs-sidebar .nav > .active > a, .bs-sidebar .nav > .active:hover > a, .bs-sidebar .nav > .active:focus > a {

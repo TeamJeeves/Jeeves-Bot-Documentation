@@ -11,7 +11,7 @@ nav:
         - 'Greeting': 'commands/Setup/greeting.md'
         - 'Guild': 'commands/Setup/guild.md'
         - 'Guild Roles': 'commands/Setup/guild-roles.md'
-        - 'Prefix': 'commands/Setup/Prefix.md'
+        - 'Prefix': 'commands/Setup/setup-prefix.md'
         - 'Realm': 'commands/Setup/Realm.md'
         - 'Role Channel': 'commands/Setup/role-channel.md'
         - 'Role Manager': 'commands/Setup/role-manager.md'
@@ -54,7 +54,7 @@ nav:
     - Utilities:
         - 'Help': 'commands/util/help.md'
         - 'Ping': 'commands/util/ping.md'
-        - 'Prefix': 'commands/util/prefix.md'
+        - 'Prefix': 'commands/util/Prefix.md'
         - 'Enable Commands': 'commands/util/enable.md'
         - 'Disable Commands': 'commands/util/disable.md'
     - Warcraft:
