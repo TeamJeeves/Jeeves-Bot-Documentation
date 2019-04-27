@@ -8,7 +8,11 @@ The "Jeeves Role Manager" is broken into two segments. The user `!role` command,
 >Many servers have some mechanism in place to issue custom roles. Some even require you "Apply" for a role by submitting your character info, and then a moderator manually assigns you a role based on some metric or stat. The Jeeves Role Manager seeks to use its large audience to unify the "Gimme A Role" experience across many servers.
 
 ***
+**Character scope**
 
+* This allows you to tell Jeeves which characters should count toward roles per-integration (All Characters, Main Only, Max Level Characters) 
+* to use this, add [max] [all] or [main] after the intergration, ie: class [main]. it defaults to max if not specified
+***
 # Role Manager
 
 The Role Manager interface can be brought up with `!setup RoleManager` The interface is broken up into 6 sections
