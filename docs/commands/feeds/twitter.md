@@ -13,11 +13,13 @@ Get Jeeves to listen to all the twitters!
 ### Examples
 
 * `!twitter follow WarcraftDevs`
-  > Follow WarcraftDevs on Twitter and receive notifications in Discord whenever they tweet!
+> Follow WarcraftDevs on Twitter and receive notifications in Discord whenever they tweet!
+
 * `!twitter unfollow WarcraftDevs`
-  > Stops following WarcraftDevs on Twitter.
+> Stops following WarcraftDevs on Twitter.
+
 * `!twitter list`
-  > Shows all the twitter accounts you are currently following.
+> Shows all the twitter accounts you are currently following.
 ***
 ### FAQ
 #### Q) Can I add my own twitter feed?

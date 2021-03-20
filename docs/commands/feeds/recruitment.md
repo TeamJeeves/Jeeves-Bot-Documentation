@@ -17,10 +17,13 @@
 *  `Faction` - (Expects "Horde" or "Alliance")
 *  `Realm` - (Expects a realm name with no spaces, use dashes)
 >  You must include the region filter if specifying a realm
+
 *  `Realms` - (Expects multiple realms separated by commas)
 *  `ItemLevel` - (expects a minimum itemlevel, 100-415 accepted)
 *  `RaidLevel` - (Expects "Normal", "Heroic", or "Mythic")
  > This filter will only show people who have killed a boss on the specified difficulty within the last 2 raid tiers
+
+***
 
 ### Getting Started
 
