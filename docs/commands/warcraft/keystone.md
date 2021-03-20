@@ -18,20 +18,27 @@ Love to share your keystone(s) with your guild members? You can add your keyston
 
 ### Examples:
 
-* `!keystone KR 15`
-  > Adds a King's Rest lvl 15 keystone to your MAIN character
+* `!keystone hoa 15`
+  > Adds a Halls of Atonement lvl 15 keystone to your MAIN character
+
 * `!keystone depleted`  
   > Marks your keystone attached to your MAIN character as depleted
+
 * `!keystone delete`
   > Removes your keystone from your MAIN character
-* `!keystone Deadlystrike KR 15`
-  > Adds King's Rest lvl 15 keystone to your CHARACTER
+
+* `!keystone Deadlystrike hoa 15`
+  > Adds Halls of Atonement lvl 15 keystone to your CHARACTER
+
 * `!keystone Deadlystrike depleted`
   > Marks the keystone added to the character Deadlystrike as depleted
+
 * `!keystone Deadlystrike delete`
   > Removes your keystone from your CHARACTER
+
 * `!key list`
   > Get a list of available keystones in your server
+
 * `!keys`
   > Get a list of available keystones in your server
 
@@ -39,16 +46,17 @@ Love to share your keystone(s) with your guild members? You can add your keyston
 
 **Dungeon  Aliases**
 
- Dungeon | Aliases
---- | ---
- Kings' Rest | kings, kings-rest, king, rest, kr
- Atal'Dazar | atal, atal-dazar, ad
- Temple of Sethraliss | temple, tos, seth, ts
- The Underrot | underot, under, underr
- Freehold | free, freehold
- Waycrest Manor | waycrest, way, manor, waycrest-manor
- Siege of Boralus | siege, sob, boralus, siege-of-boralus
- The MOTHERLODE!! | mother, motherlode, motherload, the-mother
- Shrine of the Storm | shrine, sos, sots, storm, storms, shrine-of-the-storms, shrine-of-the-storm
- Tol Dagor | tol-dagor, tol, dagor
+| Dungeon               | Aliases                 |
+|:----------------------|:------------------------|
+| Halls of Atonement    | hoa, halls              |
+| Spires of Ascension   | sa, spire, soa          |
+| Theater of Pain       | top, tp, theater, pain  |
+| Sanguine Depths       | tnw, nw, wake           |
+| The Necrotic Wake     | free, freehold          |
+| Plaguefall            | pf, plague, fall        |
+| De Other Side         | dos, os, side           |
+| Mists of Tirna Scithe | mots, mts, mists, scithe|
+| More coming soon!!    |                         |
+
+
  ***

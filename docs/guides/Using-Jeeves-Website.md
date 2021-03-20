@@ -34,13 +34,6 @@ This page is used to create custom commands for your server. **More documentatio
 #### Custom Commands
 This page is a more detailed list of all the commands ran on your server and when they were ran.
 
-### Audio
-Here you can manage the audio settings for your server. **Coming soon!**
-
-#### Audio Settings
-
-#### Playlists
-
 #### Permissions
 
 #### Log Command

@@ -1,12 +1,11 @@
 site_name: Jeeves Documentation
+
 extra_css:
     - css/main.css
 nav:
 - Home: 'index.md'
 - Commands:
     - Setup:
-        - 'Audio Channel': 'commands/Setup/audio-channel.md'
-        - 'Audio Mode': 'commands/Setup/audio-mode.md'
         - 'Bot Channel': 'commands/Setup/bot-channel.md'
         - 'Greeting': 'commands/Setup/greeting.md'
         - 'Guild': 'commands/Setup/guild.md'
@@ -17,15 +16,8 @@ nav:
         - 'Role Manager': 'commands/Setup/role-manager.md'
         - 'Time zone': 'commands/Setup/timezone.md'
     - Admin:
-        - 'Audio Permissions': 'commands/admin/audioPerms.md'
         - 'Reset Server': 'commands/admin/reset-server.md'
         - 'Role Reaction': 'commands/admin/rolereaction.md'
-    - Audio:
-        - 'Play': 'commands/audio/play.md'
-        - 'Radio': 'commands/audio/radio.md'
-        - 'Playlist': 'commands/audio/playlist.md'
-        - 'Stop': 'commands/audio/stop.md'
-        - 'Skip': 'commands/audio/skip.md'
     - Feeds:
         - 'Jeeves News': 'commands/feeds/jeeves-news.md'
         - 'Wowhead Webhook': 'commands/feeds/wowhead-webhook.md'
