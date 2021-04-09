@@ -51,8 +51,8 @@ Love to share your keystone(s) with your guild members? You can add your keyston
 | Halls of Atonement    | hoa, halls              |
 | Spires of Ascension   | sa, spire, soa          |
 | Theater of Pain       | top, tp, theater, pain  |
-| Sanguine Depths       | tnw, nw, wake           |
-| The Necrotic Wake     | free, freehold          |
+| Sanguine Depths       | sd, sand, depths        |
+| The Necrotic Wake     | tnw, nw, wake           |
 | Plaguefall            | pf, plague, fall        |
 | De Other Side         | dos, os, side           |
 | Mists of Tirna Scithe | mots, mts, mists, scithe|
