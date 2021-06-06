@@ -7,7 +7,7 @@ Links your Warcraft guild to your guilds discord server.
 **Can Restrict to a channel:** Yes
 
 This command will bring up the guild roles manager. Make sure you have your guilds battle.net guild page open for reference on rank number. Ranks start at 0 for the guild master, and go up to rank 9 for a total of 10 ranks.
->You must firs create all the roles you plan to use in the guild ranks integration, and have set up your [guild](guild.md).
+>You must first create all the roles you plan to use in the guild ranks integration, and have set up your [guild](guild.md).
 
 ***
 ### Example

@@ -116,7 +116,7 @@ Alliance
 To toggle this integration on/off Type `Faction` with the Role Manager open.
 
 ## *Class*
-The Class Integration adds roles representing classes the user has level 110 characters of.
+The Class Integration adds roles representing classes the user has level 60 characters of.
 
 Acceptable Role Formats
 ```
