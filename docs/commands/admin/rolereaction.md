@@ -6,7 +6,7 @@ This command allows you to configure `RoleReactions`.
 
 Jeeves supports the use of all valid discord emojis as valid RoleReaction emojis including the newly animated emojis. Emojis are linked to roles on a per-channel basis. You can use the same emoji for different roles in different channels.
 
-The **first thing you should do** is run `!setup RoleChannel`. This tells Jeeves what channel he should monitor for incoming reaction events. Normal users are limited to 1 channel, this should be more than fine for 99% of cases. If you require more then 1 channel consider becoming a Patreon to unlock the ability to have multiple role channels.
+The **first thing you should do** is run `!role-reaction listen #<channelName>`. This tells Jeeves what channel he should monitor for incoming reaction events. This command can be run form any channel as it is pointed to the channel to monitor. Normal users are limited to 1 channel, this should be more than fine for 99% of cases. If you require more then 1 channel consider becoming a Patreon to unlock the ability to have multiple role channels.
 
 There are 4 different actions this command can perform.
 
@@ -27,6 +27,8 @@ There are 4 different actions this command can perform.
 ***
 ### Examples
 
+* `!role-reaction listen #get-roles`
+> Tells Jeeves to monitor to the #get-roles channel for reactions to assign
 * `!roleReaction set 💰 @GreedyGoblin`
 > Links the money bag emoji to the GreedyGoblin Role  
 * `!roleReaction clear 💰`
