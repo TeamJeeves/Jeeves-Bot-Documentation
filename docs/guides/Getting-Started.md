@@ -11,7 +11,7 @@ Jeeves is built to scale whether you are a small friends & family server, a larg
 6. Leave the permissions as default and click Authorize
 
 ## First time setup
-Once Jeeves is setup on your Discord server, it is recommended that you head to our website [dashboard](https://www.jeeves.bot/dashboard), select the server and look through the settings available there.
+Once Jeeves is setup on your Discord server, it is recommended that you head to our website [dashboard](https://www.jeeves.bot/dashboard), select the server and look through the settings available there. For more information checkout our other guides
 
 ## Quick Tips
 
