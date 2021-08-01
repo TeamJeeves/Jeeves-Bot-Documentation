@@ -5,16 +5,6 @@ extra_css:
 nav:
 - Home: 'index.md'
 - Commands:
-    - Setup:
-        - 'Bot Channel': 'commands/Setup/bot-channel.md'
-        - 'Greeting': 'commands/Setup/greeting.md'
-        - 'Guild': 'commands/Setup/guild.md'
-        - 'Guild Roles': 'commands/Setup/guild-roles.md'
-        - 'Prefix': 'commands/Setup/setup-prefix.md'
-        - 'Realm': 'commands/Setup/Realm.md'
-        - 'Role Channel': 'commands/Setup/role-channel.md'
-        - 'Role Manager': 'commands/Setup/role-manager.md'
-        - 'Time zone': 'commands/Setup/timezone.md'
     - Admin:
         - 'Reset Server': 'commands/admin/reset-server.md'
         - 'Role Reaction': 'commands/admin/rolereaction.md'
