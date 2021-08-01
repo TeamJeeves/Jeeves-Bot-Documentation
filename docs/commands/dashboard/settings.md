@@ -18,4 +18,10 @@ You can only setup a single realm as your default realm. If you play on a cross-
 
 The welcome message is a message that Jeeves will either put in a channel or DM to the user when a user joins your discord server. This message can be up to 3500 characters. Jeeves will split the message into multiple message if it is above 2000 characters. This is the discord message limit.
 
-Jeeves will automatically mention the new user in the message. You can mention other users and roles in this message if you wish. To do this you will need the user id or role id in discord. This can be found by turning on [Developer Mode](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-). For a user, enter the id as `<@{user id}>` for example `<@1234>`. For a role, enter the id as `<@&{role id}>` for example `<@&1234>`
+Set the Welcome Mode for how you would like the message to be sent. DM will message the new user. Channel will put the message into a channel on your server.
+
+In Channel mode, Jeeves will automatically mention the new user in the message. You can mention other users and roles in this message if you wish. To do this you will need the user id or role id in discord. This can be found by turning on [Developer Mode](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-). For a user, enter the id as `<@{user id}>` for example `<@1234>`. For a role, enter the id as `<@&{role id}>` for example `<@&1234>`
+
+## Save
+
+Once you are completed with adjusting these settings make sure to click Save for these settings to take effect.
