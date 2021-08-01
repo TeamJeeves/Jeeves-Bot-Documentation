@@ -5,6 +5,11 @@ extra_css:
 nav:
 - Home: 'index.md'
 - Commands:
+    - Dashboard:
+        - 'Settings': 'commands/dashboard/settings.md'
+        - 'Commands': 'commands/dashboard/commands.md'
+        - 'Role Management': 'commands/dashboard/role-management.md'
+        - 'Guild': 'commands/dashboard/guild.md'
     - Admin:
         - 'Reset Server': 'commands/admin/reset-server.md'
         - 'Role Reaction': 'commands/admin/rolereaction.md'
