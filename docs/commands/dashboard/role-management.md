@@ -56,11 +56,11 @@ All Jeeves Role Management integration have scope options. These options allow y
 
 The Characters drop down allows you to limit which characters a player has that the integration should apply to. Please note, not all options are available or applicable to all integrations.
 - All
-    * This will mean that the integration will apply the roles that apply for all characters on the players account
+This will mean that the integration will apply the roles that apply for all characters on the players account
 - Max Level
-    * This means the integration will only apply to max level characters that the player has on their account
+This means the integration will only apply to max level characters that the player has on their account
 - Main Only
-    * This means the integration will only look at the character that the player has [set as their main](../warcraft/character.md).
+This means the integration will only look at the character that the player has [set as their main](../warcraft/character.md).
 
 The Management drop down allows you to decide how Jeeves should apply the integration.
 - Fully Managed
