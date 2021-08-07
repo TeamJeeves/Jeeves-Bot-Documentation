@@ -55,7 +55,7 @@ nav:
     - Utilities:
         - 'Help': 'commands/util/help.md'
         - 'Ping': 'commands/util/ping.md'
-        - 'Prefix': 'commands/util/Prefix.md'
+        - 'Prefix': 'commands/util/prefix.md'
         - 'Enable Commands': 'commands/util/enable.md'
         - 'Disable Commands': 'commands/util/disable.md'
     - Warcraft:
@@ -85,6 +85,7 @@ nav:
     - 'Channel MetaData': 'guides/Channel-Data.md'
     - 'Setting up your Guild': 'guides/Setting-Up-Your-Guild.md'
     - 'Setting up a Channel Board': 'guides/Setting-Up-A-Board.md'
+    - 'Supporting Jeeves': 'guides/Supporting-Jeeves.md'
 
 - Change Log: 'change-log.md'
 - FAQ: 'faq.md'
