@@ -52,7 +52,7 @@ There are a number of integration that Jeeves has available to use. For more ins
 
 All Jeeves Role Management integration have scope options. These options allow you to choose how Jeeves handles assigning the roles for that integration.
 
-[!screenshot](../../../img/role-management-scope.png)
+![Screenshot](../../../img/role-management-scope.png)
 
 The Characters drop down allows you to limit which characters a player has that the integration should apply to. Please note, not all options are available or applicable to all integrations.
 - All
