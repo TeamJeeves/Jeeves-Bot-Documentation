@@ -61,6 +61,7 @@ The Characters drop down allows you to limit which characters a player has that 
 - Main Only - This means the integration will only look at the character that the player has [set as their main](../warcraft/character.md).
 
 The Management drop down allows you to decide how Jeeves should apply the integration.
+
 |Option|Description|
 |------|-----------|
 |Fully Managed|This option means that Jeeves will add and remove the roles associated with this integration as they change for the characters of the users account.|
