@@ -34,15 +34,16 @@ For a user to grant themselves a role they need to type `!role {name}`. For the 
 ## Integrations
 
 There are a number of integration that Jeeves has available to use. For more instructions on each one please see its page.
-- 'Achievements': 'commands/dashboard/role-management/achievements.md'
-- 'Class': 'commands/dashboard/role-management/class.md'
-- 'Faction': 'commands/dashboard/role-management/faction.md'
-- 'Guild': 'commands/dashboard/role-management/guild.md'
-- 'Mounts': 'commands/dashboard/role-management/mounts.md'
-- 'Mythic Plus': 'commands/dashboard/role-management/mythic-plus.md'
-- 'Pet Score': 'commands/dashboard/role-management/pet-score.md'
-- 'Pets': 'commands/dashboard/role-management/pets.md'
-- 'Professions': 'commands/dashboard/role-management/professions.md'
-- 'Region/Factions': 'commands/dashboard/role-management/region-factions.md'
-- 'Regions': 'commands/dashboard/role-management/regions.md'
-- 'Verified': 'commands/dashboard/role-management/verified.md'
+
+- [Achievements](role-management/achievements.md)
+- [Class](commands/dashboard/role-management/class.md)
+- [Faction](commands/dashboard/role-management/faction.md)
+- [Guild](commands/dashboard/role-management/guild.md)
+- [Mounts](commands/dashboard/role-management/mounts.md)
+- [Mythic Plus](commands/dashboard/role-management/mythic-plus.md)
+- [Pet Score](commands/dashboard/role-management/pet-score.md)
+- [Pets](commands/dashboard/role-management/pets.md)
+- [Professions](commands/dashboard/role-management/professions.md)
+- [Region/Factions](commands/dashboard/role-management/region-factions.md)
+- [Regions](commands/dashboard/role-management/regions.md)
+- [Verified](commands/dashboard/role-management/verified.md)
