@@ -61,12 +61,11 @@ The Characters drop down allows you to limit which characters a player has that 
 - Main Only - This means the integration will only look at the character that the player has [set as their main](../warcraft/character.md).
 
 The Management drop down allows you to decide how Jeeves should apply the integration.
-- Fully Managed
-    * This option means that Jeeves will add and remove the roles associated with this integration as they change for the characters of the users account.
-- Only Promote
-    * This option means that Jeeves will only add roles to the user and will not remove those that no longer apply.
-- Only Demote
-    * This option means that Jeeves will only remove roles from the user and will not add new roles that apply to the user.
+|Option|Description|
+|------|-----------|
+|Fully Managed|This option means that Jeeves will add and remove the roles associated with this integration as they change for the characters of the users account.|
+|Only Promote|This option means that Jeeves will only add roles to the user and will not remove those that no longer apply.|
+|Only Demote|This option means that Jeeves will only remove roles from the user and will not add new roles that apply to the user.|
     
 The Mode drop down allows you to decide if Jeeves should automatically update the roles of a player or if the user needs to run `!toon update`. 
 - Auto
