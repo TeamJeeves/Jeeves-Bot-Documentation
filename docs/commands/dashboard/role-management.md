@@ -56,25 +56,25 @@ All Jeeves Role Management integration have scope options. These options allow y
 
 The Characters drop down allows you to limit which characters a player has that the integration should apply to. Please note, not all options are available or applicable to all integrations.
 - All
-    - This will mean that the integration will apply the roles that apply for all characters on the players account
+    * This will mean that the integration will apply the roles that apply for all characters on the players account
 - Max Level
-    - This means the integration will only apply to max level characters that the player has on their account
+    * This means the integration will only apply to max level characters that the player has on their account
 - Main Only
-    - This means the integration will only look at the character that the player has [set as their main](../warcraft/character.md).
+    * This means the integration will only look at the character that the player has [set as their main](../warcraft/character.md).
 
 The Management drop down allows you to decide how Jeeves should apply the integration.
 - Fully Managed
-    - This option means that Jeeves will add and remove the roles associated with this integration as they change for the characters of the users account.
+    * This option means that Jeeves will add and remove the roles associated with this integration as they change for the characters of the users account.
 - Only Promote
-    - This option means that Jeeves will only add roles to the user and will not remove those that no longer apply.
+    * This option means that Jeeves will only add roles to the user and will not remove those that no longer apply.
 - Only Demote
-    - This option means that Jeeves will only remove roles from the user and will not add new roles that apply to the user.
+    * This option means that Jeeves will only remove roles from the user and will not add new roles that apply to the user.
     
 The Mode drop down allows you to decide if Jeeves should automatically update the roles of a player or if the user needs to run `!toon update`. 
 - Auto
-    - This means that as Jeeves scans the characters it will automatically update the roles assigned to the player
+    * This means that as Jeeves scans the characters it will automatically update the roles assigned to the player
 - Manual
-    - This means that a user will need to run `!toon update` in order for new roles to be assigned to them.
+    * This means that a user will need to run `!toon update` in order for new roles to be assigned to them.
 ## FAQ
 #### Q) I saw a server running what appears to be an integration that's not listed here, can I use that?
 >Let us know in the Discord server that you want it. We have developed a small few "private" integrations for more "specialized" community servers.
