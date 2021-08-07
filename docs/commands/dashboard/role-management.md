@@ -47,3 +47,11 @@ There are a number of integration that Jeeves has available to use. For more ins
 - [Region/Factions](role-management/region-factions.md)
 - [Regions](role-management/regions.md)
 - [Verified](role-management/verified.md)
+
+## FAQ
+#### Q) I saw a server running what appears to be an integration that's not listed here, can I use that?
+>Let us know in the Discord server that you want it. We have developed a small few "private" integrations for more "specialized" community servers.
+#### Q) Can you add an integration for XXXXXX?
+>Maybe, let us know what you would like to see. The role manager tries to appeal to the greatest audience. If we are missing a key area, we want to hear about it.
+#### Q) Jeeves says my server doesn't have the roles setup, what's going on?
+>Jeeves will not create roles for you. Discord roles & permissions can be a sticky land mine, and I don't want to take responsibility for messing up your server. You create the roles, Jeeves will manage them.
