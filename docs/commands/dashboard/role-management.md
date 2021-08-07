@@ -51,6 +51,7 @@ The Mounts integration assigns roles based on the total number of mounts a playe
 The Mythic Plus integration assigns roles based on the (raider.io)[https://raider.io] score a player has.
 ## Pet Score
 
+The Pets Score integration attempts to mimic the score from (warcraftpets.com)[https://www.warcraftpets.com/help/#petscore] and assign roles based on this score.
 ## Pets
 
 The Pets integration assigns roles based on the total number of pets a player has associated to their account.
