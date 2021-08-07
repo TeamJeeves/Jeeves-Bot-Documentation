@@ -31,40 +31,18 @@ To setup a role you need to enter a name and the role.
 <!--- #TODO: Add example screenshot --->
 For a user to grant themselves a role they need to type `!role {name}`. For the example above they would type `!role `
 
-## Achievements
+## Integrations
 
-The Achievements integration assigns roles based on the number of achievement points a player has.
-## Class
-
-The Class integration assigns roles based on the classes of the characters a player has.
-## Faction
-
-The Faction integration assigns roles based on the faction of the characters a player has.
-## Guild
-
-The Guild integration assigns roles based on guild rank of the characters a player has. For more information see the [Guild](guild.md) dashboard page.
-## Mounts
-
-The Mounts integration assigns roles based on the total number of mounts a player has associated to their account.
-## Mythic Plus
-
-The Mythic Plus integration assigns roles based on the (raider.io)[https://raider.io] score a player has.
-## Pet Score
-
-The Pets Score integration attempts to mimic the score from (warcraftpets.com)[https://www.warcraftpets.com/help/#petscore] and assign roles based on this score.
-## Pets
-
-The Pets integration assigns roles based on the total number of pets a player has associated to their account.
-## Professions
-
-The Professions integration assigns roles based on the primary professions the characters of a player has.
-## Region/Factions
-
-The Region/Factions integration assigns roles based on the region of a players account as well as the faction that their characters are.
-## Regions
-
-The Region integration assigns roles based on the region of a players account.
-
-## Verified
-
-The Verified integration assigns the 'Verified' role to all users that have linked their discord account to a battle.net account via `!auth`
+There are a number of integration that Jeeves has available to use. For more instructions on each one please see its page.
+- 'Achievements': 'commands/dashboard/role-management/achievements.md'
+- 'Class': 'commands/dashboard/role-management/class.md'
+- 'Faction': 'commands/dashboard/role-management/faction.md'
+- 'Guild': 'commands/dashboard/role-management/guild.md'
+- 'Mounts': 'commands/dashboard/role-management/mounts.md'
+- 'Mythic Plus': 'commands/dashboard/role-management/mythic-plus.md'
+- 'Pet Score': 'commands/dashboard/role-management/pet-score.md'
+- 'Pets': 'commands/dashboard/role-management/pets.md'
+- 'Professions': 'commands/dashboard/role-management/professions.md'
+- 'Region/Factions': 'commands/dashboard/role-management/region-factions.md'
+- 'Regions': 'commands/dashboard/role-management/regions.md'
+- 'Verified': 'commands/dashboard/role-management/verified.md'
