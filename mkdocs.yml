@@ -8,7 +8,9 @@ nav:
     - Dashboard:
         - 'Settings': 'commands/dashboard/settings.md'
         - 'Commands': 'commands/dashboard/commands.md'
-        - 'Role Management': 'commands/dashboard/role-management.md'
+        - Role Management: 
+            - 'Overview': 'commands/dashboard/role-management.md'
+            - 'Achievements': 'commands/dashboard/role-management/achievements.md'
         - 'Guild': 'commands/dashboard/guild.md'
     - Admin:
         - 'Reset Server': 'commands/admin/reset-server.md'
