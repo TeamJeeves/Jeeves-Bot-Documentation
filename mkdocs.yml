@@ -48,6 +48,7 @@ nav:
         - 'Invite': 'commands/tools/invite.md'
         - 'Mute': 'commands/tools/mute.md'
         - 'Prune': 'commands/tools/prune.md'
+        - 'Realm Status': 'command/tools/realm-status.md'
         - 'Roles': 'commands/tools/roles.md'
         - 'Servers': 'commands/tools/servers.md'
         - 'Summon': 'commands/tools/summon.md'
