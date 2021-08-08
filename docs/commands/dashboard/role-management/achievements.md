@@ -4,7 +4,7 @@ The Achievements integration assigns roles based on the number of achievement po
 
 ## Use case
 
-This integration could be used to show who the most achieved players are on your server, potentially opening new discussion channels
+This integration could be used to show who the most achieved players are on your server, potentially opening new discussion channels.
 ## Default roles
 
 By default you will need to create roles in the following format for this integration to work.
