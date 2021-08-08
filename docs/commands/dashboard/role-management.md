@@ -80,8 +80,8 @@ The Mode drop down allows you to decide if Jeeves should automatically update th
 
 |Option|Description|
 |----------|-----------|
-|Auto|This means that as Jeeves scans the characters it will automatically update the roles assigned to the player|
-|Manual|This means that a user will need to run `!toon update` in order for new roles to be assigned to them.|
+|Auto|This means that Jeeves will apply the roles when a player runs `!auth`, when a player joins the server and has already run `!auth` on another server, or when a player runs `!toon update`.|
+|Manual|This means that Jeeves will only apply roles when a player runs `!toon update`.|
 
 ## FAQ
 #### Q) I saw a server running what appears to be an integration that's not listed here, can I use that?
