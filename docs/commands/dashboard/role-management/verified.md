@@ -10,5 +10,4 @@ This integration could be used to show who has verified their account with Jeeve
 By default you will need to create role in the following format for this integration to work.
 ```
 Verified
-...
 ```

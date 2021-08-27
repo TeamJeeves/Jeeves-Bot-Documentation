@@ -4,7 +4,7 @@ The Professions integration assigns roles based on the primary professions the c
 
 ## Use case
 
-This integration could be used to show which players have a profession levelled. This could then be used in chat for people to ask a message to certain roles geting the players who have that profession.
+This integration could be used to show which players have a profession levelled. This could then be used in chat for people to ask a message to certain roles and pinging the players who have that profession.
 ## Default roles
 
 By default you will need to create roles in the following format for this integration to work.
