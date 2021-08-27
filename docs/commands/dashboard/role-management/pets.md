@@ -9,7 +9,11 @@ This integration could be used to show who has the most pets amongst the players
 
 By default you will need to create roles in the following format for this integration to work.
 ```
-100+ pets
+1000+ pets
+750 Pets
+500 Pets
+300 Pets
+200 Pets
 100 Pets
 ...
 ```
