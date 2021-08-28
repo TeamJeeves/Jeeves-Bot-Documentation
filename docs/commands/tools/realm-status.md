@@ -12,7 +12,7 @@ Get the current status of a realm
 ### Examples
 
 * `!realmstatus`
->  Displays the status of the realm associated with the discord server you are on. See [Dashboard Settings]('../dashboard/settings.md')
+>  Displays the status of the realm associated with the discord server you are on. See [Dashboard Settings]('../configuration/settings.md')
 ***
 * `!realm-status Proudmoore
 >  Displays the status of the realm specified.

@@ -14,7 +14,7 @@ Multiple commands can be run in one channel to receive alerts for multiple realm
 ### Examples
 
 * `!realmalerts`
->  Jeeves will alert when the status of the realm associated with the discord server you are on changes. See [Dashboard Settings]('../dashboard/settings.md')
+>  Jeeves will alert when the status of the realm associated with the discord server you are on changes. See [Dashboard Settings]('../configuration/settings.md')
 ***
 * `!realm-status Proudmoore
 >  Jeeves will alert when the status of the realm specified changes.
