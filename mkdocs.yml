@@ -24,7 +24,6 @@ nav:
         - 'Guild rank sync': 'commands/guild/guildsync.md'
         - 'Last Log': 'commands/guild/lastlog.md'
     - Info:
-        - 'About': 'commands/info/about.md'
         - 'Server': 'commands/info/server.md'
         - 'User': 'commands/info/user.md'
     - Tools:
