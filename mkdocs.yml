@@ -38,8 +38,6 @@ nav:
         - 'Help': 'commands/util/help.md'
         - 'Ping': 'commands/util/ping.md'
         - 'Prefix': 'commands/util/prefix.md'
-        - 'Enable Commands': 'commands/util/enable.md'
-        - 'Disable Commands': 'commands/util/disable.md'
     - Warcraft:
         - 'Authorize': 'commands/warcraft/authorize.md'
         - 'Character': 'commands/warcraft/character.md'
