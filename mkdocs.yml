@@ -31,6 +31,7 @@ nav:
         - 'Wowhead Webhook': 'commands/feeds/wowhead-webhook.md'
         - 'Twitter': 'commands/feeds/twitter.md'
         - 'Recruitment': 'commands/feeds/recruitment.md'
+        - 'Realm Alerts': 'commands/feeds/realm-alerts.md'
     - Games:
         - 'Gambling': 'commands/games/gambling.md'
         - 'Trivia': 'commands/games/trivia.md'
