@@ -11,3 +11,8 @@ By default you will need to create role in the following format for this integra
 ```
 Verified
 ```
+## Custom roles
+
+This integration allows for the setup of a custom role, rather than the role name detailed above. To use this feature you will need set a role name. 
+
+![VerifiedRoleMapScreenshot](../../../img/verified-custom-rolemap.png)
