@@ -19,4 +19,4 @@ Below 200
 
 This integration allows for the setup of custom roles, rather than the roles detailed above. To use this feature you will need to set a raider.io score value and the role you want that value to have. Using this you can create Keystone Explorer, Conqueror and Master roles for your server.
 
-![MythicPlusScreenshot](../../../img/mythic-plus-custom-rolemap.png)
+![MythicPlusScreenshot](../../img/mythic-plus-custom-rolemap.png)

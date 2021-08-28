@@ -17,4 +17,4 @@ Horde
 
 This integration allows for the setup of custom roles, rather than the roles detailed above. To use this feature you will need set role for each faction
 
-![FactionScreenshot](../../../img/faction-custom-rolemap.png)
+![FactionScreenshot](../../img/faction-custom-rolemap.png)

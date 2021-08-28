@@ -1,6 +1,6 @@
 # Dashboard Commands
 
-Jeeves allows a lot of control over who can run what commands where on your discord server. Commands can also be disabled if you do not wish them to be run on your server. The commands can be controlled on a global, command category or command basis. The number of channels and roles that you can restrict to depends on your [Patreon level](../../guides/Supporting-Jeeves.md)
+Jeeves allows a lot of control over who can run what commands where on your discord server. Commands can also be disabled if you do not wish them to be run on your server. The commands can be controlled on a global, command category or command basis. The number of channels and roles that you can restrict to depends on your [Patreon level](../guides/Supporting-Jeeves.md)
 
 ## Global command setting
 

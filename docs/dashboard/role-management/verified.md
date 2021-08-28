@@ -15,4 +15,4 @@ Verified
 
 This integration allows for the setup of a custom role, rather than the role name detailed above. To use this feature you will need set a role name. 
 
-![VerifiedRoleMapScreenshot](../../../img/verified-custom-rolemap.png)
+![VerifiedRoleMapScreenshot](../../img/verified-custom-rolemap.png)

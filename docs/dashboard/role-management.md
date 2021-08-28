@@ -52,7 +52,7 @@ There are a number of integration that Jeeves has available to use. For more ins
 
 All Jeeves Role Management integration have scope options. These options allow you to choose how Jeeves handles assigning the roles for that integration.
 
-![Screenshot](../../../img/role-management-scope.png)
+![Screenshot](../img/role-management-scope.png)
 
 ### Characters
 
@@ -62,7 +62,7 @@ The Characters drop down allows you to limit which characters a player has that 
 |----------|-----------|
 |All|This will mean that the integration will apply the roles that apply for all characters on the players account|
 |Max Level|This means the integration will only apply to max level characters that the player has on their account|
-|Main Only|This means the integration will only look at the character that the player has [set as their main](../warcraft/character.md).|
+|Main Only|This means the integration will only look at the character that the player has [set as their main](../commands/warcraft/character.md).|
 
 ### Management
 
@@ -76,12 +76,12 @@ The Management drop down allows you to decide how Jeeves should apply the integr
 
 ### Mode
 
-The Mode drop down allows you to decide if Jeeves should automatically update the roles of a player or if the user needs to run `!toon update`. 
+The Mode drop down allows you to decide if Jeeves should automatically update the roles of a player or if the user needs to run `!role update`. 
 
 |Option|Description|
 |----------|-----------|
-|Auto|This means that Jeeves will apply the roles when a player runs `!auth`, when a player joins the server and has already run `!auth` on another server, or when a player runs `!toon update`.|
-|Manual|This means that Jeeves will only apply roles when a player runs `!toon update`.|
+|Auto|This means that Jeeves will apply the roles when a player runs `!auth`, when a player joins the server and has already run `!auth` on another server, or when a player runs `!role update`.|
+|Manual|This means that Jeeves will only apply roles when a player runs `!role update`.|
 
 ## FAQ
 #### Q) I saw a server running what appears to be an integration that's not listed here, can I use that?
