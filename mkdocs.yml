@@ -5,24 +5,6 @@ extra_css:
 nav:
 - Home: 'index.md'
 - Commands:
-    - Dashboard:
-        - 'Settings': 'commands/dashboard/settings.md'
-        - 'Commands': 'commands/dashboard/commands.md'
-        - Role Management: 
-            - 'Overview': 'commands/dashboard/role-management.md'
-            - 'Achievements': 'commands/dashboard/role-management/achievements.md'
-            - 'Class': 'commands/dashboard/role-management/class.md'
-            - 'Faction': 'commands/dashboard/role-management/faction.md'
-            - 'Guild': 'commands/dashboard/role-management/guild.md'
-            - 'Mounts': 'commands/dashboard/role-management/mounts.md'
-            - 'Mythic Plus': 'commands/dashboard/role-management/mythic-plus.md'
-            - 'Pet Score': 'commands/dashboard/role-management/pet-score.md'
-            - 'Pets': 'commands/dashboard/role-management/pets.md'
-            - 'Professions': 'commands/dashboard/role-management/professions.md'
-            - 'Region/Factions': 'commands/dashboard/role-management/region-factions.md'
-            - 'Regions': 'commands/dashboard/role-management/regions.md'
-            - 'Verified': 'commands/dashboard/role-management/verified.md'
-        - 'Guild': 'commands/dashboard/guild.md'
     - Admin:
         - 'Reset Server': 'commands/admin/reset-server.md'
         - 'Role Reaction': 'commands/admin/rolereaction.md'
@@ -78,7 +60,24 @@ nav:
         - 'WorldBoss': 'commands/world info/worldboss.md'
         - 'WoW Token': 'commands/world info/wowtoken.md'
         - 'Faction-Assaults': 'commands/world info/faction-assaults.md'
-
+- Configuring Jeeves:
+        - 'Settings': 'dashboard/settings.md'
+        - 'Commands': 'dashboard/commands.md'
+        - 'Role Management': 'dashboard/role-management.md'
+        - 'Role Integrations': 
+            - 'Achievements': 'dashboard/role-management/achievements.md'
+            - 'Class': 'dashboard/role-management/class.md'
+            - 'Faction': 'dashboard/role-management/faction.md'
+            - 'Guild': 'dashboard/role-management/guild.md'
+            - 'Mounts': 'dashboard/role-management/mounts.md'
+            - 'Mythic Plus': 'dashboard/role-management/mythic-plus.md'
+            - 'Pet Score': 'dashboard/role-management/pet-score.md'
+            - 'Pets': 'dashboard/role-management/pets.md'
+            - 'Professions': 'dashboard/role-management/professions.md'
+            - 'Region/Factions': 'dashboard/role-management/region-factions.md'
+            - 'Regions': 'dashboard/role-management/regions.md'
+            - 'Verified': 'dashboard/role-management/verified.md'
+        - 'Guild': 'dashboard/guild.md'
 - Guides:
     - 'Getting Started': 'guides/Getting-Started.md'
     - 'Using Jeeves WebUi': 'guides/Using-Jeeves-Website.md'
