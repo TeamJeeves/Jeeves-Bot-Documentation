@@ -44,7 +44,7 @@ The Role Manager interface can be brought up with `!setup RoleManager` The inter
 ## *Guild*
 The guild integration allows Jeeves to assign guild ranks based on someone's respective role in their guild.
 
-Head on over to [guild-roles](../commands/dashboard/guild.md) to set up the respective roles for jeeves to track!
+Head on over to [guild-roles](../dashboard/guild.md) to set up the respective roles for jeeves to track!
 
 To toggle this integration on/off Type `guild` with the Role Manager open.
 
