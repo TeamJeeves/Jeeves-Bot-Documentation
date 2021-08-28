@@ -60,7 +60,7 @@ nav:
         - 'WorldBoss': 'commands/world info/worldboss.md'
         - 'WoW Token': 'commands/world info/wowtoken.md'
         - 'Faction-Assaults': 'commands/world info/faction-assaults.md'
-- Configuring Jeeves:
+- Configuration:
         - 'Settings': 'dashboard/settings.md'
         - 'Commands': 'dashboard/commands.md'
         - 'Role Management': 'dashboard/role-management.md'
