@@ -22,7 +22,7 @@ Jeeves Premium Ultra (Server-Wide) continues to grow on Jeeves Premium (Server-W
  
 
 
- ### Benefits chart
+### Benefits chart
 
  |Benefit|Without Patreon|Jeeves Supporter|Jeeves Premium|Jeeves Premium (Server-Wide)|Jeeves Premium Ultra|Sponsor|
  |----------------|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|
