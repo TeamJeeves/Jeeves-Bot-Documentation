@@ -5,18 +5,13 @@ In Jeeves 3.1, we now allow you to have a static board.  A static board is a cha
 ***
 
 # Setup
-##Step One
-The first step you need to do is invite Jeeves's little helper Keystone bot.
-
-[Click here to invite KeystoneBot](https://discordapp.com/oauth2/authorize?client_id=393186410548690953&scope=bot&permissions=2080374975)
-
-## Step Two
+## Step One
 
 You need to make a channel that ``@everyone`` does not have permission to post to and you need to edit the channels topic and add some channel data to it [Channel Data](Channel-Data.md)
 
 IE: ``--JeevesData Faction: Horde, Region: US``
 
-## Step Three
+## Step Two
 
 You need to run ``!install-keyboard`` in the channel that you have just set up.  This will tell the bot to post in this channel.
 
