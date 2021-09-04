@@ -20,4 +20,4 @@ Multiple commands can be run in one channel to receive alerts for multiple realm
 >  Jeeves will alert when the status of the realm specified changes.
 ***
 
-![RealAlerts]('../../img/realm-alerts.png')
+![Realm-Alerts]('../../img/realm-alerts.png')

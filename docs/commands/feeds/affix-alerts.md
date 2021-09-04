@@ -17,4 +17,4 @@ This command sets up the Mythic Plus Weekly Affixes Alert webhook from [Raider.i
 >  Jeeves will setup the webhook for the information in the current channel
 ***
 
-![RealAlerts]('../../img/affix-alerts.png')
+![Affix-Alerts]('../../img/affix-alerts.png')
