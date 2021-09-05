@@ -2,34 +2,50 @@
 
 Jeeves support is done via [Patreon](https://www.patreon.com/JeevesBot). Patreon tiers unlock features of the bot.
 
+## Jeeves Premium
+Is our advanced automation platform. With **Jeeves Premium** we will scan you and/or your entire discord server members characters more often then default users and take the extra step of automaticly keeping their server roles up-to-date when changes are detected. 
 ## Tier Levels
 
-### Jeeves Supporter
+### Friendly 
 
-Jeeves Supporter allows access to the Patreon rank on the [Jeeves Discord Server](https://www.jeeves.bot/discord). This gives you early previews of features coming soon to Jeeves.
-### Jeeves Premium
+As a **Friendly** supporter of Jeeves you will have access to the patreon rank on the [Jeeves Discord Server](https://www.jeeves.bot/discord). 
+With the patreon rank you will be able to chat with other patreons and developers in a less formal more private chat.
+Patreons also get the ability to preview and test upcoming features and versions of the bot before anyone else.
+Feedback from patreons during these early previews heavily influences the version of the bot that gets released.
 
-Jeeves Premium includes the Jeeves Supporter features and adds in automation for your Discord user.
 
-Also included is the ability for a discord server of your choice to have multiple [Role Reaction](../commands/admin/rolereaction.md) channels, as well at a [Keystone Channelboard](Setting-Up-A-Board.md).
-### Jeeves Premium (Server-Wide)
+### Honored (Best for power users)
 
-Jeeves Premium (Server-Wide) takes the automation features of Jeeves Premium and enables that automation for all users on a server of your choice. This also includes the multiple Role Reaction channels and a Keystone Channelboard. This tier is great for a guild discord server.
-### Jeeves Premium Ulta (Server-Wide)
+*Included all perks in the above tiers*
 
-Jeeves Premium Ultra (Server-Wide) continues to grow on Jeeves Premium (Server-Wide) by allowing multiple guilds to be linked to discord server as well as multiple Keystone Channelboards. This tier is great for a community discord server for Mythic Plus for example.
-### Sponsor
- 
+* **Jeeves Premium** for YOU on every single server you are in.
+* Also included is the ability for a discord server of your choice to have multiple [Role Reaction](../commands/admin/rolereaction.md) channels, as well at a [Keystone Channelboard](Setting-Up-A-Board.md).
+### Revered (Best for Owners of Medium/Large Guilds)
+
+*Included all perks in the above tiers*
+
+* **Jeeves Premium** for an entire discord server (Transferable).
+* locks extended customization options for role managment. (Multiple Roles per class/M+ Score/Guild Rank)
+### Exalted (Best for Large Communities)
+
+*Included all perks in the above tiers*
+
+* Unlocks the ability to link multiple guilds to 1 server
+* Unlocks the ability to have multiple Keystone Boards.
+* Additional background character scanning for your mega server
+
+### Sponsor (Designed for Jeff Bezos)
+*Meme Tier* 
+There are no official additional rewards at this tier. 
 
 
 ## Benefits chart
 
- |Benefit|Without Patreon|Jeeves Supporter|Jeeves Premium|Jeeves Premium (Server-Wide)|Jeeves Premium Ultra|Sponsor|
- |----------------|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|
-|Guilds linked to server|1|1|1|1|Multiple||
-|Discord Role|No|Yes|Yes|Yes|Yes||
-|Early Feature Previews|No|Yes|Yes|Yes|Yes||
-|Jeeves Automation|No|No|For you|For a server of your choice|For a server of your choice||
-|Multiple Role Reaction Channels|No|No|Yes|Yes|Yes||
-|Keystone Channelboard|No|No|1|1|Multiple||
-
+ |Benefit|Without Patreon|Jeeves Supporter|Jeeves Premium|Jeeves Premium (Server-Wide)|Jeeves Premium Ultra|
+ |----------------|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|
+|Guilds linked to server|1|1|1|1|Multiple|
+|Discord Role|No|Yes|Yes|Yes|Yes|
+|Early Feature Previews|No|Yes|Yes|Yes|Yes|
+|Jeeves Automation|No|No|For you|For a server of your choice|For a server of your choice|
+|Multiple Role Reaction Channels|No|No|Yes|Yes|Yes|
+|Keystone Channelboard|No|No|1|1|Multiple|
