@@ -2,6 +2,7 @@
 
 In Jeeves 3.1, we now allow you to have a static board.  A static board is a channel on discord that no one can post in and has just 1 info post.  This post is managed by the Jeeves system to show current info. The first one is just for keystones.  This is a patreon only feature.
 
+![KeyboardImage](../img/keyboard.png)
 ***
 
 # Setup
@@ -13,7 +14,9 @@ IE: ``--JeevesData Faction: Horde, Region: US``
 
 ## Step Two
 
-You need to run ``!install-keyboard`` in the channel that you have just set up.  This will tell the bot to post in this channel.
+You need to run ``!keyboard install`` in the channel that you have just set up.  This will tell the bot to post in this channel.
 
 ## Further Information
 * Your members still have to do the [keystone commands](../commands/warcraft/keystone.md) in a valid bot channel to add the keys. Blizzard does not provide an API for use to get this data.
+
+
