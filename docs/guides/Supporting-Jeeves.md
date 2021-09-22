@@ -49,3 +49,4 @@ There are no official additional rewards at this tier.
 |Jeeves Automation|No|No|For you|For a server of your choice|For a server of your choice|
 |Multiple Role Reaction Channels|No|No|Yes|Yes|Yes|
 |Keystone Channelboard|No|No|1|1|Multiple|
+|Roles per guild rank|1|?|?|3|?|
