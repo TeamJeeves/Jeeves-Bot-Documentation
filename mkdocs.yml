@@ -6,7 +6,6 @@ nav:
 - Home: 'index.md'
 - Commands:
     - Admin:
-        - 'Reset Server': 'commands/admin/reset-server.md'
         - 'Role Reaction': 'commands/admin/rolereaction.md'
     - Feeds:
         - 'Jeeves News': 'commands/feeds/jeeves-news.md'
