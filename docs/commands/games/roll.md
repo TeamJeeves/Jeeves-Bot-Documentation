@@ -1,19 +1,5 @@
 # Roll Command
-Rolle the dice!
 
-### Details
+The roll command provides a direct imitation of the in-game roll feature. It has one optional parameter `range:`. Without `range:` roll will roll a number between 1 and 100. The `range:` parameter takes either a single number, for a maximum roll (i.e. `range:55` will roll between 1 and 55) or a range of numbers to roll between (i.e. `range:5-1337` to roll a number between 5 and 1337)
 
-**Aliases:** `roll`   
-**Available in DM:** No   
-**Can Restrict to a channel:** Yes    
-
-* The roll command provides a direct imitation of the in-game roll feature.
-***
-### Examples
-
-* `!roll`  
-> Rolls between the number 1 and 100\
-
-* `!roll 53-3023`  
-> Rolls between the number 53 and 3023
-***
+`/roll range:5-1337`
