@@ -1,19 +1,19 @@
 # Roles Command
 
-Easily manage and get custom roles.
-***
-### Details
-**Aliases:** `role` | `iama` | `rank`    
-**Available in DM:** No   
-**Can Restrict to a channel:** Yes
+The Roles command allows users to assign administrator defined roles to themselves.
 
-* This command is used in conjunction by the Jeeves Role Manager
-Depending on the servers setup, Jeeves will automatically insert you into roles on !role update or !iama CustomeRole`
+## Setup
 
-* See [Role Manager](../../configuration/role-management.md) for a more in depth look at custom roles.
-***
-### Examples
+The first step required in order for users to be able to assign roles to themselves is for an admin to configure which roles are available. This is done in the dashboard. Follow the [guide](../../configuration/role-management.md) for more instructions on setting it up.
 
-* `!role update`
->  Updates your roles using Jeeves' automatic role manager
+## Add
+
+To assign roles to yourself use the `/roles add` command. Jeeves will then present you a drop down of the available roles.
+## Remove
+
+To remove a role from yourself use the `/roles remove` command. Jeeves will then present you a drop down of the roles you have assigned yourself.
+## Update
+
+The update command tells Jeeves to check your account against the role management integrations that your admin has configured. This will assign roles that are not manually assignable.
 ***
+

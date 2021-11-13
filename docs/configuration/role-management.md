@@ -25,7 +25,7 @@ Jeeves can either apply this role indefinitely, or it can remove this role when 
 
 ### Custom roles
 
-The Custom role integration allows users without role management permissions to assign roles to themselves on your discord server. The roles that a user can assign are controlled by the custom roles that are setup in Jeeves.
+The Custom role integration allows users without role management permissions to assign roles to themselves on your discord server. The [roles](../commands/tools/roles.md) that a user can assign are controlled by the custom roles that are setup in Jeeves.
 
 To setup a role you need to enter a name and the role.
 <!--- #TODO: Add example screenshot --->
