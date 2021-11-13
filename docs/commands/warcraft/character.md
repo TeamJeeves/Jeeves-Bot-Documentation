@@ -51,6 +51,6 @@ Type `/characters unignore` to begin unignoring a character. Jeeves will prompt 
 
 ### FAQ
 
-#### Q) Why can I only see 12 characters in `!toon view`?<br>
+#### Q) Why can I only see 12 characters in `/character view`?
 > Its a limitation with how many characters (2000) you can have in a discord message, 12 is the amount we could display comfortably. Rest assured your other characters are still there!
 ***
