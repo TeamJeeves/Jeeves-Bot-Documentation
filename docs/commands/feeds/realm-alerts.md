@@ -4,7 +4,7 @@ Get notified of the status of a realm. This will create notifications in a chann
 
 This command has one required parameter `realm:` and one optional parameter `region:`. For Realm enter the name of the realm you wish to monitor. The region parameter allows you to specify which region the server is in.
 
-`/realm-alerts realm:Proudmooore region:US`
+`/realm-alerts realm:Proudmoore region:US`
 
 Multiple commands can be run in one channel to receive alerts for multiple realms.
 
