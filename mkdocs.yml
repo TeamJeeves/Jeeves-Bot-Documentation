@@ -27,7 +27,7 @@ nav:
         - 'User': 'commands/info/user.md'
     - Tools:
         - 'Mute': 'commands/tools/mute.md'
-        - 'Prune': 'commands/tools/prune.md'
+        - 'Purge': 'commands/tools/purge.md'
         - 'Realm Status': 'commands/tools/realm-status.md'
         - 'Roles': 'commands/tools/roles.md'
         - 'Servers': 'commands/tools/servers.md'
