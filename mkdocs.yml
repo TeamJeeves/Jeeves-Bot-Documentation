@@ -20,7 +20,7 @@ nav:
         - 'ChuckNorris': 'commands/games/chuck-norris.md'
         - 'Thunderfury': 'commands/games/thunderfury.md'
     - Guild Tools:
-        - 'Guild rank sync': 'commands/guild/guildsync.md'
+        - 'Sync-Guild': 'commands/guild/guildsync.md'
         - 'Last Log': 'commands/guild/lastlog.md'
     - Info:
         - 'Server': 'commands/info/server.md'
