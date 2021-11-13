@@ -1,44 +1,51 @@
-# RoleReaction Command
+# Reaction-Role Command
 
-This command allows you to configure `RoleReactions`.
-
-`RoleReactions` are the term used for a reaction that when clicked assigns a role.
+`Reaction-Role` are the term used for a reaction that when clicked assigns a role.
 
 Jeeves supports the use of all valid discord emojis as valid RoleReaction emojis including the newly animated emojis. Emojis are linked to roles on a per-channel basis. You can use the same emoji for different roles in different channels.
 
-The **first thing you should do** is run `!role-reaction listen #<channelName>`. This tells Jeeves what channel he should monitor for incoming reaction events. This command can be run form any channel as it is pointed to the channel to monitor. Normal users are limited to 1 channel, this should be more than fine for 99% of cases. If you require more then 1 channel consider becoming a Patreon to unlock the ability to have multiple role channels.
-
-There are 4 different actions this command can perform.
-
-* `set`  linking an emoji to a role - When setting a role, the role must have the "Allow anyone to @mention this role" setting enabled. You can disable this after the set action has been performed.  
-* `clear`  unlinking an emoji  
-* `view`  getting a list of all linked emojis  
-* `reset` this clears all linked emojis - **This action is not reversible**  
-
-**NOTE** Jeeves must be listed in the server roles higher than the roles that you want him to manage.
-
-**Patreon Users:** With multiple role channels set up, Jeeves needs to know what channel you are talking about when running the commands below. Include a channel reference like #Get-Roles in all commands OR run the commands from the role channel you wish to edit.
-***
 ### Details
-
-**Aliases:** `RoleReaction`  
+ 
 **Available in DM:** No  
 **Can Restrict to a channel:** Yes  
 ***
-### Examples
 
-* `!role-reaction listen #get-roles`
-> Tells Jeeves to monitor to the #get-roles channel for reactions to assign
-* `!roleReaction set 💰 @GreedyGoblin`
-> Links the money bag emoji to the GreedyGoblin Role  
-* `!roleReaction clear 💰`
-> Unlinks the money bag emoji from all roles  
-* `!roleReaction view`
-> Get a list of linked emojis and their role  
-* `!roleReaction reset`
-> Wipe all rolereaction data  
-* `!roleReaction set 💰 @GreedyGoblin #Get-Roles`
-> Patreon Multi-Channel example where #Get-Roles is a second channel  
+## Listen
+
+The **first thing you should do** is run `/reaction-role listen`. This command has a required channels parameter. You should enter the channel name like `#roles` This tells Jeeves what channel he should monitor for incoming reaction events. This command can be run form any channel as it is pointed to the channel to monitor. Normal users are limited to 1 channel, this should be more than fine for 99% of cases. If you require more then 1 channel consider becoming a [Patreon](../../guides/Supporting-Jeeves.md) to unlock the ability to have multiple role channels.
+
+## Set
+
+The set command tells Jeeves what role to link to which emoji. It takes 2 required parameters `emoji:` and `role:`. The emoji just needs to be typed in and Discord will provide you a list of roles to select from that can be assigned for the command.
+
+`/reaction-role add emoji:💰 role:@GreedyGoblin`
+
+If you are a Patreon you have the ability to have multiple role channels, you need to also include the optional parameter of `channel:`. Discord will display a list of channels to select from.
+
+`/reaction-role add emoji:💰 role:@GreedyGoblin channel:#role-channel-2`
+## Remove
+
+The remove command tells Jeeves to stop assigning a role based on one emoji. It has one required parameter of `emoji:` Type the emoji into this parameter.
+
+`/reaction-role remove emoji:💰`
+
+If you are a Patreon you have the ability to have multiple role channels, you need to also include the optional parameter of `channel:`. Discord will display a list of channels to select from.
+
+`/reaction-role remove emoji:💰 channel:#role-channel-2`
+## View
+
+The view command will show you all currently setup emojis for your server and the roles that Jeeves grants when they are selected.
+
+`/reaction-role view`
+## Clear
+
+The clear command removes all emojis setup on your server for all channels. This command can not be undone and should be used carefully. It will also cause Jeeves to stop listening to all channels for Reaction-Role selections. Once this command has been run you will need to setup Reaction-Role again from scratch.
+
+`/reaction-role clear`
+
+## To Note
+
+Jeeves must be listed in the server roles higher than the roles that you want him to manage.
 
 ***
 
@@ -54,4 +61,4 @@ There are 4 different actions this command can perform.
 > Yes, as long as the name is different you are free to have 50 emojis with the same image.
 
 #### Q) I deleted a linked emoji from my discord server, how can I clear it without resetting everything?    
-> Create a new emoji with the same name and run the clear command with that emoji.
+> Create a new emoji with the same name and run the remove command with that emoji.
