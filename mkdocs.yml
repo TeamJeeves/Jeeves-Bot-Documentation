@@ -35,7 +35,6 @@ nav:
     - Utilities:
         - 'Help': 'commands/util/help.md'
         - 'Ping': 'commands/util/ping.md'
-        - 'Prefix': 'commands/util/prefix.md'
     - Warcraft:
         - 'Authorize': 'commands/warcraft/authorize.md'
         - 'Character': 'commands/warcraft/character.md'
