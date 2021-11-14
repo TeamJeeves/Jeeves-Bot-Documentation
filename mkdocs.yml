@@ -46,14 +46,9 @@ nav:
         - 'Wowhead': 'commands/warcraft/wowhead.md'
     - World Info:
         - 'Affix': 'commands/world info/affix.md'
-        - 'Archaeology': 'commands/world info/archaeology.md'
-        - 'Fishing': 'commands/world info/fishing.md'
-        - 'Greater Invasion': 'commands/world info/greater-invasion.md'
-        - 'Karazhan': 'commands/world info/karazhan.md'
-        - 'Realm Status': 'commands/world info/realmstatus.md'
-        - 'WorldBoss': 'commands/world info/worldboss.md'
+        - 'Legion': 'commands/world info/legion.md'
+        - 'BfA': 'commands/world info/bfa.md'
         - 'WoW Token': 'commands/world info/wowtoken.md'
-        - 'Faction-Assaults': 'commands/world info/faction-assaults.md'
 - Configuration:
     - 'Getting Started': 'guides/Getting-Started.md'
     - 'Settings': 'configuration/settings.md'
