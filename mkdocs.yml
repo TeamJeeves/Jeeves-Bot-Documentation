@@ -32,9 +32,6 @@ nav:
         - 'Roles': 'commands/tools/roles.md'
         - 'Servers': 'commands/tools/servers.md'
         - 'Summon': 'commands/tools/summon.md'
-    - Utilities:
-        - 'Help': 'commands/util/help.md'
-        - 'Ping': 'commands/util/ping.md'
     - Warcraft:
         - 'Authorize': 'commands/warcraft/authorize.md'
         - 'Character': 'commands/warcraft/character.md'
