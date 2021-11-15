@@ -1,20 +1,10 @@
 # Wowhead Command
 
-Wowhead item lookup
-***
-### Details
+The Wowhead command allows you to search for anything on Wowhead. It has one required parameter of `search:`. This is what you would like to search for.
 
-**Aliases:** `Wowhead`    
-**Available in DM:** No   
-**Can Restrict to a channel:** Yes
-
-* Looking for an item, spell, talent or anything else? You can use !Wowhead <name>. This will search on Wowhead and gives you the closest search to your request back.
-
-***
-### Examples
-
-* `!wowhead Thunderfury`
+`/wowhead search:Thunderfury`
   > Lookup information about Thunderfury
-* `!wowhead Fireball`    
+  
+ `/wowhead search:Fireball`    
   > Lookup information about the Fireball spell
 ***
