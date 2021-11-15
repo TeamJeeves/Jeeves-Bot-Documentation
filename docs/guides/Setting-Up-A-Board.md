@@ -19,6 +19,4 @@ You need to run ``/keystone board install`` in the channel that you have just se
 ## Further Information
 * Your members still have to do the [keystone commands](../commands/warcraft/keystone.md) in a valid bot channel to add the keys. Blizzard does not provide an API for use to get this data.
 
-To remove a keystone board, type `/keystone board uninstall`
-
 
