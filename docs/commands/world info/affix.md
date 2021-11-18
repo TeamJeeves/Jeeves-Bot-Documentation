@@ -1,26 +1,16 @@
 # Affix Command
-What are the affixes this week again?
 
-***
-### Details
+The Affix command answers that repeating question of what affixes are this week. The command has two optional parameters `region:` and `schedule:`
 
-**Aliases:** `affix` | `affixes`    
-**Available in DM:** No   
-**Can Restrict to a channel:** Yes
+The `region:` parameter allows you to display the current affixes for a region other than what the default realm and region from your [server setup](../../configuration/setup.md) or [channel data](../../guides/Channel-Data.md) is set to.
 
-* The affix command is a rotational helper for mythic+ affixes. Quickly check the affixes from anywhere!
+The `schedule:` parameter changes the display to show the rotation of affixes rather than this weeks affixes.
 
-***
-### Examples
+`/affix`
 
-* `!affix`
-  > Displays the current affixes for this week
-* `!affix US`
-  > Displays the current affixes for this week on the US servers
-* `!affix EU`
-  > Displays the current affixes for this week on the EU servers
-* `!affix schedule`    
-  > Displays the 2-month rotation of all affixes
-* `!affix bolstering`    
-  > Displays how long until bolstering will be active again (can replace with the desired affix)
+![Affix example](../../img/affix.png)
+
+`/affix schedule:true`
+
+![Affix Schedule Example](../../img/affix-schedule.png)
 ***

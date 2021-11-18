@@ -1,19 +1,12 @@
 # Realm Status
 
-Get the current status of a realm
-
-### Details
-**Aliases:** `realmstatus, realm-status`  
-**Available in DM:** No   
-**Can Restrict to a channel:** Yes
-
-* This command allows you to get the current status of a realm.
+The Realm-Status command displays the current status of World of Warcraft realms. By default it will display the realm [configured for the server](../../configuration/settings.md), but it also has the optional parameter of `realm:` that allows the status of any realm to be displayed.
 
 ### Examples
 
-* `!realmstatus`
->  Displays the status of the realm associated with the discord server you are on. See [Dashboard Settings]('../configuration/settings.md')
+* `/realmstatus`
+>  Displays the status of the realm associated with the discord server you are on. See [Dashboard Settings](../../configuration/settings.md)
 ***
-* `!realm-status Proudmoore
+* `/realm-status realm:Proudmoore`
 >  Displays the status of the realm specified.
 ***

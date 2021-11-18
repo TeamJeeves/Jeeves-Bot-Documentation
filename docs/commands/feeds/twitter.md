@@ -1,25 +1,26 @@
 # Twitter Command
-Get Jeeves to listen to all the twitters!
 
-### Details
+The Twitter command allows Jeeves to post twitter updates into the channel you run the command in.
 
-**Aliases:** `twitter`  
-**Available in DM:** No   
-**Can Restrict to a channel:** Yes
+## Follow
 
-* The Twitter command allows you to get notifications from your favorite users.
-* This command works on a toggle system - run once and you'll be subscribed, run again and you'll be unsubscribed.
-***
-### Examples
+The Follow command tells Jeeves which Twitter accounts to post into the channel. It has one required parameter `user:`. This is the Twitter username you wish to have messages from.
 
-* `!twitter follow WarcraftDevs`
-> Follow WarcraftDevs on Twitter and receive notifications in Discord whenever they tweet!
+`/twitter follow WarcraftDevs`
 
-* `!twitter unfollow WarcraftDevs`
-> Stops following WarcraftDevs on Twitter.
+You can follow as many accounts as you wish. Just enter each account individually.
 
-* `!twitter list`
-> Shows all the twitter accounts you are currently following.
+## Unfollow
+
+The Unfollow command tells Jeeves to stop posting messages from a Twitter account. It has one required parameter `user:`. This is the Twitter username you wish to no longer receive messages from.
+
+`/twitter unfollow WarcraftDevs`
+
+## List
+
+The List command tells Jeeves to display a list of all Twitter accounts currently being followed.
+
+`/twitter list`
 ***
 ### FAQ
 #### Q) Can I add my own twitter feed?

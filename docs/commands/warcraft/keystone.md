@@ -1,62 +1,39 @@
 # Keystone Command
 
-Love to share your keystone(s) with your guild members? You can add your keystone(s) to your characters. This command works together with the `!character` command.
+Love to share your keystone(s) with your guild members? You can add your keystone(s) to your characters. This command works together with the `/character` command.
 
 
 
-### About
-
-**Aliases:** `keystone`   
+## About
+  
 **Available in DM:** No   
 **Can Restrict to a channel:** Yes
 
-* With multiple active high-level characters you can use `!keystone <character> <dungeon> <level>`. With this, you can easily track keystones within your guild.
+This command has multiple sub commands
 
-* By adding your characters to Jeeves, it is easier to keep track of which character has which keystone. You'll also see the item level of the characters!
+## Set
 
-***
+The Set command is what tells Jeeves which keystone you have. It has 2 required parameters, the dungeon and the key level, as well as 2 optional parameters, the character and realm
 
-### Examples:
+Type `/keystone set` and Discord will prompt you to fill in the required fields.
 
-* `!keystone hoa 15`
-  > Adds a Halls of Atonement lvl 15 keystone to your MAIN character
+![Keystone set example](../../img/Keystone-Set.png)
 
-* `!keystone depleted`  
-  > Marks your keystone attached to your MAIN character as depleted
+## View
 
-* `!keystone delete`
-  > Removes your keystone from your MAIN character
+The View command displays a list of the current keystones that are shared with this server.
 
-* `!keystone Deadlystrike hoa 15`
-  > Adds Halls of Atonement lvl 15 keystone to your CHARACTER
+Type `/keystone view` to see the list.
 
-* `!keystone Deadlystrike depleted`
-  > Marks the keystone added to the character Deadlystrike as depleted
+## Share and Unshare
 
-* `!keystone Deadlystrike delete`
-  > Removes your keystone from your CHARACTER
+The Share and Unshare commands are useful if you want to share your keystone with multiple discord servers you are a part of. By default, the keystone you share is only visible on the server that you added the keystone on. If you are also a member of another discord server using Jeeves the keystone will not show up there.
 
-* `!key list`
-  > Get a list of available keystones in your server
+The `/keystone share` command has one required parameter, the character name, and optionally takes the realm parameter. When you share your characters keystone with another server, you will only need to input that characters keystone once in the future and that keystone will be visible on all servers that you have shared it with.
 
-* `!keys`
-  > Get a list of available keystones in your server
+If in the future you decide you do not want the keystone visible on one of the servers you can type `/keystone unshare` along with the required character parameter, and optional realm, to stop sharing the keystone with that server.
 
-***
+## Board
 
-**Dungeon  Aliases**
+The keystone board is a [Patreon](../../guides/Supporting-Jeeves.md) feature. It provides a updating display of the keystone on a server. To set it up please see the [Setting Up a Board](../../guides/Setting-Up-A-Board.md) guide.
 
-| Dungeon               | Aliases                 |
-|:----------------------|:------------------------|
-| Halls of Atonement    | hoa, halls              |
-| Spires of Ascension   | sa, spire, soa          |
-| Theater of Pain       | top, tp, theater, pain  |
-| Sanguine Depths       | sd, sand, depths        |
-| The Necrotic Wake     | tnw, nw, wake           |
-| Plaguefall            | pf, plague, fall        |
-| De Other Side         | dos, os, side           |
-| Mists of Tirna Scithe | mots, mts, mists, scithe|
-| More coming soon!!    |                         |
-
-
- ***

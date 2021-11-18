@@ -6,7 +6,6 @@ nav:
 - Home: 'index.md'
 - Commands:
     - Admin:
-        - 'Reset Server': 'commands/admin/reset-server.md'
         - 'Role Reaction': 'commands/admin/rolereaction.md'
     - Feeds:
         - 'Jeeves News': 'commands/feeds/jeeves-news.md'
@@ -21,22 +20,18 @@ nav:
         - 'ChuckNorris': 'commands/games/chuck-norris.md'
         - 'Thunderfury': 'commands/games/thunderfury.md'
     - Guild Tools:
-        - 'Guild rank sync': 'commands/guild/guildsync.md'
+        - 'Sync-Guild': 'commands/guild/guildsync.md'
         - 'Last Log': 'commands/guild/lastlog.md'
     - Info:
         - 'Server': 'commands/info/server.md'
         - 'User': 'commands/info/user.md'
     - Tools:
         - 'Mute': 'commands/tools/mute.md'
-        - 'Prune': 'commands/tools/prune.md'
+        - 'Purge': 'commands/tools/purge.md'
         - 'Realm Status': 'commands/tools/realm-status.md'
         - 'Roles': 'commands/tools/roles.md'
         - 'Servers': 'commands/tools/servers.md'
         - 'Summon': 'commands/tools/summon.md'
-    - Utilities:
-        - 'Help': 'commands/util/help.md'
-        - 'Ping': 'commands/util/ping.md'
-        - 'Prefix': 'commands/util/prefix.md'
     - Warcraft:
         - 'Authorize': 'commands/warcraft/authorize.md'
         - 'Character': 'commands/warcraft/character.md'
@@ -48,14 +43,9 @@ nav:
         - 'Wowhead': 'commands/warcraft/wowhead.md'
     - World Info:
         - 'Affix': 'commands/world info/affix.md'
-        - 'Archaeology': 'commands/world info/archaeology.md'
-        - 'Fishing': 'commands/world info/fishing.md'
-        - 'Greater Invasion': 'commands/world info/greater-invasion.md'
-        - 'Karazhan': 'commands/world info/karazhan.md'
-        - 'Realm Status': 'commands/world info/realmstatus.md'
-        - 'WorldBoss': 'commands/world info/worldboss.md'
+        - 'Legion': 'commands/world info/legion.md'
+        - 'BfA': 'commands/world info/bfa.md'
         - 'WoW Token': 'commands/world info/wowtoken.md'
-        - 'Faction-Assaults': 'commands/world info/faction-assaults.md'
 - Configuration:
     - 'Getting Started': 'guides/Getting-Started.md'
     - 'Settings': 'configuration/settings.md'

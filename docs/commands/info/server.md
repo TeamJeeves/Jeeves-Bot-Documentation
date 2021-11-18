@@ -1,15 +1,7 @@
 # Server Command
 
-Get info on the server.
-***
-### Details
+The Server command provides details about your discord server. This includes your server ID which is useful for troubleshooting with Jeeves.
 
-**Aliases:** `server`   
-**Available in DM:** No   
-**Can Restrict to a channel:** Yes
-***
-### Examples
+`/server`
 
-* `!server`
-> Fetches the information of the discord server
 ***

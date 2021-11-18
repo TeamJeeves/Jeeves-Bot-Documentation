@@ -2,39 +2,31 @@
 
 **Powered by WoWProgress**
 
+The Recruitment command sets up a feed of players that have set themselves as looking for a guild on WoWProgress. 
 
-***
-### Details
-**Aliases:** `recruitment`  
-**Available in DM:** No   
-**Can Restrict to a channel:** Yes
+## Find-Players
 
-* This command allows you to get notified when someone is looking for a guild based on the filters you set.
-***
-### Applicable filters
-*  `Level` - (Excepts a number 10-120)
-*  `Region` - (Expects EU, US, TW, KR)
-*  `Faction` - (Expects "Horde" or "Alliance")
-*  `Realm` - (Expects a realm name with no spaces, use dashes)
->  You must include the region filter if specifying a realm
+The Find-Players command sets up what types of players you would like displayed in your channel. It takes multiple optional parameters to define what you are looking for, `item-level:`, `faction:`, `prog:`, `realms:` and `region:`. Running the find-players command a second time will override the filters you have in place.
 
-*  `Realms` - (Expects multiple realms separated by commas)
-*  `ItemLevel` - (expects a minimum itemlevel, 100-415 accepted)
-*  `RaidLevel` - (Expects "Normal", "Heroic", or "Mythic")
- > This filter will only show people who have killed a boss on the specified difficulty within the last 2 raid tiers
+`item-level:` allows you to set a minimum item level for characters. For example `item-level:220` means that Jeeves will only display characters with at least 220 item level
 
-***
+`faction:` allows you to set whether you are looking for Alliance or Horde players. If have this filter set, you will not get posts of people in the other faction who are open to faction changes. You will only see players that are currently this faction.
 
-### Getting Started
+`prog:` allows you to set a filter on the characters progression in the current tier. 5/10M would filter to characters that have 5 Mythic kills this tier. 2/10H would filter to characters with 2 Heroic kills this tier.
 
-*  `!recruitment` - Enables the Webhook without filters in the **channel** you type this command in
-*  `!recruitment stop` - Disables the Webhook
-*  `!recruitment view` - View your current filters
-***
-### Examples
-* #### `!recruitment level:120 region:us raidLevel:mythic`
-* #### `!recruitment region:us faction:horde realm:malganis`
-* #### `!recruitment region:us realms:duskwood,bloodhoof,bleeding-hollow`
+`realms:` allows you to filter which realms the characters are currently on. If you are on a merged realm you will want to include all realms in your group. 
+
+`region:` allows you to filter which region you are looking for characters in.
+
+`/recruitment find-players item-level:235 faction:Horde` This will display all Horde characters with an item level of at least 235.
+
+## View
+
+The view command will display your current filters.
+
+## Stop
+
+The stop command will turn off the incoming feed of characters
 ***
 ### Developer Thoughts
 >You may activate as many or as little filters as you want. Each time you run the command the filters within that command string will overwrite any previous filters you had in place. Make sure to run it as a single string with all the filters you want to apply.

@@ -1,13 +1,11 @@
-# Character Command
+# Characters Command
 
-The Character command allows you to Manager your Synced Character Sheet
-
+The Characters command allows you to manage your Synced Character Sheet. This command requires you to have [authorized](authorize.md) Jeeves to look at your Battle.net account already.
 
 ***
 
 ### Details
-
-**Aliases:** `character` | `toon`   
+  
 **Available in DM:** No   
 **Can Restrict to a channel:** Yes
 
@@ -16,31 +14,43 @@ The Character command allows you to Manager your Synced Character Sheet
 * Mark certain characters as your *Main* or *Hidden*
 * Request an update for your characters
 
-**Hidden Characters:** Hidden characters will still be "Ranked/Scored/Counted" but will be hidden from other users
+This command has multiple sub commands
 
-**Ignored Characters:** Ignored characters are treated as if they do not exist. You will not get roles for them, nor will they appear in `!toon view`. You can have as many of these as you want, but you must still have 1 character not ignored.
+## Set-Main
 
-**Main Character:** Only 1 character can be your main. When running a command involving a character like the keystone command Jeeves will assume your main character if none are mentioned
+The Set-Main sub command allows you to tell Jeeves who your main character is. This allows you to not have to specify a character when you want to add a keystone to your main. Only 1 character can be set as your main at any time. You can change main at any time.
 
-***
+Type `/characters set-main` and Jeeves will prompt you with a drop down to select who your main character is.
 
-### Examples
+![Character Set-Main Example](../../img/Character-Set-Main.png)
 
-* `!toon view`
-> Shows you a list of your 12 best characters
-* `!toon update`
-> Queues your characters for update
-* `!toon set-main Deadlystrike`
-> Tells Jeeves to consider Deadlystrike your main
-* `!toon hide Secretsauce`
-> Tells Jeeves to flag Secretsauce as hidden
-* `!toon sync-account`
-> Re-syncs your character sheet (Only available within 24hrs of an `!auth`, re-run `!auth` instead of this if its past 24hrs)
+## View
 
-***
+The View sub command allows you to see a list of characters by user on the server. Without the optional user parameter Jeeves will display your characters. With the user parameter Jeeves will display the characters of that Discord user.
+
+Type `/characters view` to use this feature
+
+![Character View Example](../../img/Character-View.png)
+
+## Hide and Unhide
+
+The Hide and Unhide sub commands allow you to determine which characters other people can see as belonging to you. 
+
+Type `/characters hide` to begin hiding a character. Jeeves will prompt you with a drop down to select which character you wish to hide.
+
+Type `/characters unhide` to begin unhiding a character. Jeeves will prompt with a drop down to select which character you wish to unhide.
+## Ignore and Unignore
+
+The Ignore sub command tells Jeeves to forget the character exists. You will not longer see it as an option in drop downs, you will not get roles based on these characters and they will not appear in the View command. You can ignore all but 1 character on your account.
+
+Type `/characters ignore` to begin ignoring a character. Jeeves will prompt you with a drop down to select which character you wish to ignore.
+
+If you no longer wish a character to be ignored you can use the Unignore command.
+
+Type `/characters unignore` to begin unignoring a character. Jeeves will prompt you with a drop down to select which character you no longer wish to be ignored.
 
 ### FAQ
 
-#### Q) Why can I only see 12 characters in `!toon view`?<br>
+#### Q) Why can I only see 12 characters in `/character view`?
 > Its a limitation with how many characters (2000) you can have in a discord message, 12 is the amount we could display comfortably. Rest assured your other characters are still there!
 ***

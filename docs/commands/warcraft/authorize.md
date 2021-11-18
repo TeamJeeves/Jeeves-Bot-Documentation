@@ -1,23 +1,12 @@
 # Authorize Command
-Let Jeeves in!
 
-### Details
+The authorize command links your Battle.net account to Jeeves. This allows Jeeves to access your character list for up to 24 hours. This is how Jeeves monitors and knows who your characters are.
 
-**Aliases:** `authorize` `auth`   
-**Available in DM:** No   
-**Can Restrict to a channel:** Yes
+There is one optional parameter to this command, `region:`. This is the region your WoW account is associated with. Without this parameter Jeeves will send you a link based on your [server setup](../../configuration/settings.md) or your Discord server region.
 
-* The authorize command links your Battle.net account to Jeeves. This allows Jeeves to access your character list for up to 24 hours.
-* This is how Jeeves monitors and knows who your characters are.
+`/authorize`
 
-***
+Jeeves will send you a DM with a link to click on to start the process of authorizing Jeeves to see your characters in WoW.
 
-### Examples
-
-* `!authorize`
-  > Fetches your characters and adding them to your Discord account
-
-***
-**Developer Thoughts**
->We previously let you add your toons 1 by 1 directly though the characters command without verification. As Jeeves expands its goals and features something a bit more secure and all inclusive was needed. Using authorize exclusively allows us to always be in-sync with your character list and not have to deal with any headache from transfers or changes.
+When you create new characters in the future, you will need to run `/authorize` again, as this command only allows Jeeves to see your characters for 24 hours.
 ***
