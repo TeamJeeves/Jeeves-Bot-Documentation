@@ -8,13 +8,15 @@ This is a Patreon **Only** feature. It creates a static board in a channel that 
 # Setup
 ## Step One
 
-You need to make a channel that ``@everyone`` does not have permission to post to and you need to edit the channels topic and add some channel data to it [Channel Data](Channel-Data.md). You can 
+You need to make a channel that ``@everyone`` does not have permission to post to and you need to edit the channels topic and add some channel data to it [Channel Data](Channel-Data.md). 
 
 IE: ``--JeevesData Faction: Horde, Region: US``
 
 ## Step Two
 
 You need to run ``/keystone board install`` in the channel that you have just set up.  This will tell the bot to post in this channel.
+
+##
 
 ## Further Information
 * Your members still have to do the [keystone commands](../commands/warcraft/keystone.md) in a valid bot channel to add the keys. Blizzard does not provide an API for us to get this data.
