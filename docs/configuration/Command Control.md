@@ -1,19 +1,9 @@
-# Dashboard Guild
+# Command Control
 
-This section of the Dashboard allows you to set the guild that Jeeves associates with the discord server. 
+This section doesn't exist on the Dashboard anymore as Discord has its own way to limit commands for users/roles via their interface. Navigate to your Discord Server Settings and find `Integrations` listed under `Apps` on the left. At the bottom of that menu, you will find your bots, clicking on `Manage` will bring you to the command controls. 
 
-## Add Guild
+![Jeeves Discord Integration](../../img/jeeves-integration.PNG "jeeves-integration!")
 
-To add a guild to your server click Add Guild. This needs the name of the guild, region and realm to be put in. Region will default based on the region of your discord server. In order to link to a guild you will need to have run `!auth` so that Jeeves knows your characters and you need to be either the Guild Master or rank directly below Guild Master in the guild. 
+You can restrict Members and Roles who can use the slash commands by clicking `Add Roles or Members`. The default should be all. You can also restrict to channels. To restrict certain commands to channels/roles, simply select or search the command you wish to restrict and click the command. You can then specify Role/Member/Channel for the command who can or can't use it.
 
-Blizzard does not have an API to advise which ranks are Officer ranks.
-
-![Add Guild Screenshot](../img/add-guild.png)
-
-## Guild Details
-
-The number of guilds that you can assign to a discord server is dependant on your level of [Patreon support](../guides/Supporting-Jeeves.md).
-
-Once you have linked the guild, you are then able to go into that guild and set the Discord roles to be associated with each rank in the guild. This allows the [Guild integration](/role-management/guild.md) to assign roles to users as they join your server. Examples of characters at each rank are displayed to guide you as to what each rank is. 
-
-Blizzard only supplies rank numbers not rank names as part of the API.
+![Restrict Command Example](../../img/restrict-command.PNG "restrict-command!")
