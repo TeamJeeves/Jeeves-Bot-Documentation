@@ -25,6 +25,8 @@ The View command displays a list of the current keystones that are shared with t
 
 Type `/keystone view` to see the list.
 
+![Keystone View Example](../../img/keystone-view.PNG "keystone-view!")
+
 ## Share and Unshare
 
 The Share and Unshare commands are useful if you want to share your keystone with multiple discord servers you are a part of. By default, the keystone you share is only visible on the server that you added the keystone on. If you are also a member of another discord server using Jeeves the keystone will not show up there.
