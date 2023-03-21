@@ -23,6 +23,6 @@ Mining
 Skinning
 Tailoring
 ```
-## Custom roles
+## Custom Rolemap
 
 This integration allows for the setup of custom roles, rather than the roles detailed above. To use this feature you will need set custom roles names to each profession.
