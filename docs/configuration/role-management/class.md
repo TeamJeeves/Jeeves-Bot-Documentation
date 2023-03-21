@@ -6,7 +6,7 @@ The Class integration assigns roles based on the classes of the characters a pla
 This integration could be used to show which class a player is on your server. It is recommended that this integration have the Character scope set to Main Only.
 ## Default roles
 
-By default you will need to create roles in the following format for this integration to work. Jeeves now has a command to create the roles for you as well as give it the accompanying class colors.
+By default you will need to create roles in the following format for this integration to work. Jeeves now has a command to create the roles for you as well as give it the accompanying class colors. `/role-tools class generate-default-roles`.
 ```
 Death Knight
 Demon Hunter
