@@ -3,10 +3,10 @@
 The Class integration assigns roles based on the classes of the characters a player has.
 ## Use case
 
-This integration could be used to show which class a player is on your server. It is recommended that this integration have the Character scope set to Main Only. You can also assign each role its in [game color](https://wowpedia.fandom.com/wiki/Class_colors) so that names show up in appropriate colors.
+This integration could be used to show which class a player is on your server. It is recommended that this integration have the Character scope set to Main Only.
 ## Default roles
 
-By default you will need to create roles in the following format for this integration to work.
+By default you will need to create roles in the following format for this integration to work. Jeeves now has a command to create the roles for you as well as give it the accompanying class colors.
 ```
 Death Knight
 Demon Hunter
