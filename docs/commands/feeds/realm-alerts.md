@@ -12,5 +12,5 @@ Multiple commands can be run in one channel to receive alerts for multiple realm
 
 To stop the alerts just run the same command again, Jeeves will remove the alert setup if it is already setup.
 
-![Realm-Alerts]('../../img/realm-alerts.png')
+![Realm-Alerts](../../img/realm-alerts.png "realm-alerts!")
 
