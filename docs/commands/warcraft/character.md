@@ -22,7 +22,7 @@ The Set-Main sub command allows you to tell Jeeves who your main character is. T
 
 Type `/characters set-main` and Jeeves will prompt you with a drop down to select who your main character is.
 
-![Character-Set-Main Example](../../img/character-set-main.png "character-set-main!")
+![Character-Set-Main Example](../../img/character-set-main.PNG "character-set-main!")
 
 ## View
 
