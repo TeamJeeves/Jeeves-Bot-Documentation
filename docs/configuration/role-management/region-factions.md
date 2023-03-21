@@ -15,6 +15,6 @@ EU-Alliance
 USHorde
 EUHorde
 ```
-## Custom roles
+## Custom Rolemap
 
 This integration allows for the setup of custom roles, rather than the roles detailed above. To use this feature you will need set a role for each region/faction combination.
