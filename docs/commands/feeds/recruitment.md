@@ -2,7 +2,7 @@
 
 **Powered by WoWProgress**
 
-The Recruitment command sets up a feed of players that have set themselves as looking for a guild on WoWProgress. 
+The Recruitment command sets up a feed of players that have set themselves as looking for a guild on [WoWProgress.](https://www.wowprogress.com/)
 
 ## Find-Players
 
