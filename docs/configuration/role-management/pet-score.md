@@ -15,6 +15,6 @@ Pet Score 1500
 Pet Score 1500+
 Below 500 pet score
 ```
-## Custom roles
+## Custom Rolemap
 
 This integration allows for the setup of custom roles, rather than the roles detailed above. To use this feature you will need set an achievement point value and the role you want that value to assign.
