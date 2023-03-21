@@ -32,6 +32,10 @@ Type `/characters view` to use this feature. This will show a list of all your m
 
 ![Characters View Example](../../img/characters-view.PNG "characters-view!")
 
+## Update
+
+The Update command allows you to queue your characters for update from the cache. For example if Raider.io shows an upgraded score but you have been unable to acquire a role related to the new score even when doing `/roles update`, a `/characters update` should rectify that. If the server or yourself has Jeeves Premium, this command is rather unnecessary.
+
 ## Hide and Unhide
 
 The Hide and Unhide sub commands allow you to determine which characters other people can see as belonging to you. 
