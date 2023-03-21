@@ -28,7 +28,7 @@ The view command will display your current filters.
 
 The stop command will turn off the incoming feed of characters
 
-![Recruitment](../img/recruitment.jpg "recruitment!:)
+![Recruitment](../../img/recruitment.jpg "recruitment!")
 ***
 ### Developer Thoughts
 >You may activate as many or as little filters as you want. Each time you run the command the filters within that command string will overwrite any previous filters you had in place. Make sure to run it as a single string with all the filters you want to apply.
