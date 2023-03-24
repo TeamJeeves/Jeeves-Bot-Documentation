@@ -1,6 +1,6 @@
 # Command Control
 
-This section doesn't exist on the Dashboard anymore as Discord has its own way to limit commands for users/roles via their interface. Navigate to your Discord Server Settings and find `Integrations` listed under `Apps` on the left. At the bottom of that menu, you will find your bots, clicking on `Manage` will bring you to the command controls. 
+You can use Discord's Integration Menu in your server to restrict the bot as a whole and even specific commands to users/roles/channels of your choice. Jeeves does havea legacy support to do this via the website Dashboard but it is considered depreciation and will be removed in the future. Please use Discord's Integrations page to setup your command restrictions. To do this navigate to your Discord Server Settings and find `Integrations` listed under `Apps` on the left. At the bottom of that menu, you will find your bots, clicking on `Manage` will bring you to the command controls. 
 
 ![Jeeves Discord Integration](../img/jeeves-integration2.PNG "jeeves-integration2!")
 
