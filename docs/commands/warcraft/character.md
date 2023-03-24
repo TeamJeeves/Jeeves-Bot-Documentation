@@ -28,7 +28,7 @@ Type `/characters set-main` and Jeeves will prompt you with a drop down to selec
 
 The View sub command allows you to see a list of characters by user on the server. Without the optional user parameter Jeeves will display your characters. With the user parameter Jeeves will display the characters of that Discord user.
 
-Type `/characters view` to use this feature. This will show a list of all your max level characters, if you have none max level, the view command will display as blank like below. You can also specify to view a specific user in your server by adding the optional `user:` to the end of the command. `user: @deadlystrike`. When viewing another user's characters, the posted list is public.
+Type `/characters view` to use this feature. This will show a list of all your max level characters, if you have none max level, the view command will display as blank like below. You can also specify to view a specific user in your server by adding the optional `user:` to the end of the command. `user: @deadlystrike`. **Note:** When viewing your own characters list, the posted list is **private** and only visible to you. When viewing someone else's characters list, the posted list is **public**.
 
 ![Characters View Example](../../img/characters-view.PNG "characters-view!")
 
