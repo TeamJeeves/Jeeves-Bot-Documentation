@@ -1,6 +1,6 @@
 # Verified
 
-The Verified integration assigns the 'Verified' role to all users that have linked their discord account to a battle.net account via `/authorize`. This is **not** a role related to any other integration only that they have connected their account via Jeeves (has used Jeeves before).
+The Verified integration assigns the 'Verified' role to all users that have linked their discord account to a battle.net account via `/authorize`. This role indicates they have properly synced/authorized with Jeeves.
 
 ## Use case
 
