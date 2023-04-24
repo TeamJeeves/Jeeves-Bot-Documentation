@@ -5,7 +5,8 @@ The Jeeves role manager allows small guilds and large communities alike to effor
 ## Getting started
 
 For Jeeves to be able to manage roles, Jeeves needs to be assigned to a role above the ranks you want it to manage.
-<!--- #TODO: Add roles listing picture --->
+
+![Jeeves Above Ranks Example](../img/top-of-list.PNG "top-of-list!")
 
 Jeeves will also not create the ranks. This is the responsibility of Discord server admin. All integrations require uniquely named roles in order for Jeeves. 
 
@@ -28,8 +29,10 @@ Jeeves can either apply this role indefinitely, or it can remove this role when 
 The Custom role integration allows users without role management permissions to assign roles to themselves on your discord server. The [roles](../commands/tools/roles.md) that a user can assign are controlled by the custom roles that are setup in Jeeves.
 
 To setup a role you need to enter a name and the role.
-<!--- #TODO: Add example screenshot --->
-For a user to grant themselves a role they need to type `!role {name}`. For the example above they would type `!role `
+
+![Custom Role Example](../img/custom-role.PNG "custom-role!")
+
+For a user to grant themselves a role they need to type `/roles add`. This will bring up a drop down menu of the Custome Roles you have made on the Dashboard.
 
 ## Integrations
 
