@@ -17,7 +17,7 @@ By default you will need to create roles in the following format for this integr
 100 Pets
 ...
 ```
-## Custom roles
+## Custom Rolemap
 
 This integration allows for the setup of custom roles, rather than the roles detailed above. To use this feature you will need set a pet count value and the role you want that value to assign. This could be used to mirror the achievements for pet collection
 

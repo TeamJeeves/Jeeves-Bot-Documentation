@@ -30,13 +30,6 @@ The Forld boss event will display the schedule for the weekly rotation for world
 
 ![Freehold Boss example](../../img/world-boss-bfa.png)
 
-### Warfront
-
-The Warfront event shows the schedule of the warfronts.
-
-`/worldinfo bfa event:warfront`
-
-![Freehold Boss example](../../img/warfront.png)
 
 ## Optional Parameters
 
