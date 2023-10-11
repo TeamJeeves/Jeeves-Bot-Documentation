@@ -211,7 +211,10 @@
             },
             {
               "Setting up Mythic+ Roles": "guides/Setting-Up-Mythic-Plus-Roles.md"
-           },
+            },
+            {
+               "Tracking Mythic+ Keystones": "guides/Tracking-Mythic-Keystones.md"
+            },
             {
                "Supporting Jeeves": "guides/Supporting-Jeeves.md"
             },
