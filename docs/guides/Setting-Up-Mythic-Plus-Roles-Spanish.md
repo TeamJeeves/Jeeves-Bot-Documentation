@@ -1,7 +1,3 @@
-Certainly! Here's the translation:
-
----
-
 # Bot de Discord Jeeves: Configurando la Integración de Roles de Mythic Plus (M+)
 
 Con el bot Jeeves para Discord, puedes enriquecer la experiencia de tu servidor asignando roles según el puntaje M+ del jugador para la temporada actual. Así es cómo puedes configurarlo:
@@ -53,7 +49,3 @@ Si deseas designar nombres personalizados para los roles:
 - **Sincronizar Colores de Roles**: Ejecuta `/role-tools mythic-plus sync-colors` para alinear los colores de tus Roles M+ con los tonos actuales de puntuación raiderio.
 
 - **Restablecer Rangos al Final de la Temporada**: El comando `/role-tools mythic-plus reset-ranks` es útil para restablecer el rango de todos al final de cada temporada. Por favor, ten cuidado con este comando y asegúrate de leer su documentación acompañante.
-
----
-
-Remember, code and specific role formats were left untouched as per your request.
