@@ -1,227 +1,230 @@
 {
-    "site_name": "Jeeves Documentation",
-    "extra_css": [
-       "css/main.css"
-    ],
-    "nav": [
-       {
-          "Home": "index.md"
-       },
-       {
-          "Commands": [
-             {
-                "Admin": [
-                   {
-                      "Role Reaction": "commands/admin/rolereaction.md"
-                   }
-                ]
-             },
-             {
-                "Feeds": [
-                   {
-                      "Jeeves News": "commands/feeds/jeeves-news.md"
-                   },
-                   {
-                      "Wowhead Webhook": "commands/feeds/wowhead-webhook.md"
-                   },
-                   {
-                      "Twitter": "commands/feeds/twitter.md"
-                   },
-                   {
-                      "Recruitment": "commands/feeds/recruitment.md"
-                   },
-                   {
-                      "Realm Alerts": "commands/feeds/realm-alerts.md"
-                   }
-                ]
-             },
-             {
-                "Games": [
-                   {
-                      "Gambling": "commands/games/gambling.md"
-                   },
-                   {
-                      "Trivia": "commands/games/trivia.md"
-                   },
-                   {
-                      "Roll": "commands/games/roll.md"
-                   },
-                   {
-                      "ChuckNorris": "commands/games/chuck-norris.md"
-                   },
-                   {
-                      "Thunderfury": "commands/games/thunderfury.md"
-                   }
-                ]
-             },
-             {
-                "Guild Tools": [
-                   {
-                      "Sync-Guild": "commands/guild/guildsync.md"
-                   },
-                   {
-                      "Last Log": "commands/guild/lastlog.md"
-                   }
-                ]
-             },
-             {
-                "Info": [
-                   {
-                      "Server": "commands/info/server.md"
-                   },
-                   {
-                      "User": "commands/info/user.md"
-                   }
-                ]
-             },
-             {
-                "Tools": [
-                   {
-                      "Mute": "commands/tools/mute.md"
-                   },
-                   {
-                      "Purge": "commands/tools/purge.md"
-                   },
-                   {
-                      "Realm Status": "commands/tools/realm-status.md"
-                   },
-                   {
-                      "Roles": "commands/tools/roles.md"
-                   },
-                   {
-                      "Servers": "commands/tools/servers.md"
-                   },
-                   {
-                      "Summon": "commands/tools/summon.md"
-                   }
-                ]
-             },
-             {
-                "Warcraft": [
-                   {
-                      "Authorize": "commands/warcraft/authorize.md"
-                   },
-                   {
-                      "Character": "commands/warcraft/character.md"
-                   },
-                   {
-                      "Guides": "commands/warcraft/guides.md"
-                   },
-                   {
-                      "Keystone": "commands/warcraft/keystone.md"
-                   },
-                   {
-                      "Lookup": "commands/warcraft/lookup.md"
-                   },
-                   {
-                      "Pricecheck": "commands/warcraft/pricecheck.md"
-                   },
-                   {
-                      "Weakauras": "commands/warcraft/weakauras.md"
-                   },
-                   {
-                      "Wowhead": "commands/warcraft/wowhead.md"
-                   }
-                ]
-             },
-             {
-                "World Info": [
-                   {
-                      "Affix": "commands/world info/affix.md"
-                   },
-                   {
-                      "Legion": "commands/world info/legion.md"
-                   },
-                   {
-                      "BfA": "commands/world info/bfa.md"
-                   },
-                   {
-                      "WoW Token": "commands/world info/wowtoken.md"
-                   }
-                ]
-             }
-          ]
-       },
-       {
-          "Configuration": [
-             {
-                "Getting Started": "guides/Getting-Started.md"
-             },
-             {
-                "Settings": "configuration/settings.md"
-             },
-             {
-                "Commands": "configuration/commands.md"
-             },
-             {
-                "Role Management": "configuration/role-management.md"
-             },
-             {
-                "Role Integrations": [
-                   {
-                      "Achievements": "configuration/role-management/achievements.md"
-                   },
-                   {
-                      "Class": "configuration/role-management/class.md"
-                   },
-                   {
-                      "Faction": "configuration/role-management/faction.md"
-                   },
-                   {
-                      "Guild": "configuration/role-management/guild.md"
-                   },
-                   {
-                      "Mounts": "configuration/role-management/mounts.md"
-                   },
-                   {
-                      "Mythic Plus": "configuration/role-management/mythic-plus.md"
-                   },
-                   {
-                      "Pet Score": "configuration/role-management/pet-score.md"
-                   },
-                   {
-                      "Pets": "configuration/role-management/pets.md"
-                   },
-                   {
-                      "Professions": "configuration/role-management/professions.md"
-                   },
-                   {
-                      "Region/Factions": "configuration/role-management/region-factions.md"
-                   },
-                   {
-                      "Regions": "configuration/role-management/regions.md"
-                   },
-                   {
-                      "Verified": "configuration/role-management/verified.md"
-                   }
-                ]
-             },
-             {
-                "Guild": "configuration/guild.md"
-             }
-          ]
-       },
-       {
-          "Guides": [
-             {
-                "Channel MetaData": "guides/Channel-Data.md"
-             },
-             {
-                "Setting up a Channel Board": "guides/Setting-Up-A-Board.md"
-             },
-             {
-                "Supporting Jeeves": "guides/Supporting-Jeeves.md"
-             },
-             {
-                "Jeeves Permissions": "guides/Permissions.md"
-             }
-          ]
-       },
-       {
-          "Change Log": "change-log.md"
-       },
-       {
-          "FAQ": "faq.md"
-       }
-    ]
- }
+   "site_name": "Jeeves Documentation",
+   "extra_css": [
+      "css/main.css"
+   ],
+   "nav": [
+      {
+         "Home": "index.md"
+      },
+      {
+         "Commands": [
+            {
+               "Admin": [
+                  {
+                     "Role Reaction": "commands/admin/rolereaction.md"
+                  }
+               ]
+            },
+            {
+               "Feeds": [
+                  {
+                     "Jeeves News": "commands/feeds/jeeves-news.md"
+                  },
+                  {
+                     "Wowhead Webhook": "commands/feeds/wowhead-webhook.md"
+                  },
+                  {
+                     "Twitter": "commands/feeds/twitter.md"
+                  },
+                  {
+                     "Recruitment": "commands/feeds/recruitment.md"
+                  },
+                  {
+                     "Realm Alerts": "commands/feeds/realm-alerts.md"
+                  }
+               ]
+            },
+            {
+               "Games": [
+                  {
+                     "Gambling": "commands/games/gambling.md"
+                  },
+                  {
+                     "Trivia": "commands/games/trivia.md"
+                  },
+                  {
+                     "Roll": "commands/games/roll.md"
+                  },
+                  {
+                     "ChuckNorris": "commands/games/chuck-norris.md"
+                  },
+                  {
+                     "Thunderfury": "commands/games/thunderfury.md"
+                  }
+               ]
+            },
+            {
+               "Guild Tools": [
+                  {
+                     "Sync-Guild": "commands/guild/guildsync.md"
+                  },
+                  {
+                     "Last Log": "commands/guild/lastlog.md"
+                  }
+               ]
+            },
+            {
+               "Info": [
+                  {
+                     "Server": "commands/info/server.md"
+                  },
+                  {
+                     "User": "commands/info/user.md"
+                  }
+               ]
+            },
+            {
+               "Tools": [
+                  {
+                     "Mute": "commands/tools/mute.md"
+                  },
+                  {
+                     "Purge": "commands/tools/purge.md"
+                  },
+                  {
+                     "Realm Status": "commands/tools/realm-status.md"
+                  },
+                  {
+                     "Roles": "commands/tools/roles.md"
+                  },
+                  {
+                     "Servers": "commands/tools/servers.md"
+                  },
+                  {
+                     "Summon": "commands/tools/summon.md"
+                  }
+               ]
+            },
+            {
+               "Warcraft": [
+                  {
+                     "Authorize": "commands/warcraft/authorize.md"
+                  },
+                  {
+                     "Character": "commands/warcraft/character.md"
+                  },
+                  {
+                     "Guides": "commands/warcraft/guides.md"
+                  },
+                  {
+                     "Keystone": "commands/warcraft/keystone.md"
+                  },
+                  {
+                     "Lookup": "commands/warcraft/lookup.md"
+                  },
+                  {
+                     "Pricecheck": "commands/warcraft/pricecheck.md"
+                  },
+                  {
+                     "Weakauras": "commands/warcraft/weakauras.md"
+                  },
+                  {
+                     "Wowhead": "commands/warcraft/wowhead.md"
+                  }
+               ]
+            },
+            {
+               "World Info": [
+                  {
+                     "Affix": "commands/world info/affix.md"
+                  },
+                  {
+                     "Legion": "commands/world info/legion.md"
+                  },
+                  {
+                     "BfA": "commands/world info/bfa.md"
+                  },
+                  {
+                     "WoW Token": "commands/world info/wowtoken.md"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "Configuration": [
+            {
+               "Getting Started": "guides/Getting-Started.md"
+            },
+            {
+               "Settings": "configuration/settings.md"
+            },
+            {
+               "Commands": "configuration/commands.md"
+            },
+            {
+               "Role Management": "configuration/role-management.md"
+            },
+            {
+               "Role Integrations": [
+                  {
+                     "Achievements": "configuration/role-management/achievements.md"
+                  },
+                  {
+                     "Class": "configuration/role-management/class.md"
+                  },
+                  {
+                     "Faction": "configuration/role-management/faction.md"
+                  },
+                  {
+                     "Guild": "configuration/role-management/guild.md"
+                  },
+                  {
+                     "Mounts": "configuration/role-management/mounts.md"
+                  },
+                  {
+                     "Mythic Plus": "configuration/role-management/mythic-plus.md"
+                  },
+                  {
+                     "Pet Score": "configuration/role-management/pet-score.md"
+                  },
+                  {
+                     "Pets": "configuration/role-management/pets.md"
+                  },
+                  {
+                     "Professions": "configuration/role-management/professions.md"
+                  },
+                  {
+                     "Region/Factions": "configuration/role-management/region-factions.md"
+                  },
+                  {
+                     "Regions": "configuration/role-management/regions.md"
+                  },
+                  {
+                     "Verified": "configuration/role-management/verified.md"
+                  }
+               ]
+            },
+            {
+               "Guild": "configuration/guild.md"
+            }
+         ]
+      },
+      {
+         "Guides": [
+            {
+               "Channel MetaData": "guides/Channel-Data.md"
+            },
+            {
+               "Setting up a Channel Board": "guides/Setting-Up-A-Board.md"
+            },
+            {
+              "Setting up Mythic+ Roles": "guides/Setting-Up-Mythic-Plus-Roles.md"
+           },
+            {
+               "Supporting Jeeves": "guides/Supporting-Jeeves.md"
+            },
+            {
+               "Jeeves Permissions": "guides/Permissions.md"
+            }
+         ]
+      },
+      {
+         "Change Log": "change-log.md"
+      },
+      {
+         "FAQ": "faq.md"
+      }
+   ]
+}
