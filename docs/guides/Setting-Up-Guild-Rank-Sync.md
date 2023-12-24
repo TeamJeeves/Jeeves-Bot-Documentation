@@ -1,6 +1,6 @@
 # Jeeves Discord Bot: Setting up the Guild Role Integration
 
-Jeeves is able to monitor your guilds roster and automaticaly promote/demote users in your discord server to roles based on their in-game rank.
+Jeeves is able to monitor your guilds roster and automatically promote/demote users in your discord server to roles based on their in-game rank.
 
 ## Setting up the Guild Role Integration
 
@@ -10,7 +10,7 @@ Jeeves is able to monitor your guilds roster and automaticaly promote/demote use
 
 3. **Access Server Dashboard**: Navigate to the Server Dashboard specific to your server. From there, move to the _Guild_ tab.
 
-4. **Add your guild**: Within the Guild tab, click Add Guild and enter the Name, Realm, Region of your guild and hit save.
+4. **Add your guild**: Within the Guild tab, click Add Guild and enter the Name, Realm, Region of your guild and hit save. _Only Officers and the GM are able to add a guild_
 
 5. **Linking Roles** Back on the Guild Tab, Select your guild. You can now choose which roles should be applied at each rank of your guild. Be sure to save!
 
@@ -22,7 +22,7 @@ Jeeves is able to monitor your guilds roster and automaticaly promote/demote use
 
 **TLDR:** 1-4 hours
 
-Blizzard refreshes guild data only once every 3 hours and only for guilds with recent activity. Due to this, Jeeves waits 3 hours after the last succesfull guild scan before trying again.
+Blizzard refreshes guild data only once every 3 hours and only for guilds with recent activity. Due to this, Jeeves waits 3 hours after the last successful guild scan before trying again.
 
 ### Can I set more then 1 role per rank?
 
@@ -30,11 +30,13 @@ _Yes_ - This is a feature available with Premium
 
 ## Role Assignment Process
 
-Guild Role Automation is handled automaticaly as long as Jeeves is aware of the users characters via `/authorize`. As soon as the next scan of your guild goes through if Jeeves is aware of any character belonging to the user that are reported by blizzard to have joined, left, or had a rank change, action will be taken.
+Guild Role Automation is handled automatically as long as Jeeves is aware of the users characters via `/authorize`. As soon as the next scan of your guild goes through if Jeeves is aware of any character belonging to the user that are reported by blizzard to have joined, left, or had a rank change, action will be taken.
 
 **Reminder**: New Characters, Realm Transfers, and Name Changes as always require a fresh `/authorize` run by the user for Jeeves to be aware of the character.
 
 ## Important Information
+
+- **Only Officers and the GM can add a guild**: For security and privacy reasons, only the GM or the guilds officers can register the guild with Jeeves. Once initially registered, any discord user with MANAGE_SERVER permissions can manage/setup Jeeves settings related to the guild. Blizzard does not make it known which guild ranks are considered officers. Jeeves makes the assumption that Officers are the rank right below the GM. If your guild is setup were that is not the case, such as: [GM > GM Alts > Officers] the GM will be the only person able to initially register the guild with Jeeves, after which management can be handed off to the officers.
 
 - **Character Privacy**: It is impossible to hide characters that are in the guild from your guild. Running `/character view @username` within a Guild Server will ignore the hidden/ignored character settings for any characters they have that are in the guild. Hidden/Ignored characters that are not apart of the guild will not be shown.
 
@@ -42,6 +44,6 @@ Guild Role Automation is handled automaticaly as long as Jeeves is aware of the 
 
 ## Pro Tips
 
-- **Be Careful with Officer Roles**: Consider the permissions you are giving to the discord roles managed via the Guild Integration. Vanity Roles, or Roles that grant access to channels are no problem, but roles that give Administrative powers are dangerous. If you have to kick out a malicious officer from your guild, it could take a few hours for Jeeves to detect that and they could use Jeeves to temporarily regain their discord roles even after manualy demoting them.
+- **Be Careful with Officer Roles**: Consider the permissions you are giving to the discord roles managed via the Guild Integration. Vanity Roles, or Roles that grant access to channels are no problem, but roles that give Administrative powers are dangerous. If you have to kick out a malicious officer from your guild, it could take a few hours for Jeeves to detect that and they could use Jeeves to temporarily regain their discord roles even after manually demoting them.
 
 - **The Sync-Guild Command**: This command serves only 1 purpose. If you recently did some housekeeping and reorganized your Discord server, new roles, old roles, all the things have changed. This command re-evaluates all of your guild members in discord. If your in-game ranks were juggled as well you likely don't need this command, this command is only helpful if you deleted some of the roles tied to the game ranks and created new ones in their place and you need to re-sort everyone to their new roles. It does not fetch fresh data from Blizzard nor does it check roles from any other integrations besides guild roles.
