@@ -1,6 +1,6 @@
 # Jeeves Discord Bot: Setting up the Guild Role Integration
 
-Jeeves is able to monitor your guilds roster and automatically promote/demote users in your discord server to roles based on their in-game rank.
+Jeeves is able to monitor your guild's roster and automatically promote/demote users in your discord server to roles based on their in-game rank.
 
 ## Setting up the Guild Role Integration
 
@@ -14,7 +14,7 @@ Jeeves is able to monitor your guilds roster and automatically promote/demote us
 
 5. **Linking Roles** Back on the Guild Tab, Select your guild. You can now choose which roles should be applied at each rank of your guild. Be sure to save!
 
-.... Profit?
+6. .... Profit?
 
 ## Common Questions
 
