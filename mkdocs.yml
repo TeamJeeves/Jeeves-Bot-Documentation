@@ -68,6 +68,7 @@ nav:
   - Guides:
       - "Channel MetaData": "guides/Channel-Data.md"
       - "Setting up a Channel Board": "guides/Setting-Up-A-Board.md"
+      - "Setting up Guild Ranks": "guides/Setting-Up-Guild-Rank-Sync.md"
       - "Setting up Mythic+ Roles": "guides/Setting-Up-Mythic-Plus-Roles.md"
       - "(ES) Setting up Mythic+ Roles": "guides/Setting-Up-Mythic-Plus-Roles-Spanish.md"
       - "Tracking Mythic+ Keystones": "guides/Tracking-Mythic-Keystones.md"

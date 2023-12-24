@@ -210,6 +210,9 @@
                "Setting up a Channel Board": "guides/Setting-Up-A-Board.md"
             },
             {
+               "Setting up Guild Rank Sync": "guides/Setting-Up-Guild-Rank-Sync.md"
+            },
+            {
               "Setting up Mythic+ Roles": "guides/Setting-Up-Mythic-Plus-Roles.md"
             },
             {
