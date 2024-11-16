@@ -1,24 +1,46 @@
-### Lookup
-Looks up a specific toon or guild for all their juicy info!
-***
+## Lookup Command
 
-## Character
+### Description
+The `lookup` command allows users to look up information about a specific character or guild in World of Warcraft.
 
-The character command allows you to lookup a character. This command requires the `name:` parameter and optionally accepts `realm:` and `region:` parameters.
+### Usage
+```
+/lookup <subcommand> [options]
+```
 
-`/lookup character name:Deadlystriké realm:Mal'ganis region:US`
+### Subcommands
+- **character**: Lookup a character.
+  - **name** (required): The name of the character to lookup.
+  - **realm** (optional): The realm of the character.
+  - **region** (optional): The region of the character. Choices:
+    - `us`: US/OC
+    - `eu`: EU
+    - `tw`: TW
+    - `kr`: KR
+- **guild**: Lookup a guild.
+  - **name** (required): The name of the guild to lookup.
+  - **realm** (optional): The realm of the guild.
+  - **region** (optional): The region of the guild. Choices:
+    - `us`: US/OC
+    - `eu`: EU
+    - `tw`: TW
+    - `kr`: KR
 
-If the `realm:` and `region:` parameters are not supplied the default realm and region from your [server setup](../../configuration/setup.md) or [channel data](../../guides/Channel-Data.md) will be used instead.
+### Permissions
+- **User**: No special permissions required.
+- **Bot**: No special permissions required.
 
-***
-**Developer Thoughts**
->The Jeeves lookup is arguably our most core fundamental feature. When designing each lookup view the ideology used was as followed. For raiding, we imagined we are in the middle of Antorus starting Argus in the face needing 1 more DPS. We have 2 960 warlocks in the queue but we only want to bring one. The information we put in the view should be enough to quickly compare between the two and pick the best one. Of course, we also included links to external sites for a more in-depth dive into their profiles.
-***
+### Examples
+- Lookup a character:
+  ```
+  /lookup character name:Thrall realm:Area-52 region:us
+  ```
+- Lookup a guild:
+  ```
+  /lookup guild name:Method realm:Tarren-Mill region:eu
+  ```
 
-## Guild
-
-The guild command allows you to lookup a guild. This returns the guilds progression, ranking and Armory, RaiderIO and WowProgress links. This command requires the `name:` parameter and optionally accepts `realm:` and `region:` parameters.
-
-`/lookup guild name:Complexity Limit realm:Illidan region:us` 
-
-If the `realm:` and `region:` parameters are not supplied the default realm and region from your [server setup](../../configuration/setup.md) or [channel data](../../guides/Channel-Data.md) will be used instead.
+### Notes
+- Ensure that you provide the correct realm and region for accurate results.
+- The bot will reply with an error message if it cannot find the specified character or guild.
+- Character lookups may take a few seconds to complete.

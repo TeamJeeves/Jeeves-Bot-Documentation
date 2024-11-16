@@ -1,10 +1,32 @@
-# Mute Command
+## Mute Command
 
-The Mute command allows you to quickly mute all non-admin users in the voice channel you are currently connected to. Optionally you can specify a role with `role:` and only mute people of that role.   
+### Description
+The mute command mutes all non-admin members in the voice channel you are currently in. Optionally, you can specify a role to mute only members with that role.
 
-`/mute` mutes all non-admins in the voice channel you are connected to.
+### Usage
+```
+/mute [role]
+```
 
-`/mute role:@Trial` mutes all Trial role users in the voice channel you are currently connected to.
+### Options
+- **role** (optional): Specify a role to mute only members with that role.
 
-To unmute users you can use `/unmute`. This will unmute all muted users in the voice channel you are currently connected to.
-***
+### Permissions
+- **User**: `MuteMembers`
+- **Bot**: `MuteMembers`
+
+### Examples
+- Mute all non-admin members in your current voice channel:
+  ```
+  /mute
+  ```
+- Mute all members with a specific role in your current voice channel:
+  ```
+  /mute role:@RoleName
+  ```
+
+### Notes
+- Ensure that Jeeves has the necessary permissions to mute members.
+- You must be in a voice channel to use this command.
+- The bot will reply with an error message if you are not in a voice channel.
+- To unmute the members, use the `/unmute` command.

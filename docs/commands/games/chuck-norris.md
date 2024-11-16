@@ -1,10 +1,22 @@
-# Chuck Norris Command
+## Chuck Norris Command
 
-Infused with 0.000000000000000000000000001% the essence of chuck norris, Jeeves can now deliver unto you Chuck Norris facts
-***
+### Description
+The `chucknorris` command fetches a random fact about Chuck Norris and displays it in an embedded message.
+
+### Usage
+```
+/chucknorris
+```
+
+### Permissions
+- **User**: No special permissions required.
+- **Bot**: `EmbedLinks`
 
 ### Examples
+- Get a random Chuck Norris fact:
+  ```
+  /chucknorris
+  ```
 
-* `/chucknorris`
-> Learn about he-who-shall-not-be-named-oh-no-hes-he....... (*The writer of this doc has been kicked to death*)
-***
+### Notes
+- Ensure that Jeeves has the necessary permission to send embedded messages.

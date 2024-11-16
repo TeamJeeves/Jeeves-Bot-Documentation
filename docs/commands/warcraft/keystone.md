@@ -1,41 +1,140 @@
-# Keystone Command
+## Keystone Command Documentation
 
-Love to share your keystone(s) with your guild members? You can add your keystone(s) to your characters. This command works together with the `/character` command.
+### Overview
+The `keystone` command allows users to manage and view their Mythic+ keystones, making it easy to coordinate with guild members or server communities. Users can set their keystones, view shared keystones, share or unshare their keystone across servers, and manage live keystone boards.
 
+---
 
+### Key Features
+- **Set Your Keystone**: Log your current Mythic+ dungeon keystone.
+- **View Server Keystones**: See a list of all keystones shared on the server.
+- **Share Across Servers**: Make your keystone visible in other Discord servers using Jeeves.
+- **Manage Keystone Boards**: Install a live-updating board for premium users.
 
-## About
-  
-**Available in DM:** No   
-**Can Restrict to a channel:** Yes
+---
 
-This command has multiple sub commands
+### Usage
 
-## Set
+#### General Command Syntax
+```
+/keystone <subcommand> [options]
+```
 
-The Set command is what tells Jeeves which keystone you have. It has 2 required parameters, the dungeon and the key level, as well as 2 optional parameters, the character and realm
+#### Subcommands and Usage
 
-Type `/keystone set` and Discord will prompt you to fill in the required fields.
+1. **Set**
+   - Log your current Mythic+ keystone, specifying dungeon and level.
+   - **Syntax**:  
+     ```
+     /keystone set dungeon:<dungeon> level:<level> [character:<character>] [realm:<realm>]
+     ```
+   - **Required Parameters**:  
+     - `dungeon`: The name of the dungeon.
+     - `level`: The level of the keystone.  
+   - **Optional Parameters**:  
+     - `character`: The character that owns the keystone.
+     - `realm`: The realm of the character.
 
-![Keystone set example](../../img/Keystone-Set.png)
+   - **Example**:  
+     ```
+     /keystone set dungeon:the-necrotic-wake level:15 character:MyCharacter realm:MyRealm
+     ```
 
-## View
+---
 
-The View command displays a list of the current keystones that are shared with this server.
+2. **View**
+   - Displays a list of keystones shared with the server.
+   - **Syntax**:  
+     ```
+     /keystone view
+     ```
 
-Type `/keystone view` to see the list.
+   - **Example**:  
+     ```
+     /keystone view
+     ```
 
-![Keystone View Example](../../img/keystone-view.PNG "keystone-view!")
+---
 
-## Share and Unshare
+3. **Share and Unshare**
+   - **Share**: Make a keystone visible across multiple servers where Jeeves is active.
+     - **Syntax**:  
+       ```
+       /keystone share character:<character> [realm:<realm>]
+       ```
+     - **Example**:  
+       ```
+       /keystone share character:MyCharacter realm:MyRealm
+       ```
 
-The Share and Unshare commands are useful if you want to share your keystone with multiple discord servers you are a part of. By default, the keystone you share is only visible on the server that you added the keystone on. If you are also a member of another discord server using Jeeves the keystone will not show up there.
+   - **Unshare**: Stop sharing a keystone with the server.
+     - **Syntax**:  
+       ```
+       /keystone unshare character:<character> [realm:<realm>]
+       ```
+     - **Example**:  
+       ```
+       /keystone unshare character:MyCharacter realm:MyRealm
+       ```
 
-The `/keystone share` command has one required parameter, the character name, and optionally takes the realm parameter. When you share your characters keystone with another server, you will only need to input that characters keystone once in the future and that keystone will be visible on all servers that you have shared it with.
+---
 
-If in the future you decide you do not want the keystone visible on one of the servers you can type `/keystone unshare` along with the required character parameter, and optional realm, to stop sharing the keystone with that server.
+4. **Board**
+   - Manage a live-updating keystone board for the server (premium feature).
+   - **Subcommands**:  
+     - `install`: Set up a keystone board.  
+       ```
+       /keystone board install
+       ```
+     - `uninstall`: Remove a keystone board.  
+       ```
+       /keystone board uninstall
+       ```
 
-## Board
+---
 
-The keystone board is a [Patreon](../../guides/Supporting-Jeeves.md) feature. It provides a updating display of the keystone on a server. To set it up please see the [Setting Up a Board](../../guides/Setting-Up-A-Board.md) guide.
+### Permissions
+- **User**: No special permissions required.
+- **Bot**: No special permissions required.
 
+---
+
+### Notes
+- Ensure you’ve linked your Battle.net account using the `/authorize` command before using the `keystone` command.
+- When setting or sharing keystones, Jeeves will prompt you with dropdown options for ease of use.
+- Keystone boards are available only for premium users (via Patreon).
+
+---
+
+### Examples
+- Set a keystone:  
+  ```
+  /keystone set dungeon:the-necrotic-wake level:15 character:MyCharacter realm:MyRealm
+  ```
+- View server keystones:  
+  ```
+  /keystone view
+  ```
+- Share a keystone across servers:  
+  ```
+  /keystone share character:MyCharacter realm:MyRealm
+  ```
+- Install a live keystone board:  
+  ```
+  /keystone board install
+  ```
+
+---
+
+### FAQ
+
+#### Q: Can I share my keystone with multiple servers?  
+**A**: Yes. Use `/keystone share` to make your keystone visible across all servers where Jeeves is active.
+
+#### Q: What is the keystone board?  
+**A**: A live-updating display of all keystones on the server. This feature is available to premium users.
+
+#### Q: Can I set a keystone for a different character?  
+**A**: Yes, use the optional `character` and `realm` parameters when setting or sharing a keystone.
+
+---

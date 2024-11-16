@@ -1,12 +1,35 @@
-# Authorize Command
+## Authorize Command
 
-The authorize command links your Battle.net account to Jeeves. This allows Jeeves to access your character list for up to 24 hours. This is how Jeeves monitors and knows who your characters are.
+### Description
+The `authorize` command links your BattleNet account with Jeeves, allowing the bot to access your World of Warcraft character information.
 
-There is one optional parameter to this command, `region:`. This is the region your WoW account is associated with. Without this parameter Jeeves will send you a link based on your [server setup](../../configuration/settings.md) or your Discord server region.
+### Usage
+```
+/authorize [region]
+```
 
-`/authorize`
+### Options
+- **region** (optional): Choose a different region. Default is `us`. Choices:
+  - `us`: US/OC
+  - `eu`: EU
+  - `tw`: TW
+  - `kr`: KR
 
-Jeeves will send you a DM with a link to click on to start the process of authorizing Jeeves to see your characters in WoW.
+### Permissions
+- **User**: No special permissions required.
+- **Bot**: No special permissions required.
 
-When you create new characters in the future, you will need to run `/authorize` again, as this command only allows Jeeves to see your characters for 24 hours.
-***
+### Examples
+- Link your BattleNet account with the default region:
+  ```
+  /authorize
+  ```
+- Link your BattleNet account with the EU region:
+  ```
+  /authorize region:eu
+  ```
+
+### Notes
+- Ensure that your Discord privacy settings allow DMs from server members.
+- The bot will send you a DM with a personalized link to authorize your BattleNet account.
+- If the bot is unable to send you a DM, it will notify you to check your privacy settings.

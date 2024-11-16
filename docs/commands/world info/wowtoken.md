@@ -1,15 +1,40 @@
-# Wowtoken Command
+## WoWToken Command
 
-The Wowtoken command lets you lookup the price for the WoW token for any region with live data. The command has one optional parameter of `region:`
+### Description
+The `wowtoken` command allows users to check the current price of the WoW Token in a specified region.
 
-The `region:` parameter allows you to display the current affixes for a region other than what the default realm and region from your [server setup](../../configuration/setup.md) or [channel data](../../guides/Channel-Data.md) is set to.
+### Usage
+```
+/wowtoken [region]
+```
 
-`/wowtoken`
+### Options
+- **region** (optional): Choose a different region. Default is `us`. Choices:
+  - `us`: US/OC
+  - `eu`: EU
+  - `tw`: TW
+  - `kr`: KR
+
+### Permissions
+- **User**: No special permissions required.
+- **Bot**: No special permissions required.
+
+### Examples
+- Check the WoW Token price for the default region (US/OC):
+  ```
+  /wowtoken
+  ```
+- Check the WoW Token price for the EU region:
+  ```
+  /wowtoken region:eu
+  ```
+
+### Notes
+- The command will display the current WoW Token price for the specified region.
+- The bot will reply with an error message if it is unable to retrieve the token price data.
+
+### Example:
 
 ![Wow Token Example](../../img/wowtoken.png)
 
 *** 
-
-**Developer Thoughts**
->The token price fluctuates frequently and it can often be useful to have access to the pricing directly from Discord without having to navigate to a website to find that data. The token price is fetched LIVE on every request directly from Blizzard.
-***

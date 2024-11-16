@@ -1,23 +1,38 @@
-# Roles Command
+## Roles Command
 
-The Roles command allows users to assign administrator defined roles to themselves.
+### Description
+The roles command allows users to manage their roles within the server. Users can update their roles, add custom roles, or remove custom roles.
 
-## Setup
+Role Managment is one of the most powerful and systems features Jeeves has. Implementations can be simple and straight forward, or deep and complex depending on your servers need. If setting up Role Managment through Jeeves for the first time, checkout the full indepth Role Managment Guide [HERE](../../configuration/role-management) 
+### Usage
+```
+/roles <subcommand> [options]
+```
 
-The first step required in order for users to be able to assign roles to themselves is for an admin to configure which roles are available. This is done in the dashboard. Follow the [guide](../../configuration/role-management.md) for more instructions on setting it up.
+### Subcommands
+- **update**: Checks for roles you're automatically eligible for and updates them.
+- **add**: Add a custom role to yourself.
+- **remove**: Remove a custom role from yourself.
 
-## Add
+### Permissions
+- **User**: No special permissions required.
+- **Bot**: `ManageRoles`
 
-To assign roles to yourself use the `/roles add` command. Jeeves will then present you a drop down of the available roles.
-## Remove
+### Examples
+- Update your roles:
+  ```
+  /roles update
+  ```
+- Add a custom role to yourself:
+  ```
+  /roles add
+  ```
+- Remove a custom role from yourself:
+  ```
+  /roles remove
+  ```
 
-To remove a role from yourself use the `/roles remove` command. Jeeves will then present you a drop down of the roles you have assigned yourself.
-## Update
-
-The update command tells Jeeves to check your account against the role management integrations that your admin has configured. This will assign roles that are not manually assignable.
-
-## Tools
-
-Jeeves has a couple of Role Tools to help create default roles for Professions/Classes as well as sync M+ colors relative to the current season score. The Sync-colors command comes with a reset-rank if the newest season has a color shift for the scores. Typing in `/role-tools` will show in the window the entirety of the role-tool commands on Discord, simply selecting the tool you want to utilize will allow Jeeves to fire up the Mk.3.
-
-****
+### Notes
+- Ensure that Jeeves has the necessary permissions to manage roles.
+- The bot will reply with an error message if the server does not have custom roles set up.
+- When adding or removing a role, the bot will prompt you to select a role from a list of available custom roles.

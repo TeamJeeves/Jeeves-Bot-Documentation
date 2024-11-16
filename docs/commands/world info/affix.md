@@ -1,16 +1,49 @@
-# Affix Command
+## Affix Command
 
-The Affix command answers that repeating question of what affixes are this week. The command has two optional parameters `region:` and `schedule:`
+### Description
+The affix command allows users to check the current and upcoming Mythic+ keystone affixes for a specified region.
 
-The `region:` parameter allows you to display the current affixes for a region other than what the default realm and region from your [server setup](../../configuration/setup.md) or [channel data](../../guides/Channel-Data.md) is set to.
+### Usage
+```
+/affix [region] [schedule]
+```
 
-The `schedule:` parameter changes the display to show the rotation of affixes rather than this weeks affixes.
+### Options
+- **region** (optional): Choose a different region. Default is `us`. Choices:
+  - `us`: US/OC
+  - `eu`: EU
+  - `tw`: TW
+  - `kr`: KR
+- **schedule** (optional): View the upcoming schedule. Default is `false`.
 
-`/affix`
+### Permissions
+- **User**: No special permissions required.
+- **Bot**: `EmbedLinks`
 
+### Examples
+- Check the current Mythic+ affixes for the default region (US/OC):
+  ```
+  /affix
+  ```
+- Check the current Mythic+ affixes for the EU region:
+  ```
+  /affix region:eu
+  ```
+- View the upcoming Mythic+ affix schedule for the default region (US/OC):
+  ```
+  /affix schedule:true
+  ```
+
+### Notes
+- Ensure that Jeeves has the necessary permission to send embedded messages.
+- The command will display the current week's affixes and, if requested, the upcoming schedule for the next few weeks.
+- The bot will reply with an error message if it is unable to retrieve data for the current affixes.
+
+
+### Affix Example:
 ![Affix example](../../img/affix.png)
 
-`/affix schedule:true`
+### Affix Schedule:
 
 ![Affix Schedule Example](../../img/affix-schedule.png)
 ***

@@ -12,26 +12,13 @@
             {
                "Admin": [
                   {
-                     "Role Reaction": "commands/admin/rolereaction.md"
-                  }
-               ]
-            },
-            {
-               "Feeds": [
-                  {
-                     "Jeeves News": "commands/feeds/jeeves-news.md"
+                     "Purge": "commands/admin/purge.md"
                   },
                   {
-                     "Wowhead Webhook": "commands/feeds/wowhead-webhook.md"
+                     "Reaction-Roles": "commands/admin/reaction-roles.md"
                   },
                   {
-                     "Twitter": "commands/feeds/twitter.md"
-                  },
-                  {
-                     "Recruitment": "commands/feeds/recruitment.md"
-                  },
-                  {
-                     "Realm Alerts": "commands/feeds/realm-alerts.md"
+                     "Role-Tools": "commands/admin/role-tools.md"
                   }
                ]
             },
@@ -57,20 +44,13 @@
             {
                "Guild Tools": [
                   {
-                     "Sync-Guild": "commands/guild/guildsync.md"
+                     "Attendance": "commands/guild/attendance.md"
+                  },
+                  {
+                     "Sync-Guild": "commands/guild/sync-guild.md"
                   },
                   {
                      "Last Log": "commands/guild/lastlog.md"
-                  }
-               ]
-            },
-            {
-               "Info": [
-                  {
-                     "Server": "commands/info/server.md"
-                  },
-                  {
-                     "User": "commands/info/user.md"
                   }
                ]
             },
@@ -80,19 +60,25 @@
                      "Mute": "commands/tools/mute.md"
                   },
                   {
-                     "Purge": "commands/tools/purge.md"
-                  },
-                  {
-                     "Realm Status": "commands/tools/realm-status.md"
-                  },
-                  {
                      "Roles": "commands/tools/roles.md"
+                  },
+                  {
+                     "Server": "commands/tools/server.md"
                   },
                   {
                      "Servers": "commands/tools/servers.md"
                   },
                   {
                      "Summon": "commands/tools/summon.md"
+                  },
+                  {
+                     "Time": "commands/tools/time.md"
+                  },
+                  {
+                     "Unmute": "commands/tools/unmute.md"
+                  },
+                  {
+                     "User": "commands/tools/user.md"
                   }
                ]
             },
@@ -105,22 +91,26 @@
                      "Character": "commands/warcraft/character.md"
                   },
                   {
-                     "Guides": "commands/warcraft/guides.md"
-                  },
-                  {
                      "Keystone": "commands/warcraft/keystone.md"
                   },
                   {
                      "Lookup": "commands/warcraft/lookup.md"
                   },
                   {
-                     "Pricecheck": "commands/warcraft/pricecheck.md"
-                  },
-                  {
                      "Weakauras": "commands/warcraft/weakauras.md"
+                  }
+               ]
+            },
+            {
+               "Webhooks": [
+                  {
+                     "Affix-Alerts": "commands/webhooks/affix-alerts.md"
                   },
                   {
-                     "Wowhead": "commands/warcraft/wowhead.md"
+                     "Realm Alerts": "commands/webhooks/realm-alerts.md"
+                  },
+                  {
+                     "Recruitment": "commands/webhooks/recruitment.md"
                   }
                ]
             },
@@ -130,13 +120,32 @@
                      "Affix": "commands/world info/affix.md"
                   },
                   {
-                     "Legion": "commands/world info/legion.md"
+                     "PriceCheck": "commands/world info/pricecheck.md"
                   },
                   {
-                     "BfA": "commands/world info/bfa.md"
+                     "Realm Status": "commands/world info/realm-status.md"
+                  },
+                  {
+                     "Worldboss": "commands/world info/worldboss.md"
+                  },
+                  {
+                     "WorldInfo": "commands/world info/worldinfo.md"
                   },
                   {
                      "WoW Token": "commands/world info/wowtoken.md"
+                  }
+               ]
+            },
+            {
+               "Wowhead": [
+                  {
+                     "Guide": "commands/wowhead/guide.md"
+                  },
+                  {
+                     "Wowhead": "commands/wowhead/wowhead.md"
+                  },
+                  {
+                     "Wowhead Webhook": "commands/wowhead/wowhead-webhook.md"
                   }
                ]
             }
@@ -213,10 +222,7 @@
                "Setting up Guild Rank Sync": "guides/Setting-Up-Guild-Rank-Sync.md"
             },
             {
-              "Setting up Mythic+ Roles": "guides/Setting-Up-Mythic-Plus-Roles.md"
-            },
-            {
-               "(ES) Setting up Mythic+ Roles": "guides/Setting-Up-Mythic-Plus-Roles-Spanish.md"
+               "Setting up Mythic+ Roles": "guides/Setting-Up-Mythic-Plus-Roles.md"
             },
             {
                "Tracking Mythic+ Keystones": "guides/Tracking-Mythic-Keystones.md"

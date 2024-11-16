@@ -1,60 +1,130 @@
-# Characters Command
+## Characters Command Documentation
 
-The Characters command allows you to manage your Synced Character Sheet. This command requires you to have [authorized](authorize.md) Jeeves to look at your Battle.net account already.
+### Overview
+The `characters` command allows users to manage their World of Warcraft characters linked to their Discord account through Jeeves. With this command, users can set a main character, view characters, update their information, and manage character visibility and ignore settings.
 
-***
+---
 
-### Details
-  
-**Available in DM:** No   
-**Can Restrict to a channel:** Yes
+### Key Features
+- **Set a Main Character**: Designate one character as your "main" for streamlined actions.
+- **View Characters**: Display your characters or those of other users in the server.
+- **Privacy Controls**: Hide or unhide specific characters from public visibility.
+- **Management Tools**: Ignore or unignore characters to exclude them from all bot functions.
 
-* View your characters
-* View another users characters
-* Mark certain characters as your *Main* or *Hidden*
-* Request an update for your characters
+---
 
-This command has multiple sub commands
+### Usage
 
-## Set-Main
+#### General Command Syntax
+```
+/characters <subcommand> [options]
+```
 
-The Set-Main sub command allows you to tell Jeeves who your main character is. This allows you to not have to specify a character when you want to add a keystone to your main. Only 1 character can be set as your main at any time. You can change main at any time.
+#### Subcommands and Usage
 
-Type `/characters set-main` and Jeeves will prompt you with a drop down to select who your main character is.
+1. **Set-Main**
+   - Designates one character as your main.
+   - **Syntax**:  
+     ```
+     /characters set-main
+     ```
+   - Jeeves will prompt you with a dropdown list of your characters for selection.
+   - Only one character can be set as your main at any time.
 
-![Character-Set-Main Example](../../img/character-set-main.PNG "character-set-main!")
+2. **View**
+   - Displays a list of your characters or another user’s characters.
+   - **Syntax**:  
+     ```
+     /characters view [user:@Username]
+     ```
+   - Without specifying a user, Jeeves displays your characters privately. If a user is specified, their characters are displayed publicly.
 
-## View
+3. **Update**
+   - Queues your characters for an update from the cache to reflect the latest changes (e.g., Raider.io score updates).
+   - **Syntax**:  
+     ```
+     /characters update
+     ```
 
-The View sub command allows you to see a list of characters by user on the server. Without the optional user parameter Jeeves will display your characters. With the user parameter Jeeves will display the characters of that Discord user.
+4. **Hide and Unhide**
+   - **Hide**: Marks a character as private, so others cannot see it.
+     - **Syntax**:  
+       ```
+       /characters hide
+       ```
+   - **Unhide**: Makes a hidden character visible again.
+     - **Syntax**:  
+       ```
+       /characters unhide
+       ```
+   - Jeeves will prompt you to select a character from your list for these actions.
 
-Type `/characters view` to use this feature. This will show a list of all your max level characters, if you have none max level, the view command will display as blank like below. You can also specify to view a specific user in your server by adding the optional `user:` to the end of the command. `user: @deadlystrike`. **Note:** When viewing your own characters list, the posted list is **private** and only visible to you. When viewing someone else's characters list, the posted list is **public**.
+5. **Ignore and Unignore**
+   - **Ignore**: Excludes a character from all Jeeves systems, including role assignment and dropdown menus.
+     - **Syntax**:  
+       ```
+       /characters ignore
+       ```
+   - **Unignore**: Reintegrates an ignored character into Jeeves systems.
+     - **Syntax**:  
+       ```
+       /characters unignore
+       ```
+   - Jeeves will prompt you to select a character for these actions.
 
-![Characters View Example](../../img/characters-view.PNG "characters-view!")
+---
 
-## Update
+### Permissions
+- **User Permissions**: No special permissions required.
+- **Bot Permissions**: No special permissions required.
 
-The Update command allows you to queue your characters for update from the cache. For example if Raider.io shows an upgraded score but you have been unable to acquire a role related to the new score even when doing `/roles update`, a `/characters update` should rectify that. If the server or yourself has Jeeves Premium, this command is rather unnecessary.
+---
 
-## Hide and Unhide
+### Examples
 
-The Hide and Unhide sub commands allow you to determine which characters other people can see as belonging to you. 
+- **Set a main character**:
+  ```
+  /characters set-main
+  ```
+- **View your characters**:
+  ```
+  /characters view
+  ```
+- **View another user's characters**:
+  ```
+  /characters view user:@Username
+  ```
+- **Update characters**:
+  ```
+  /characters update
+  ```
+- **Hide a character**:
+  ```
+  /characters hide
+  ```
+- **Ignore a character**:
+  ```
+  /characters ignore
+  ```
 
-Type `/characters hide` to begin hiding a character. Jeeves will prompt you with a drop down to select which character you wish to hide.
+---
 
-Type `/characters unhide` to begin unhiding a character. Jeeves will prompt with a drop down to select which character you wish to unhide.
-## Ignore and Unignore
+### Notes
+- Ensure you’ve linked your Battle.net account using the `/authorize` command before using the `characters` command.
+- When setting a main character, hiding, unhiding, ignoring, or unignoring characters, Jeeves will provide a dropdown list for selection.
+- Characters hidden or ignored will not appear in the `/characters view` list.
 
-The Ignore sub command tells Jeeves to forget the character exists. You will not longer see it as an option in drop downs, you will not get roles based on these characters and they will not appear in the View command. You can ignore all but 1 character on your account.
-
-Type `/characters ignore` to begin ignoring a character. Jeeves will prompt you with a drop down to select which character you wish to ignore.
-
-If you no longer wish a character to be ignored you can use the Unignore command.
-
-Type `/characters unignore` to begin unignoring a character. Jeeves will prompt you with a drop down to select which character you no longer wish to be ignored.
+---
 
 ### FAQ
 
-#### Q) Why can I only see 12 characters in `/character view`?
-> Its a limitation with how many characters (2000) you can have in a discord message, 12 is the amount we could display comfortably. Rest assured your other characters are still there!
-***
+#### Q: Why can I only see 12 characters in `/characters view`?  
+**A**: Due to Discord’s message length limit, Jeeves can only display up to 12 characters at a time. Rest assured, your other characters are still managed correctly.
+
+#### Q: Can I ignore all characters?  
+**A**: No, you must always have at least one character visible.
+
+#### Q: Do I need to update characters manually often?  
+**A**: Not typically. Updates are automatic for Jeeves Premium users, but the `/characters update` command can be used for immediate updates when needed.
+
+---

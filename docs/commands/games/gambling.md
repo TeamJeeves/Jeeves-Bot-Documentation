@@ -1,25 +1,36 @@
-# Gambling Command
+## Gambling Command
 
-The gambling command allows you to play a rendition of the Popular CrossGambling addon directly in discord!
+### Description
+The 
 
- 
+gambling
 
-**Important Note:** If your server is fairly restricted/locked down via permissions and you have elected to not make Jeeves an admin/give management permissions. Make a channel called `Gambling` prior to running this command and assign Jeeves full permissions to it including `Read Messages | Send Messages | Embed Links | Delete Messages | Manage Permissions`.
+ command starts a new gambling session in your server. Users can join the session and participate in a gambling game.
 
-* Like most Jeeves games, gambling can be very spammy in chat. In an effort to reduce chat clutter in your server, Jeeves will only operate gambling sessions within a channel called `Gambling` if none is present he will attempt to make one.
-* Once you run `/gambling` a new gambling session will be created. Follow the on-screen prompts to play!
-***
+### Usage
+```
+/gambling
+```
+
+### Permissions
+- **User**: No special permissions required.
+- **Bot**: `ManageChannels`, `SendMessages`, `DeleteMessages`, `EmbedLinks`, `ManagePermissions`
+
 ### Examples
+- Start a new gambling session:
+  ```
+  /gambling
+  ```
 
-* `/gambling`
-> Creates a #gambling channel for you to gamble in.
+### How It Works
+1. **Channel Creation**: The command checks for a channel named gambling. If it doesn't exist, the bot attempts to create it.
+2. **Session Check**: If a gambling session is already ongoing, the bot will notify the user and provide a link to the existing session.
+3. **Game Start**: The bot sends a message to the channel, inviting users to join the gambling session.
+4. **User Intake**: Users can join or leave the session by sending `1` to join or `-1` to leave.
+5. **Gambling Time**: Once enough users have joined, the bot rolls the dice and determines the winner.
+6. **Result Announcement**: The bot announces the winner and the results of the rolls.
+7. **New Round**: The bot asks if users want to start another round. If yes, a new game starts; if no, the session ends.
 
-***
-### FAQ
-
-#### Q) How do I get more gold?
-> Jeeves starts all users at 100k and awards a 10k top-up weekly up to 100k. The only way to go above the 100k ceiling is to win in gambling.
-
-#### Q) How do I check how much currency I have?
-> `!gold` - EZ
-***
+### Notes
+- Ensure that Jeeves has the necessary permissions to manage channels and send messages.
+- The bot will reply with an error message if it fails to create the gambling channel or if there is an ongoing session.

@@ -1,10 +1,27 @@
-# Weak Auras
+## Weakaura Command
 
-Thanks to our friends at Wago.IO, Jeeves is proud to bring you a WeakAura search tool.
+### Description
+The `weakaura` command allows users to search for Weakauras on Wago.IO and display the results.
 
-Powered by the exact same search engine that powers the site itself; you can search for WeakAura strings directly in Discord.
+### Usage
+```
+/weakaura <search>
+```
 
-The Weakaura command takes one parameter `search:`. This parameter is the search that is given to the wago.io search engine and the top result will be returned.
+### Options
+- **search** (required): The search term for the Weakaura you want to find.
 
-`/weakaura search:Antorus`
-***
+### Permissions
+- **User**: No special permissions required.
+- **Bot**: `EmbedLinks`
+
+### Examples
+- Search for a Weakaura:
+  ```
+  /weakaura search:Healing
+  ```
+
+### Notes
+- Ensure that Jeeves has the necessary permission to send embedded messages.
+- The bot will reply with an error message if there is an issue fetching information from Wago.IO or if no results are found.
+- The command will display the first result from the search, including the Weakaura's name, description, views, favorites, and a link to the source on Wago.IO.
