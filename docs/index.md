@@ -28,10 +28,10 @@ Jeeves can do alot, and you can configure its behavior to a way thats perfect fo
 
 
 ## History
-Jeeves was born in early 2017 under the name `The Lazy Peon`. It was a really bad bot. It broke constantly and was only for our guild's server, but it generated some amazing laughs. Not long after that `The Lazy Peon` was rebuilt and renamed `Jeeves`. Jeeves remained a staple in our guild's Discord for about a month we decided to post it to Reddit to see if there would be any interest in the bot. After two hours and three upvotes, we shrugged and moved on.
+Jeeves was born in early 2017 under the name `The Lazy Peon`. It was a really bad bot. It broke constantly and was only for our guild's server, but it generated some amazing laughs. Not long after that `The Lazy Peon` was rebuilt and renamed `Jeeves`. Jeeves remained a staple in our guild's Discord for about a month before a friend randomly suggested to post it to Reddit to see if there would be any interest in the bot. After two hours and three upvotes, and no comments or installs we shrugged and moved on.
 
 Little did we know what was in store for us when we woke up...  
-30+ comments and around 76 up votes. Quickly putting out fires and adding EU support in just under an hour - suddenly Jeeves was present in over 100 servers. Since then its been a race to add more and more features, fix bugs and bring Jeeves from a hobbyist level bot to a professionally written scalable application for use on thousands of servers.
+We woke up to Jeeves in 100 servers, and many comments, questions, and feature requests on the reddit thread. Within an hour of waking up EU Support was added and many fires were put out. Since then its been a race to add more and more features, fix bugs and continouly improve Jeeves.
 
 ## The Future and Beyond
 Jeeves is constantly being updated with new features. We have formed partnerships with various Fan Sites & Services like RaiderIO, TSM, WoWHead, WoWAudit to bring new and exciting features into your guilds discord. We firmly believe that Discord is here to stay and is the community platform for Warcraft. Our goal is to keep making it better by bringing Warcraft ever closer to discord itself.
