@@ -20,7 +20,7 @@ Feedback from patreons during these early previews heavily influences the versio
 _Included all perks in the above tiers_
 
 - **Jeeves Premium** for YOU on every single server you are in.
-- Also included is the ability for a discord server of your choice to have multiple [Role Reaction](../commands/admin/rolereaction.md) channels, as well at a [Keystone Channelboard](Setting-Up-A-Board.md).
+- Also included is the ability for a discord server of your choice to have multiple [Role Reaction](../commands/admin/rolereaction) channels, as well at a [Keystone Channelboard](Setting-Up-A-Board).
 
 ### Revered (Best for Owners of Medium/Large Guilds)
 

@@ -8,7 +8,7 @@ The basic functions of Jeeves require Jeeves to have _View Channels_, _Send Mess
 
 ## Alerts
 
-Any alert functions in Jeeves, such as [Realm](../commands/feeds/realm-alerts.md), [Affix](../commands/feeds/affix-alerts.md), [Recruitment](../commands/feeds/recruitment.md) or [WoWHead](../commands/feeds/wowhead-webhook.md), require Jeeves to have the _Manage Webhook_ permission so that the Jeeves can add the webhook to the channel you are wanting the information to be in.
+Any alert functions in Jeeves, such as [Realm](../commands/feeds/realm-alerts), [Affix](../commands/feeds/affix-alerts), [Recruitment](../commands/feeds/recruitment) or [WoWHead](../commands/feeds/wowhead-webhook), require Jeeves to have the _Manage Webhook_ permission so that the Jeeves can add the webhook to the channel you are wanting the information to be in.
 
 ## Role Management
 
@@ -41,5 +41,5 @@ For Jeeves to manage nicknames of players, Jeeves requires the _Manage Nicknames
 | Use External Emojis        |   Yes    | Jeeves makes use of external emojis for the `!keystone list` command                                          |
 | Connect                    |    No    | Jeeves no longer has audio functions                                                                          |
 | Speak                      |    No    | Jeeves no longer has audio functions                                                                          |
-| Move Members               |   Yes    | This permission is required in order for Jeeves to perform the [Summon](../commands/tools/summon.md) function |
+| Move Members               |   Yes    | This permission is required in order for Jeeves to perform the [Summon](../commands/tools/summon) function |
 | Use Voice Activity         |    No    |                                                                                                               |

@@ -26,7 +26,7 @@ Jeeves can either apply this role indefinitely, or it can remove this role when 
 
 ### Custom roles
 
-The Custom role integration allows users without role management permissions to assign roles to themselves on your discord server. The [roles](../commands/tools/roles.md) that a user can assign are controlled by the custom roles that are setup in Jeeves.
+The Custom role integration allows users without role management permissions to assign roles to themselves on your discord server. The [roles](../commands/tools/roles) that a user can assign are controlled by the custom roles that are setup in Jeeves.
 
 To setup a role you need to enter a name and the role.
 
@@ -38,18 +38,18 @@ For a user to grant themselves a role they need to type `/roles add`. This will 
 
 There are a number of integration that Jeeves has available to use. For more instructions on each one please see its page.
 
-- [Achievements](role-management/achievements.md)
-- [Class](role-management/class.md)
-- [Faction](role-management/faction.md)
-- [Guild](role-management/guild.md)
-- [Mounts](role-management/mounts.md)
-- [Mythic Plus](role-management/mythic-plus.md)
-- [Pet Score](role-management/pet-score.md)
-- [Pets](role-management/pets.md)
-- [Professions](role-management/professions.md)
-- [Region/Factions](role-management/region-factions.md)
-- [Regions](role-management/regions.md)
-- [Verified](role-management/verified.md)
+- [Achievements](role-management/achievements)
+- [Class](role-management/class)
+- [Faction](role-management/faction)
+- [Guild](role-management/guild)
+- [Mounts](role-management/mounts)
+- [Mythic Plus](role-management/mythic-plus)
+- [Pet Score](role-management/pet-score)
+- [Pets](role-management/pets)
+- [Professions](role-management/professions)
+- [Region/Factions](role-management/region-factions)
+- [Regions](role-management/regions)
+- [Verified](role-management/verified)
 
 ## Integration scope
 
@@ -68,7 +68,7 @@ The Characters drop down allows you to limit which characters a player has that 
     * This means the integration will only apply to max level characters that the player has on their account
 
 - Main Only
-    * This means the integration will only look at the character that the player has [set as their main](../commands/warcraft/character.md).
+    * This means the integration will only look at the character that the player has [set as their main](../commands/warcraft/character).
 
 ### Management
 
@@ -92,7 +92,7 @@ The Mode drop down allows you to decide if Jeeves should automatically update th
         - A user linking/update their Battle.net account via `!auth`
         - A user forcing an update of their toons via `!toon update`
         - When a user joins a server and has previously ran `!auth` on another server
-        - [Jeeves Premium Role Automation](../guides/Supporting-Jeeves.md)
+        - [Jeeves Premium Role Automation](../guides/Supporting-Jeeves)
 - Manual
     * This means that Jeeves will only apply roles when a player runs `!role update`.
 
